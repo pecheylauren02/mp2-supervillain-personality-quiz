@@ -93,3 +93,27 @@ This website was planned and developed using principles of User Experience (UX) 
 - To ensure that users can answer each question in the quiz smoothly, and retake it as many times as they wish. 
 - To change the order of the questions and generate new questions, so that if the user retakes the quiz, they will feel like they are taking a new quiz and may even get different results.
 - To allow users to navigate between pages with ease, and to keep the design and colour palette consistent throughout. 
+
+## Research 
+
+### Market Review 
+
+Before designing the website, I reviewed other personality quiz websites (see below), in order to get a feel of how they presented themselves, which content and features they offered, and the design choices they made in terms of colour palette. I also reviewed what appeared to work well for the user and what needed improvements. 
+
+[BuzzFeed](https://www.buzzfeed.com/gustorchi/we-can-legit-tell-which-super-villain-you-would-be-9iuf1y91vp) | [16 Personalities](https://www.16personalities.com/) | [Playbuzz](https://www.playbuzz.com/quizzes/personality) | [The Superhero Quiz](https://www.thesuperheroquiz.com/villain/) | [Truity Big Five Personality Test](https://www.truity.com/test/big-five-personality-test)
+
+### Key Takeaways from Market Review 
+
+- The website should be eye-catching, to make users excited about taking the SuperVillain Quiz
+- The Website should be clean, simple and easy to navigate
+- The Quiz should not have too many questions (a maximum of 10 questions appears to be the ideal number to maintain the users' attention)
+- Clear, enticing images of famous Supervillains are key features to draw in the users to take part in the quiz
+- Navigation, sign up and login elements should be simple and quick to use 
+
+
+## Credits
+
+### Design and Planning
+
+- [Adobe Color] (https://color.adobe.com/create/color-wheel) helped in developing the colour palette for the initial design phase of the website
+- 

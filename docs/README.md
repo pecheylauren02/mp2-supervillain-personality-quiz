@@ -110,6 +110,23 @@ Before designing the website, I reviewed other personality quiz websites (see be
 - Clear, enticing images of famous Supervillains are key features to draw in the users to take part in the quiz
 - Navigation, sign up and login elements should be simple and quick to use 
 
+## User Stories
+- User Story 1: As someone interested in taking the SuperVillain personality quiz I want to:
+     - find out what the quiz is about and what to expect before starting the quiz
+     - navigate easily through the quiz questions 
+     - have the option of retaking the quiz if I don't like the result
+     - learn more about why I was matched with a specific SuperVillain at the end of the quiz
+     - sign up quickly and easily
+     - log in using the same login details quickly and easily
+     - navigate easily between pages
+
+- User Story 2: As a : 
+     - more information here
+
+- User Story 3: As a :
+     - more information here
+
+These user stories gave me a clear scope for the website and enabled me to stay on track with the project, preventing issues like scope creep at a later stage after the coding process. 
 
 ## Credits
 

@@ -128,6 +128,93 @@ Before designing the website, I reviewed other personality quiz websites (see be
 
 These user stories gave me a clear scope for the website and enabled me to stay on track with the project, preventing issues like scope creep at a later stage after the coding process. 
 
+## Design, Layout and Structure 
+The design, layout and structure remained consistent across all pages for certain elements, such as the colour palette for the headings, paragraphs and backgrounds and the design of the navigation bar. However, the layout of each page was slightly different, to allow users to differentiate between the Sign Up/Log In pages and the Quiz and Results pages. On each page, a lot of visual content, such as eye-catching images, bold colours and buttons were incorporated.
+
+### Wireframes
+
+I used [Balsamiq](https://balsamiq.com/) in the initial design phase, before the coding process. This enabled me to develop the website's structure, skeleton, layout and overall look and style.
+
+<details><summary>Home Page</summary>
+
+<img src="">
+
+_Desktop Wireframe for Home Page_
+
+<img src="">
+
+_iPad Wireframe for Home Page_
+
+<img src="">
+
+_Phone Wireframe for Home Page_
+
+</details>
+
+<details><summary>Sign Up Page</summary>
+
+<img src="">
+
+_Desktop Wireframe for Sign Up Page_
+
+<img src="">
+
+_iPad Wireframe for Sign Up Page_
+
+<img src="">
+
+_Phone Wireframe for Sign Up Page_
+
+</details>
+
+<details><summary>Log In Page</summary>
+
+<img src="">
+
+_Desktop Wireframe for Log In Page_
+
+<img src="">
+
+_iPad Wireframe for Log In Page_
+
+<img src="">
+
+_Phone Wireframe for Log In Page_
+
+</details>
+
+<details><summary>Quiz Page</summary>
+
+<img src="">
+
+_Desktop Wireframe for Quiz Page_
+
+<img src="">
+
+_iPad Wireframe for Quiz Page_
+
+<img src="">
+
+_Phone Wireframe for Quiz Page_
+
+</details>
+
+<details><summary>Quiz Results Page</summary>
+
+<img src="">
+
+_Desktop Wireframe for Quiz Results Page_
+
+<img src="">
+
+_iPad Wireframe for Quiz Results Page_
+
+<img src="">
+
+_Phone Wireframe for Quiz Results Page_
+
+</details>
+
 ## Credits
 
 ### Design and Planning

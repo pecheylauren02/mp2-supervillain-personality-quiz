@@ -252,7 +252,7 @@ I chose to use a bright, bold design using villain-inspired colours like deep an
 
 <details><summary>Colour Palette</summary>
 
-<img src="docs/colour_palette.png">
+<img src="">
 
 _Colour Palette for entire website_
 </details>
@@ -268,6 +268,36 @@ _Colour Palette for buttons_
 ### Font
 
 My choice of font was [put here](link here) for all paragraphs and [put here](link here) for all headings. Both font choices were imported from [Google Fonts](https://fonts.google.com/) and had a backup font of Sans Serif. I chose these fonts for my website because **they both have an elegant, professional and welcoming finish** which is best suited for a website aiming to attract its users. The boldness also displayed a strong legibility as headings over images, text and videos. 
+
+## Technologies Used 
+
+This website used a combination of three different Front-End development languages, as well as some web tools for the initial planning. A list of those included in the project can be seen as follows: 
+
+### Languages 
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Tools 
+- [Git](https://git-scm.com/)
+    - Git was used for version control via GitPod, by using the terminal to Git and Push to GitHub.
+- [GitHub](https://github.com/)
+    - GitHub was used to store the project code after being created in GitPod/Git.
+- [Gitpod](https://www.gitpod.io/)
+    - Gitpod was used to create, edit and preview the project's code.
+- [Balsamiq](https://balsamiq.com/)
+     - Balsamiq was used to create wireframes during the initial design process.
+- [Google Fonts](https://fonts.google.com/)
+    - Google Fonts was used to select and import the fonts to the project (Libre Baskerville and Libre Baskerville Bold).
+- [Font Awesome](https://fontawesome.com/)
+    - Font Awesome was used to add icons to the site to help with UX and to add more character to the project visually.
+- **Change this** [Sirv](https://sirv.com/)
+     - Sirv was used to organise images for the website, as well as optimise size and find the image source urls. 
+- **Change this** [I Love Img](https://www.iloveimg.com/resize-image)
+     - This was used to optimise images by size.
+- [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html) and [Adobe Color] (https://color.adobe.com/create/color-wheel)
+    - These were used to create the colour pallette as well as ideas for the initial design.
+
 
 ## Credits
 

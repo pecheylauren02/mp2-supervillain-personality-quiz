@@ -129,7 +129,7 @@ Before designing the website, I reviewed other personality quiz websites (see be
 These user stories gave me a clear scope for the website and enabled me to stay on track with the project, preventing issues like scope creep at a later stage after the coding process. 
 
 ## Design, Layout and Structure 
-The design, layout and structure remained consistent across all pages for certain elements, such as the colour palette for the headings, paragraphs and backgrounds and the design of the navigation bar. However, the layout of each page was slightly different, to allow users to differentiate between the Sign Up/Log In pages and the Quiz and Results pages. On each page, a lot of visual content, such as eye-catching images, bold colours and buttons were incorporated.
+The design, layout and structure remained consistent across all pages for certain elements, such as the colour palette for the headings, paragraphs and backgrounds and the design of the navigation bar. However, the layout of each page was slightly different, to allow users to differentiate between the Sign Up/Log In pages and the Quiz and Results pages. On the quiz page, some visual content, such as eye-catching images, bold colours and buttons were incorporated.
 
 ### Wireframes
 
@@ -214,6 +214,60 @@ _iPad Wireframe for Quiz Results Page_
 _Phone Wireframe for Quiz Results Page_
 
 </details>
+
+### Structure
+
+The structure of this website was informed by the scope, principles of interactive design (IXD), as well as the user goals of the quiz. Keeping these important concepts in mind ensured that the website conformed to user's expectations and needs. 
+
+The site is made of a simple, five page structure:
+- Home Page
+     - Gives the users a brief summary of what the quiz is about, as well as simple instructions on how to take the quiz so the user knows what to expect before they begin the quiz.
+     - Above the summary is the title of the quiz, as well as an eye-catching image of a random famous Supervillain, to get the user excited about taking the quiz. 
+     - The "LOGIN" button on the top right corner of the header takes the user to the Log In Page (more information below).
+     - The user can also choose to take the quiz by pressing the "TAKE QUIZ" button, with or without logging in first. 
+- Log In Page
+     - Gives the user the opportunity to login with their email/username and password, or alternatively they are given the option to press a link to the Sign Up if this is their first time inputting their details.
+- Sign Up Page
+     - Allows users who have not yet created an account to Sign Up to the website by giving details of their name, email/username and creating their own password. 
+- Quiz Page
+     - This page is where the user will take the quiz. One question will be displayed at a time, and the user will need to answer all 10 questions in order to get the results. 
+- Quiz Results Page
+    - After completing all 10 questions of the quiz, the user will be taken to the results page, where a picture of a Supervillain that matches their answers will appear, alongside a description of why that Supervillain was matched with their choices. If the user does not like the result, or simply wants to try again, they can retake the quiz by clicking the "RETAKE QUIZ" button. 
+
+There is also a subpage:
+- 404
+     - more information here
+
+This site was designed using a mobile-first approach, because after conducting some research (using sites like [Adobe](https://xd.adobe.com/ideas/process/ui-design/what-is-mobile-first-design/)), it appears that most users use their mobile devices over desktop or iPad screens, especially when partaking in quizzes. 
+
+The site has a navigation bar, with a hamburger menu on the top left corner of each screen, the logo in the top center, and a button on the top right corner. The navbar was reduced to a hamburger menu to prevent it from taking up too much real estate on smaller screens and to give a cleaner appearance overall. The navbar allows users to access any page they need and is useful for both new and returning users.
+
+On the Home Page, there is a "LOGIN" button, which the user can click to fill in their details. Alternatively, they can click the "TAKE QUIZ" button which will take them to the quiz page. If they decide to Log In first, once they are finished, they can click the "HOME" button to take them back to the Home Page, or the "Sign Up" link if they are putting in their information for the first time. 
+
+The suggested route is HOME PAGE > LOGIN/SIGN UP > HOME PAGE > TAKE QUIZ BUTTON > COMPLETE QUIZ > VIEW QUIZ RESULTS > RETAKE/RETURN HOME
+
+### Colour 
+
+I chose to use a bright, bold design using villain-inspired colours like deep and bright shades of red for the background. To contrast this, I used shades of grey and white for the buttons and text. 
+
+<details><summary>Colour Palette</summary>
+
+<img src="docs/colour_palette.png">
+
+_Colour Palette for entire website_
+</details>
+
+<details><summary>Colours used for Buttons</summary>
+
+<img src="">
+
+_Colour Palette for buttons_
+
+</details>
+
+### Font
+
+My choice of font was [put here](link here) for all paragraphs and [put here](link here) for all headings. Both font choices were imported from [Google Fonts](https://fonts.google.com/) and had a backup font of Sans Serif. I chose these fonts for my website because **they both have an elegant, professional and welcoming finish** which is best suited for a website aiming to attract its users. The boldness also displayed a strong legibility as headings over images, text and videos. 
 
 ## Credits
 

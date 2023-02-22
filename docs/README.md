@@ -529,6 +529,107 @@ _Label_
 
 - more info here
 
+## Future Features 
+
+I would like to add an additional feature to the website. This unfortunately fell out of the scope of this project, but would be useful to users in future. 
+
+#### New Feature here 
+
+I would like to add **Add text here**
+
+## Testing and Bugs
+
+### HTML Validator Testing 
+
+I ran my HTML code for each page through the [W3C HTML Validator](https://validator.w3.org/). Thankfully, no errors were displayed. **Add info here**
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_HTML Validator Result Home Page_
+
+<img src="">
+
+_HTML Validator Log In Page_
+
+<img src="">
+
+_HTML Validator Result Sign Up Page_
+
+<img src="">
+
+_HTML Validator Quiz Page_
+
+<img src="">
+
+_HTML Validator Quiz Results_
+
+</details>
+
+### CSS Validator Testing
+
+I ran my CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) as well as [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). No errors were displayed. 
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_CSS Validator Result_
+
+</details>
+
+### JavaScript Validator Testing
+
+I ran my JavaScript code through [Jshint validator](https://jshint.com/) and no errors were found. The following metrics were returned: 
+**ADJUST INFO BELOW**:
+- There are 11 functions in this file.
+- Function with the largest signature takes 2 arguments, while the median is 0.
+- Largest function has 10 statements in it, while the median is 3.
+- The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+
+### Accessibility
+
+I tested accessibility of the website using Google Chrome Dev Tools Lighthouse, and the scores came out clean.
+
+<details><summary>Home Page</summary>
+
+<img src=>
+
+_Accessibility result on Home Page_
+</details>
+
+<details><summary>Log In Page</summary>
+
+<img src="">
+
+_Accessibility result on Log In Page_
+
+</details>
+
+<details><summary>Sign Up Page</summary>
+
+<img src="">
+
+_Accessibility result on Sign Up Page_
+
+</details>
+
+<details><summary>Quiz Page</summary>
+
+<img src="">
+
+_Accessibility result on Quiz Page_
+
+</details>
+
+<details><summary>Quiz Results Page</summary>
+
+<img src="">
+
+_Accessibility result on Quiz Results Page_
+
+</details>
+
 ## Credits
 
 ### Design and Planning

@@ -840,9 +840,26 @@ _Label_
 | Welcome Introduction • Welcome video • "Why Stay With Us" Text | Scroll down on About Us page, read Welcome Introduction, watch video relating to intro, read more detail about reasons to stay on About Us page | Find information about Sable Safari | Works as expected |
 | Nav Bar - About Us Link • About Us Text | Click on "About Us" on navbar, read more detail on About Us page | Find information about Sable Safari | Works as expected |
 
+
+
 ## Credits
 
 ### Design and Planning
 
 - [Adobe Color] (https://color.adobe.com/create/color-wheel) helped in developing the colour palette for the initial design phase of the website
 - 
+
+### Images
+
+- https://www.seekpng.com/idown/u2r5r5q8q8t4o0i1_cruella-de-vil-png-cruella-de-vil-disney/ Cruella 
+- https://www.seekpng.com/ipng/u2a9o0i1u2q8e6i1_heath-ledger-joker-png-dark-knight-joker-png/ Joker
+- https://www.seekpng.com/idown/u2w7q8y3u2q8y3o0_ursula-with-her-legs-ursula-png/ Ursula
+- https://www.seekpng.com/ipng/u2e6w7q8a9q8q8w7_jafar-jafar-disney/ Jafar
+- https://www.seekpng.com/ipng/u2w7a9e6r5w7u2q8_graphic-black-and-white-voldemort-quick-art-by/ Voldemort
+- https://www.seekpng.com/ipng/u2q8o0r5y3i1o0e6_captain-hook-captain-hook-transparent/ Captain Hook
+- https://www.seekpng.com/ipng/u2q8e6r5e6o0q8i1_scar-scar-scar-scar-scar-scar-png-lion/ Scar
+- https://www.seekpng.com/ipng/u2w7q8e6a9w7w7q8_thanos-freetoedit-thanos-png/ Thanos
+- https://www.seekpng.com/idown/u2e6q8y3y3t4i1o0_the-mouth-of-sauron-action-figure-asmus-toys/ Sauron
+- https://www.seekpng.com/ipng/u2w7q8e6y3a9q8t4_green-goblin-ios-avengers-alliance-green-goblin/ Green Goblin
+- https://www.seekpng.com/idown/u2w7w7q8t4q8r5r5_disneys-hades-as-kilgrave-marvel-hades/ Hades from Hercules
+- https://www.seekpng.com/idown/u2q8y3a9r5e6a9e6_maleficent-disney-villains/ Maleficent

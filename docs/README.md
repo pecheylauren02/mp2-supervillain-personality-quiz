@@ -298,6 +298,236 @@ This website used a combination of three different Front-End development languag
 - [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html) and [Adobe Color] (https://color.adobe.com/create/color-wheel)
     - These were used to create the colour pallette as well as ideas for the initial design.
 
+## Features
+
+### Whole Site
+
+#### Navbar and Header
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Navbar on desktop_
+
+<img src="">
+
+_Navbar after hover_
+
+<img src="">
+
+_Navbar on iPad_
+
+<img src="">
+
+_Navbar on phone_
+
+</details>
+
+- more information here
+
+#### Another feature on whole site
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+</details>
+
+- more information here
+
+#### Footer 
+- more information here
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Footer on Desktop_
+
+<img src="">
+
+_Footer on Phone_
+
+</details>
+
+### Log In Page
+ 
+#### Title here for Log In
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+</details>
+- More info here
+
+#### Title here for Log In
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+</details>
+
+- more info here
+
+#### Title here for Log In
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+</details>
+
+- more info here
+
+### Sign Up Page
+ 
+#### Title here for Sign Up
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+</details>
+- More info here
+
+#### Title here for Sign Up 
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+</details>
+
+- more info here
+
+#### Title here for Sign Up
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+</details>
+
+- more info here
+
+### Quiz Page
+ 
+#### Title here for Quiz 
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+</details>
+- More info here
+
+#### Title here for Quiz
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+</details>
+
+- more info here
+
+#### Title here for Quiz
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+</details>
+
+- more info here
+
+### Quiz Results Page
+ 
+#### Title here for Quiz Results Page
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+</details>
+- More info here
+
+#### Title here for Quiz Results Page
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+</details>
+
+- more info here
+
+#### Title here for Quiz Results Page
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+</details>
+
+- more info here
 
 ## Credits
 

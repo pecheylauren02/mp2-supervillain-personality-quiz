@@ -596,6 +596,7 @@ I tested accessibility of the website using Google Chrome Dev Tools Lighthouse, 
 <img src=>
 
 _Accessibility result on Home Page_
+
 </details>
 
 <details><summary>Log In Page</summary>
@@ -627,6 +628,115 @@ _Accessibility result on Quiz Page_
 <img src="">
 
 _Accessibility result on Quiz Results Page_
+
+</details>
+
+### Performance
+
+I tested the site's performance through Google Chrome Dev Tools Lighthouse. The scores showed high on all pages, but needed improvement for **ADD INFO HERE**.
+
+<details><summary>Home Page</summary>
+
+<img src="">
+
+_Label_
+
+</details>
+
+<details><summary>Log In Page</summary>
+
+<img src="">
+
+_Label_
+
+</details>
+
+<details><summary>Sign Up Page</summary>
+
+<img src="">
+
+_Label_
+
+</details>
+
+<details><summary>Quiz Page</summary>
+
+<img src="">
+
+_Label_
+
+</details>
+
+<details><summary>Quiz Results</summary>
+
+<img src="">
+
+_Label_
+
+</details>
+
+### Browser Compatibility
+
+The site was tested on the following browsers:
+
+- Google Chrome
+- Mozilla Firefox
+- Apple Safari
+
+**ADD INFO HERE**.
+
+### Responsiveness/Device Testing
+
+The website was tested on the following devices:
+- HP Display 27-inch External Monitor
+- Apple Macbook Pro 13-inch
+- Samsung Galaxy S10
+- Apple iPhone SE
+- Apple iPad mini
+- Galaxy Tablet
+- Google Chrome Developer Tools - using responsive testing for all screen sizes
+
+The website functioned as expected on all devices.
+
+### Solved Bugs
+
+#### Bug 1
+
+**HOW I FIXED IT**.
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+</details>
+
+#### Bug 2
+
+**INFO ON BUG HERE**.
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
 
 </details>
 

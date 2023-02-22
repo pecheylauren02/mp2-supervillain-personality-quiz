@@ -740,6 +740,106 @@ _Label_
 
 </details>
 
+### Testing User Stories
+
+I ran manual tests on the website, based on the user stories mentioned above.
+
+#### 1. Add user story here
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Welcome Introduction • Welcome video • "Why Stay With Us" Text | Scroll down on About Us page, read Welcome Introduction, watch video relating to intro, read more detail about reasons to stay on About Us page | Find information about Sable Safari | Works as expected |
+| Nav Bar - About Us Link • About Us Text | Click on "About Us" on navbar, read more detail on About Us page | Find information about Sable Safari | Works as expected |
+
+#### 2. Add user story here
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Welcome Introduction • Welcome video • "Why Stay With Us" Text | Scroll down on About Us page, read Welcome Introduction, watch video relating to intro, read more detail about reasons to stay on About Us page | Find information about Sable Safari | Works as expected |
+| Nav Bar - About Us Link • About Us Text | Click on "About Us" on navbar, read more detail on About Us page | Find information about Sable Safari | Works as expected |
+
+
+#### 3. Add user story here
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Welcome Introduction • Welcome video • "Why Stay With Us" Text | Scroll down on About Us page, read Welcome Introduction, watch video relating to intro, read more detail about reasons to stay on About Us page | Find information about Sable Safari | Works as expected |
+| Nav Bar - About Us Link • About Us Text | Click on "About Us" on navbar, read more detail on About Us page | Find information about Sable Safari | Works as expected |
+
+#### 4. Add user story here
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Welcome Introduction • Welcome video • "Why Stay With Us" Text | Scroll down on About Us page, read Welcome Introduction, watch video relating to intro, read more detail about reasons to stay on About Us page | Find information about Sable Safari | Works as expected |
+| Nav Bar - About Us Link • About Us Text | Click on "About Us" on navbar, read more detail on About Us page | Find information about Sable Safari | Works as expected |
+
+#### 5. Add user story here
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Label_
+
+<img src="">
+
+_Label_
+
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Welcome Introduction • Welcome video • "Why Stay With Us" Text | Scroll down on About Us page, read Welcome Introduction, watch video relating to intro, read more detail about reasons to stay on About Us page | Find information about Sable Safari | Works as expected |
+| Nav Bar - About Us Link • About Us Text | Click on "About Us" on navbar, read more detail on About Us page | Find information about Sable Safari | Works as expected |
+
 ## Credits
 
 ### Design and Planning

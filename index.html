@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,38 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <section id="instructions-area">
+        <span>Some instructions</span>
+    </section>
+
+    <section id="start-quiz-area">
+        <h1>Before we dive in, can we get your name?</h1>
+        <input type="text" id="username">
+        <button id="name-submit">
+            SEND
+        </button>
+
+    </section>
+
+    <section id="quiz-area">
+        <span id="question"></span>
+        <button id="optionOne" class="quiz-answer-btn"></button>
+        <button id="optionTwo" class="quiz-answer-btn"></button>
+        <button id="optionThree" class="quiz-answer-btn"></button>
+        <button id="optionFour" class="quiz-answer-btn"></button>
+
+    </section>
+
+    <section id="result-area" class="hide">
+        <img id="super-vil-img" src="">
+        <span id="final-result"></span>
+          
+    </section>
+
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>

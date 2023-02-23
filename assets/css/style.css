@@ -1,0 +1,96 @@
+/* Background color */
+
+body {
+    background-color: #111;
+}
+
+/* Set the text color and font */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+label {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Set the header and footer styles */
+header,
+footer {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Set the styles for the quiz container */
+.quiz-container {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Set the styles for the quiz questions */
+.question {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* Set the styles for the quiz options */
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.quiz-answer-btn {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 15%;
+}
+
+/* Set the styles for the quiz button */
+.quiz-button {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+/* Set the styles for the quiz results */
+.quiz-results {
+    margin-top: 30px;
+}
+
+/* Set the styles for the quiz score */
+.quiz-score {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Set the styles for the quiz feedback */
+.quiz-feedback {
+    font-style: italic;
+    margin-top: 10px;
+}

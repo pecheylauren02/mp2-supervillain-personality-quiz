@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    <header>SuperVillain Quiz</header>
     <section id="instructions-area">
         <span>Some instructions</span>
     </section>
@@ -24,20 +24,31 @@
 
     </section>
 
-    <section id="quiz-area">
-        <span id="question"></span>
-        <button id="optionOne" class="quiz-answer-btn"></button>
-        <button id="optionTwo" class="quiz-answer-btn"></button>
-        <button id="optionThree" class="quiz-answer-btn"></button>
-        <button id="optionFour" class="quiz-answer-btn"></button>
-
-    </section>
+    <div id="quiz-area" class="quiz-container">
+        <span id="question" class="question"></span>
+        <div class="options">
+            <div class="option">
+                <button id="optionOne" class="quiz-answer-btn"></button>
+            </div>
+            <div class="option">
+                <button id="optionTwo" class="quiz-answer-btn"></button>
+            </div>
+            <div class="option">
+                <button id="optionThree" class="quiz-answer-btn"></button>
+            </div>
+            <div class="option">
+                <button id="optionFour" class="quiz-answer-btn"></button>
+            </div>
+        </div>
+    </div>
 
     <section id="result-area" class="hide">
         <img id="super-vil-img" src="">
         <span id="final-result"></span>
           
     </section>
+
+    <footer></footer>
 
     <script src="assets/js/script.js"></script>
 </body>

@@ -1,11 +1,11 @@
 let score = 0;
 
 const QUESTIONS = [{
-        'question': "Question 1/10",
-        "optionOne": "Answer 1 jbgriofajcdbfweo",
-        "optionTwo": "Answer 2",
-        "optionThree": "Answer 3",
-        "optionFour": "Answer 4",
+        'question': "1. Which superpower appeals to you the most?",
+        "optionOne": "The ability to fly",
+        "optionTwo": "Being invisible",
+        "optionThree": "Controlling the weather",
+        "optionFour": "Super strength",
         "Answer 1": 1,
         "Answer 2": 2,
         "Answer 3": 3,
@@ -13,11 +13,11 @@ const QUESTIONS = [{
 
     },
     {
-        'question': "Question 2/10",
-        "optionOne": "Answer 1 fejboavgrwheoi",
-        "optionTwo": "Answer 2",
-        "optionThree": "Answer 3",
-        "optionFour": "Answer 4",
+        'question': "What made you become a villain",
+        "optionOne": "I want justice",
+        "optionTwo": "My parents were killed",
+        "optionThree": "I was bullied at school",
+        "optionFour": "Loneliness",
         "Answer 1": 1,
         "Answer 2": 2,
         "Answer 3": 3,
@@ -49,7 +49,7 @@ function displayQuestion() {
     document.getElementById("optionFour").innerText = question.optionFour;
 }
 
-questionIndex = 1;
+/**questionIndex = 1;**/
 displayQuestion();
 
 document.getElementById("optionOne").addEventListener('click', calculateScore);

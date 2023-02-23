@@ -35,13 +35,12 @@ footer {
     margin-bottom: 20px;
     background-color: #707070;
     padding: 10px;
-    border-radius: 30%;
+    border-radius: 12px;
 }
 
 /* Set the styles for the quiz container */
 .quiz-container {
     background-color: #1f1f1f;
-    color: white;
     padding: 20px;
     margin: 0 auto;
     max-width: 600px;
@@ -51,10 +50,20 @@ footer {
 }
 
 /* Set the styles for the quiz questions */
-.question {
+.question-container {
+    border: 2px solid #A80000;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#question {
     font-weight: bold;
-    margin-top: 30px;
     font-size: 20px;
+    color: #ffffff;
+    text-align: center;
 }
 
 /* Set the styles for the quiz options */
@@ -90,7 +99,7 @@ footer {
 }
 
 /* Set the styles for the quiz score */
-.quiz-score {
+.final-result {
     font-size: 24px;
     font-weight: bold;
 }

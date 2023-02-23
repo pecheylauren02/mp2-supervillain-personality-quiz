@@ -12,12 +12,14 @@
 <body>
     <header>SuperVillain Quiz</header>
     <section id="instructions-area">
+        <h1 class="big-heading">The SuperVillain Personality Quiz</h1>
+        <p>10 questions</p>
         <span>Some instructions</span>
         <button class="btn">TAKE QUIZ</button>
     </section>
 
     <section id="start-quiz-area">
-        <h1>Before we dive in, can we get your name?</h1>
+        <h2 class="medium-heading">Before we dive in, can we get your name?</h2>
         <input type="text" id="username">
         <button id="name-submit" class="btn">
             SEND
@@ -26,7 +28,9 @@
     </section>
 
     <div id="quiz-area" class="quiz-container">
-        <span id="question" class="question-number"></span>
+        <div class="question-container">
+            <span id="question" class="question-number"></span>
+        </div>
         <div class="options">
             <div class="option">
                 <button id="optionOne" class="quiz-answer-btn"></button>
@@ -47,7 +51,7 @@
         <div class="quiz-results">
             <span id="final-result"></span>
         </div>
-        <div class="quiz-feedback">
+        <div class="quiz-feedback circle-container">
             <img id="super-vil-img" src="">
         </div>
         

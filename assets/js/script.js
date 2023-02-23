@@ -1,15 +1,15 @@
 let score = 0;
 
 const QUESTIONS = [{
-        'question': "1. Which superpower appeals to you the most?",
+        'question': "Which superpower appeals to you the most?",
         "optionOne": "The ability to fly",
         "optionTwo": "Being invisible",
         "optionThree": "Controlling the weather",
         "optionFour": "Super strength",
-        "Answer 1": 1,
-        "Answer 2": 2,
-        "Answer 3": 3,
-        "Answer 4": 4
+        "The ability to fly": 1,
+        "Being invisible": 2,
+        "Controlling the weather": 3,
+        "Super strength": 4
 
     },
     {
@@ -18,23 +18,100 @@ const QUESTIONS = [{
         "optionTwo": "My parents were killed",
         "optionThree": "I was bullied at school",
         "optionFour": "Loneliness",
-        "Answer 1": 1,
-        "Answer 2": 2,
-        "Answer 3": 3,
-        "Answer 4": 4
+        "I want justice": 1,
+        "My parents were killed": 2,
+        "I was bullied at school": 3,
+        "Loneliness": 4
 
     },
     {
-        'question': "Question 3/10",
-        "optionOne": "Answer 1",
-        "optionTwo": "Answer 2",
-        "optionThree": "Answer 3",
-        "optionFour": "Answer 4",
-        "Answer 1": 1,
-        "Answer 2": 2,
-        "Answer 3": 3,
-        "Answer 4": 4
+        'question': "What is your deepest desire as a villain?",
+        "optionOne": "To destroy anything that comes in my way",
+        "optionTwo": "To start a revolution against society",
+        "optionThree": "To get revenge on my nemesis",
+        "optionFour": "To take over the world",
+        "To destroy anything that comes in my way": 1,
+        "To start a revolution against society": 2,
+        "To get revenge on my nemesis": 3,
+        "To take over the world": 4
 
+    },
+    {
+        'question': "Which animal would you choose as your sidekick?",
+        "optionOne": "A python",
+        "optionTwo": "A rottweiler",
+        "optionThree": "A raven",
+        "optionFour": "A giant tarantula",
+        "A python": 1,
+        "A rottweiler": 2,
+        "A raven": 3,
+        "A giant tarantula": 4 
+    },
+    {
+        'question': "What is your biggest weakness?",
+        "optionOne": "Arrogance",
+        "optionTwo": "My past traumas",
+        "optionThree": "Greed",
+        "optionFour": "I do not believe in weakness",
+        "Arrogance": 1,
+        "My past traumas": 2,
+        "Greed": 3,
+        "I do not believe in weakness": 4
+    },
+    {
+        'question': "Where is your secret hideout?",
+        "optionOne": "Inside a cave",
+        "optionTwo": "In an abandoned house",
+        "optionThree": "In a luxurious mansion",
+        "optionFour": "Deep in the ocean",
+        "Inside a cave": 1,
+        "In an abandoned house": 2,
+        "In a luxurious mansion": 3,
+        "Deep in the ocean": 4
+    },
+    {
+        'question': "What is your deepest desire as a villain?",
+        "optionOne": "To destroy anything that comes in my way",
+        "optionTwo": "To start a revolution against society",
+        "optionThree": "To get revenge on my nemesis",
+        "optionFour": "To take over the world",
+        "To destroy anything that comes in my way": 1,
+        "To start a revolution against society": 2,
+        "To get revenge on my nemesis": 3,
+        "To take over the world": 4
+    },
+    {
+        'question': "What is your deepest desire as a villain?",
+        "optionOne": "To destroy anything that comes in my way",
+        "optionTwo": "To start a revolution against society",
+        "optionThree": "To get revenge on my nemesis",
+        "optionFour": "To take over the world",
+        "To destroy anything that comes in my way": 1,
+        "To start a revolution against society": 2,
+        "To get revenge on my nemesis": 3,
+        "To take over the world": 4
+    },
+    {
+        'question': "What is your deepest desire as a villain?",
+        "optionOne": "To destroy anything that comes in my way",
+        "optionTwo": "To start a revolution against society",
+        "optionThree": "To get revenge on my nemesis",
+        "optionFour": "To take over the world",
+        "To destroy anything that comes in my way": 1,
+        "To start a revolution against society": 2,
+        "To get revenge on my nemesis": 3,
+        "To take over the world": 4
+    },
+    {
+        'question': "What is your deepest desire as a villain?",
+        "optionOne": "To destroy anything that comes in my way",
+        "optionTwo": "To start a revolution against society",
+        "optionThree": "To get revenge on my nemesis",
+        "optionFour": "To take over the world",
+        "To destroy anything that comes in my way": 1,
+        "To start a revolution against society": 2,
+        "To get revenge on my nemesis": 3,
+        "To take over the world": 4
     },
 ];
 

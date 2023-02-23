@@ -1,7 +1,7 @@
 /* Background color */
 
 body {
-    background-color: #731010;
+    background-color: #A80000;
 }
 
 /* Set the text color and font */
@@ -15,7 +15,7 @@ h6,
 p,
 input,
 label {
-    color: white;
+    color: #fffff;
     font-family: Arial, sans-serif;
 }
 
@@ -75,8 +75,9 @@ footer {
 .quiz-answer-btn {
     margin-right: 10px;
     background-color: #D4d4d4;
-    border: none;
-    color: #D4D4D4;
+    border: 2px solid #A80000;
+    border-radius: 12px;
+    color: #1f1f1f;
     cursor: pointer;
     font-size: 16px;
     margin-top: 20px;

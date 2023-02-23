@@ -2,7 +2,7 @@ let score = 0;
 
 const QUESTIONS = [{
         'question': "Question 1/10",
-        "optionOne": "Answer 1",
+        "optionOne": "Answer 1 jbgriofajcdbfweo",
         "optionTwo": "Answer 2",
         "optionThree": "Answer 3",
         "optionFour": "Answer 4",
@@ -14,7 +14,7 @@ const QUESTIONS = [{
     },
     {
         'question': "Question 2/10",
-        "optionOne": "Answer 1",
+        "optionOne": "Answer 1 fejboavgrwheoi",
         "optionTwo": "Answer 2",
         "optionThree": "Answer 3",
         "optionFour": "Answer 4",

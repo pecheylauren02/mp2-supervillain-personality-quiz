@@ -70,37 +70,37 @@ const QUESTIONS = [{
         "Deep in the ocean": 4
     },
     {
-        'question': "What is your deepest desire as a villain?",
-        "optionOne": "To destroy anything that comes in my way",
-        "optionTwo": "To start a revolution against society",
-        "optionThree": "To get revenge on my nemesis",
-        "optionFour": "To take over the world",
-        "To destroy anything that comes in my way": 1,
-        "To start a revolution against society": 2,
-        "To get revenge on my nemesis": 3,
-        "To take over the world": 4
+        'question': "Your best friend betrays you. How do you deal with them?",
+        "optionOne": "Wallow in your own self-pity",
+        "optionTwo": "Destroy their reputation",
+        "optionThree": "Act normal but secretly plot your revenge",
+        "optionFour": "Go solo, you don't need anyone else",
+        "Wallow in your own self-pity": 1,
+        "Destroy their reputation": 2,
+        "Act normal but secretly plot your revenge": 3,
+        "Go solo, you don't need anyone else": 4
     },
     {
-        'question': "What is your deepest desire as a villain?",
-        "optionOne": "To destroy anything that comes in my way",
-        "optionTwo": "To start a revolution against society",
-        "optionThree": "To get revenge on my nemesis",
-        "optionFour": "To take over the world",
-        "To destroy anything that comes in my way": 1,
-        "To start a revolution against society": 2,
-        "To get revenge on my nemesis": 3,
-        "To take over the world": 4
+        'question': "What weapons would you use against your enemies?",
+        "optionOne": "Magic potions and spells",
+        "optionTwo": "My own brute force and strength",
+        "optionThree": "Disguises, deception and manipulation",
+        "optionFour": "A sword",
+        "Magic potions and spells": 1,
+        "My own brute force and strength": 2,
+        "Disguises, deception and manipulation": 3,
+        "A sword": 4
     },
     {
-        'question': "What is your deepest desire as a villain?",
-        "optionOne": "To destroy anything that comes in my way",
-        "optionTwo": "To start a revolution against society",
-        "optionThree": "To get revenge on my nemesis",
-        "optionFour": "To take over the world",
-        "To destroy anything that comes in my way": 1,
-        "To start a revolution against society": 2,
-        "To get revenge on my nemesis": 3,
-        "To take over the world": 4
+        'question': "How would you work as a villain?",
+        "optionOne": "Completely alone",
+        "optionTwo": "With my sidekick, spirit animal",
+        "optionThree": "With a team of minions",
+        "optionFour": "Under the instructions of another villain",
+        "Completely alone": 1,
+        "With my sidekick, spirit animal": 2,
+        "With a team of minions": 3,
+        "Under the instructions of another villain": 4
     },
     {
         'question': "What is your deepest desire as a villain?",
@@ -126,12 +126,15 @@ function displayQuestion() {
     document.getElementById("optionFour").innerText = question.optionFour;
 }
 
-/**questionIndex = 1;**/
+/*questionIndex = 1;*/
 displayQuestion();
 
 document.getElementById("optionOne").addEventListener('click', calculateScore);
 
 document.getElementById("optionTwo").addEventListener('click', calculateScore);
+document.getElementById("optionThree").addEventListener('click', calculateScore);
+document.getElementById("optionFour").addEventListener('click', calculateScore);
+
 
 function calculateScore(event) {
     console.log("clicked");

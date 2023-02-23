@@ -47,9 +47,12 @@ footer {
     align-items: center;
     font-size: 18px;
     margin-bottom: 20px;
-    background-color: #00FFAA;
+    background-color: #111;
     padding: 10px;
     border-radius: 12px;
+    border: 2px solid #7454fa;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 /* Set the styles for the quiz container */

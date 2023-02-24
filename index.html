@@ -6,16 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>The Supervillain Personality Quiz</title>
 </head>
 
 <body>
-    <header>SuperVillain Quiz</header>
+
+    <!-- Welcome and Instructions Area -->
     <section id="instructions-area">
-        <h1 class="big-heading">The SuperVillain Personality Quiz</h1>
-        <p>10 questions</p>
-        <span>Some instructions</span>
-        <button class="btn">TAKE QUIZ</button>
+        <div class="welcome-div">
+
+            <h1 class="big-heading">WELCOME TO THE ULTIMATE SUPERVILLAIN PERSONALITY QUIZ</h1>
+            <p>We all want to be Superheroes and Superheroines, but have you ever been curious about which
+                Supervillain you might be?
+                <br><br>Would you be driven by power, money, revenge or competition?
+                <br><br>Find out more about what it takes to be a villain, and which one you would be!
+                <br><br>All you need to do is answer 10 of our fun quiz questions, and you'll see your results almost
+                instantly!
+                <br><br>Go on... tell us your name and hit the button... you know you want to!
+            </p>
+            <!-- Name Input & Start Quiz Area -->
+            <div id="start-quiz-area">
+                <form action="" id="start-quiz-form" method="POST" onsubmit="startQuiz(event)">
+                    <input id="name-submit" class="centre-text" type="text" placeholder="Enter your name here..."
+                    aria-label="Enter your name" minlength="2" maxlength="15">
+                    <input id="take-quiz-btn" class="btn-quiz-main" type="submit" value="Take Quiz"></input>
+                </form>
+            </div>
+        </div>
     </section>
 
     <section id="start-quiz-area">
@@ -54,9 +71,9 @@
         <div class="quiz-feedback circle-container">
             <img id="super-vil-img" src="">
         </div>
-        
-        
-          
+
+
+
     </section>
 
     <footer></footer>

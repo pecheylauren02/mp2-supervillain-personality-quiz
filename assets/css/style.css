@@ -42,7 +42,7 @@ footer {
 
 /* Style buttons */
 
-.btn {
+.btn-quiz-main {
     display: flex;
     align-items: center;
     font-size: 18px;

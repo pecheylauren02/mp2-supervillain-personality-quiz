@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Cormorant Garamond', serif;
-    background-color: darkred;
+    background-color: #880808;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,8 +22,7 @@ main {
 }
 
 #instructions-area {
-    /*border: 2px solid #7454fa;
-    border-radius: 12px;*/
+    border-radius: 12px 12px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +37,9 @@ main {
 .semi-circ-container {
     width: 125px;
     height: 250px;
-    border: 2px solid darkred;
+    border-right: 2px solid #FFD700;
+    border-bottom: 2px solid #FFD700;
+    border-top: 2px solid #FFD700;
 }
 
 .right-semi-circ {
@@ -64,15 +65,16 @@ main {
 
 #name-submit {
     font-family: 'Cormorant Garamond', serif;
+    border: 5px solid #088888;
     border-radius: 12px;
     padding: 10%;
 }
 
 .quiz-btn-main {
-    background-color: darkred;
+    background-color: #088888;
     padding: 10px;
     border-radius: 12px;
-    border: 2px solid darkred;
+    border: 2px solid ;
     color: #ffffff;
     font-weight: bold;
 }
@@ -104,12 +106,13 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 0 0 12px 12px;
     
 }
 
 /* Set the styles for the quiz questions */
 .question-container {
-    border: 2px solid darkred;
+    border: 2px solid #880808;
     border-radius: 12px;
     background-color: black;
     display: flex;
@@ -124,7 +127,7 @@ main {
     font-size: 20px;
     color: #ffffff;
     text-align: center;
-    border: 1px solid gold;
+    border: 1px solid #FFD700;
     border-radius: 12px;
     padding: 50px;
 }
@@ -144,14 +147,14 @@ main {
 
 .quiz-answer-btn {
     margin: 0 auto;
-    border: 2px solid darkred;
+    border: 2px solid #880808;
     border-radius: 12px;
-    color: #ffffff;
+    color: #000;
     cursor: pointer;
     font-size: 16px;
     padding: 10px 20px;
     font-weight: bold;
-    background-color: darkred;
+    background-color: #FFD700;
 }
 
 /* Set the styles for the quiz results */

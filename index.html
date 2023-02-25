@@ -19,12 +19,11 @@
         <section id="instructions-area">
             <!-- Welcome and Instructions Area -->
             <div class="welcome-div">
-                <h1 class="big-heading">WELCOME TO THE ULTIMATE SUPERVILLAIN PERSONALITY QUIZ</h1>
+                <h1 class="big-heading">WHICH SUPERVILLAIN ARE YOU?</h1>
                 <div class="semi-circ-container left-semi-circ">
                     <div id="supervil-img" class="circ-image"></div>
                 </div>
                 <div class="instructions-text">
-                    <h2 class="medium-heading">What to expect:</h2>
                     <br>
                     <p>We all want to be Superheroes and Superheroines, but have you ever been curious about which
                         Supervillain you might be?
@@ -42,9 +41,11 @@
             <!-- Name Input & Start Quiz Area -->
             <div id="start-quiz-area">
                 <form action="" id="start-quiz-form" method="POST" onsubmit="startQuiz(event)">
-                    <span class="input"><input id="name-submit" class="centre-text" type="text" placeholder="Enter your name here..."
-                        aria-label="Enter your name" minlength="2" maxlength="15"></span>
-                    <span class="input"><input id="take-quiz-btn" class="quiz-btn-main" type="submit" value="Take Quiz"></input></span>
+                    <span class="input"><input id="name-submit" class="centre-text" type="text"
+                            placeholder="Enter your name here..." aria-label="Enter your name" minlength="2"
+                            maxlength="15"></span>
+                    <span class="input"><input id="take-quiz-btn" class="quiz-btn-main" type="submit"
+                            value="Take Quiz"></input></span>
                 </form>
             </div>
         </section>
@@ -76,18 +77,27 @@
             <div class="quiz-feedback circle-container">
                 <img id="super-vil-img" src="">
             </div>
-
-
-
-
         </section>
     </main>
 
-    <footer>
+    <footer id="footer-area">
         <div class="semi-circ-container footer-semi-circ">
-            <div id="supervil-img" class="circ-image"></div>
+            <p>Made by Lauren Pechey</p>
+            <ul class="social-links">
+                <li>
+                    <a href="https://github.com/pecheylauren02" target="_blank" rel="noopener"
+                        aria-label="Visit Lauren Pechey's GitHub Profile (opens in a new tab)"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="www.linkedin.com/in/laurenpechey" target="_blank" rel="noopener"
+                        aria-label="Visit Lauren Pechey's LinkedIn Profile (opens in a new tab)"><i class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
         </div>
     </footer>
+
+    <!-- Font awesome script and link here -->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 
     <script src="assets/js/script.js"></script>
 </body>

@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Cormorant Garamond', serif;
-    background-color: #111;
+    background-color: darkred;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,18 +28,17 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #1f1f1f;
+    background-color: #000;
 }
 
 .big-heading {
     padding: 20px;
 }
 /* Circular container */
-
 .semi-circ-container {
     width: 125px;
     height: 250px;
-    border: 2px solid #7454fa;
+    border: 2px solid darkred;
 }
 
 .right-semi-circ {
@@ -70,10 +69,10 @@ main {
 }
 
 .quiz-btn-main {
-    background-color: #111;
+    background-color: darkred;
     padding: 10px;
     border-radius: 12px;
-    border: 2px solid #7454fa;
+    border: 2px solid darkred;
     color: #ffffff;
     font-weight: bold;
 }
@@ -105,16 +104,19 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 /* Set the styles for the quiz questions */
 .question-container {
-    border: 2px solid #00FFAA;
+    border: 2px solid darkred;
     border-radius: 12px;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5px;
+    
 }
 
 #question {
@@ -122,7 +124,7 @@ main {
     font-size: 20px;
     color: #ffffff;
     text-align: center;
-    border: 1px solid #00FFAA;
+    border: 1px solid gold;
     border-radius: 12px;
     padding: 50px;
 }
@@ -131,28 +133,25 @@ main {
 .options {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 20px;
 }
 
 .option {
-    display: flex;
-    align-items: center;
     font-size: 18px;
     margin-bottom: 20px;
-    
 }
 
 .quiz-answer-btn {
     margin: 0 auto;
-    border: 1px solid #00FFAA;
-    background-color: #111;
+    border: 2px solid darkred;
     border-radius: 12px;
     color: #ffffff;
     cursor: pointer;
     font-size: 16px;
     padding: 10px 20px;
     font-weight: bold;
+    background-color: darkred;
 }
 
 /* Set the styles for the quiz results */

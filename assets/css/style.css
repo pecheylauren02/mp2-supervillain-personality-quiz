@@ -73,16 +73,17 @@ main {
 
 #name-submit {
     font-family: 'Cormorant Garamond', serif;
-    border: 5px solid #088888;
+    border-left: 5px solid #088888;
     border-radius: 12px;
     padding: 10%;
+    margin: 0 auto;
 }
 
 .quiz-btn-main {
-    background-color: #088888;
+    background-color: #880808;
     padding: 10px;
     border-radius: 12px;
-    border: 2px solid ;
+    border: 2px solid #880808;
     color: #ffffff;
     font-weight: bold;
 }

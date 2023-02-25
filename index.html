@@ -25,11 +25,9 @@
                 <div class="semi-circ-container left-semi-circ">
                     <div id="supervil-img" class="circ-image"></div>
                 </div>
-                <div class="semi-circ-container right-semi-circ">
-                    <div id="supervil-img" class="circ-image"></div>
-                </div>
                 <div class="instructions-text">
                     <h2 class="medium-heading">What to expect:</h2>
+                    <br>
                     <p>We all want to be Superheroes and Superheroines, but have you ever been curious about which
                         Supervillain you might be?
                         <br><br>Would you be driven by power, money, revenge or competition?
@@ -40,14 +38,15 @@
                         instantly!
                         <br><br>Go on... tell us your name and hit the button... you know you want to!
                     </p>
+                    <br>
                 </div>
             </div>
             <!-- Name Input & Start Quiz Area -->
             <div id="start-quiz-area">
                 <form action="" id="start-quiz-form" method="POST" onsubmit="startQuiz(event)">
-                    <input id="name-submit" class="centre-text" type="text" placeholder="Enter your name here..."
-                        aria-label="Enter your name" minlength="2" maxlength="15">
-                    <input id="take-quiz-btn" class="btn-quiz-main" type="submit" value="Take Quiz"></input>
+                    <span class="input"><input id="name-submit" class="centre-text" type="text" placeholder="Enter your name here..."
+                        aria-label="Enter your name" minlength="2" maxlength="15"></span>
+                    <span class="input"><input id="take-quiz-btn" class="quiz-btn-main" type="submit" value="Take Quiz"></input></span>
                 </form>
             </div>
         </section>
@@ -86,7 +85,11 @@
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="semi-circ-container footer-semi-circ">
+            <div id="supervil-img" class="circ-image"></div>
+        </div>
+    </footer>
 
     <script src="assets/js/script.js"></script>
 </body>

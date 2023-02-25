@@ -17,13 +17,18 @@ body {
     padding: 20px;
 }
 
+main {
+    flex-grow: 1;
+}
+
 #instructions-area {
-    border: 2px solid #7454fa;
-    border-radius: 12px;
+    /*border: 2px solid #7454fa;
+    border-radius: 12px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: #1f1f1f;
 }
 
 .big-heading {
@@ -32,8 +37,8 @@ body {
 /* Circular container */
 
 .semi-circ-container {
-    width: 90px;
-    height: 180px;
+    width: 125px;
+    height: 250px;
     border: 2px solid #7454fa;
 }
 
@@ -47,6 +52,40 @@ body {
     float: left;
 }
 
+.instructions-text {
+    padding: 10px;
+    line-height: 150%;
+}
+
+.input {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#name-submit {
+    font-family: 'Cormorant Garamond', serif;
+    border-radius: 12px;
+    padding: 10%;
+}
+
+.quiz-btn-main {
+    background-color: #111;
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid #7454fa;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footer-semi-circ {
+    width: 200px;
+    height: 100px;
+    border: 2px solid #7454fa;
+    border-radius: 12rem 12rem 0 0;
+    float: center;
+}
+
 .supervil-img {
     height: 200px;
     border-radius: 50%;
@@ -55,18 +94,7 @@ body {
 
 /* Style buttons */
 
-.btn-quiz-main {
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    margin-bottom: 20px;
-    background-color: #111;
-    padding: 10px;
-    border-radius: 12px;
-    border: 2px solid #7454fa;
-    color: #ffffff;
-    font-weight: bold;
-}
+
 
 /* Set the styles for the quiz container */
 .quiz-container {

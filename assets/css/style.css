@@ -15,6 +15,7 @@ body {
     align-items: center;
     color: #ffffff;
     padding: 20px;
+    padding-bottom: 0;
 }
 
 main {
@@ -39,23 +40,28 @@ main {
 .semi-circ-container {
     width: 125px;
     height: 250px;
+}
+
+.left-semi-circ {
+    background: url('../images/joker_face\ _small.png') no-repeat center center;
+    border-radius: 0 12rem 12rem 0;
+    float: left;
     border-right: 2px solid #FFD700;
     border-bottom: 2px solid #FFD700;
     border-top: 2px solid #FFD700;
 }
 
 .right-semi-circ {
+    background: url('../images/scar.png') no-repeat center center;
     border-radius: 12rem 0 0 12rem;
     float: right;
-}
-
-.left-semi-circ {
-    border-radius: 0 12rem 12rem 0;
-    float: left;
+    border-left: 2px solid #FFD700;
+    border-bottom: 2px solid #FFD700;
+    border-top: 2px solid #FFD700;
 }
 
 .instructions-text {
-    padding: 10px;
+    padding: 0;
     line-height: 150%;
 }
 

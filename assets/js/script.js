@@ -167,11 +167,27 @@ function calculateScore(event) {
     let value = event.target.innerText;
 
     let answers = QUESTIONS[currentQuestionIndex]['answers']
-    score += QUESTIONS[questionIndex][value];
-    console.log(score);
-}
 
-calculateScore();
+    let answerScore = '';
+    let answerText = '';
+
+    if (event.target.endsWith('One')) {
+        answerText = answers[0][0];
+        answerScore = answers [0][1];
+    } else if (event.target.endsWith('Two')) {
+        answerText = answers[1][0];
+        answerScore = answers[1][1];
+    }
+
+    console.log(answerScore);
+    console.log(answerText);
+    
+    score += answerScore;
+
+    showNextQuestion();
+    // score += QUESTIONS[questionIndex][value]; previous code, ignore for now
+   // console.log(score); previous code, ignore for now
+}
 
 /**
 remove the hide class from result area

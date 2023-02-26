@@ -169,7 +169,7 @@ main {
     background-color: #088888;
 }
 
-/* Set the styles for the quiz results */
+/* Results area */
 
 #result-area {
     background-color: #000;
@@ -182,10 +182,41 @@ main {
     margin-top: 30px;
 }
 
-/* Set the styles for the quiz score */
 .final-result {
     font-size: 24px;
     font-weight: bold;
+}
+
+.circle-container {
+    height: 250px;
+    width: 250px;
+    border: 2px solid #FFD700;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.super-vil-img {
+    background: url('../images/scar.png');
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.resultOne {
+    background: url('../images/scar.png');
+}
+
+.resultTwo {
+    background: url('../images/joker_face\ _small.png');
+}
+
+.resultThree {
+    background: url('../images/scar.png');
+}
+
+.resultFour {
+    background: url('../images/joker_face\ _small.png');
 }
 
 /* Set the styles for the quiz feedback */
@@ -193,6 +224,8 @@ main {
     font-style: italic;
     margin-top: 10px;
 }
+
+
 
 /* footer */
 
@@ -261,6 +294,8 @@ main {
     .big-heading {
         font-size: 300%;
         line-height: 150%;
+        text-align: center;
+        font-weight: bold;
     }
 
     #name-submit {
@@ -289,5 +324,15 @@ main {
     
     .quiz-answer-btn {
         font-size: 80%;
+    }
+
+    .circle-container {
+        height: 300px;
+        width: 300px;
+    }
+    
+    .super-vil-img {
+        width: 300px;
+        height: 300px;
     }
 }

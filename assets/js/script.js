@@ -219,7 +219,7 @@ add text to final result
 **/
 function displayQuizResult() {
     document.getElementById("result-area").classList.remove("hide");
-    document.getElementById("final-result").innerText = "Scar";
+    document.getElementById("final-result").innerText = "";
     document.getElementsByClassName("resultOne");
 }
      

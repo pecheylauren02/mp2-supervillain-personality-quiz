@@ -148,7 +148,7 @@ const QUESTIONS = [{
 ];
 
 let currentQuestionIndex = 0;
-let selectedAnswers = [];
+// let selectedAnswers = [];
 
 const questionElement = document.getElementById("question");
 
@@ -201,12 +201,10 @@ function calculateScore(event) {
     else if (event.target.id.endsWith('Four')) {
         answerText = answers[3][0];
         answerScore = answers[3][1];
+    } else {
+        console.log(answerScore);
+        console.log(answerText);
     }
- 
- 
-
-    console.log(answerScore);
-    console.log(answerText);
     
     score += answerScore;
 

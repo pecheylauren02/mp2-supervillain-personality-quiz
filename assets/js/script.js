@@ -219,8 +219,25 @@ add text to final result
 **/
 function displayQuizResult() {
     document.getElementById("result-area").classList.remove("hide");
-    document.getElementById("final-result").innerText = "Your Supervillain is..."
-
+    document.getElementById("final-result").innerText = "Scar";
+    document.getElementsByClassName("resultOne");
 }
+     
+    //This should work but check why it is not working
+
+    /*if (score < 19) {
+        document.getElementById("final-result").innerText = "Scar";
+        document.getElementsByClassName("resultOne");
+    } else if (score < 29) {
+        document.getElementById("final-result").innerText = "Green Goblin";
+        document.getElementsByClassName("resultTwo");
+    } else if (score < 39) {
+        document.getElementById("final-result").innerText = "It";
+        document.getElementsByClassName("resultThree");
+    } else if (score < 49) {
+        document.getElementById("final-result").innerText = "Joker";
+        document.getElementsByClassName("resultFour");
+    } */
+
 
 displayQuizResult();

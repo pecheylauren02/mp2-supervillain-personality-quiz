@@ -56,15 +56,15 @@ const QUESTIONS = [{
     },
     {
         'question': "What is your biggest weakness?",
-        "optionOne": "Arrogance",
-        "optionTwo": "My past traumas",
-        "optionThree": "Greed",
-        "optionFour": "I do not believe in weakness",
+        "optionOne": "My fear of being left alone",
+        "optionTwo": "My traumatic childhood",
+        "optionThree": "The love of my life",
+        "optionFour": "I will never reveal my weakness",
         "answers": [
-            ["Arrogance", 1],
-            ["My past traumas", 2],
-            ["Greed", 3],
-            ["I do not believe in weakness", 4],
+            ["My fear of being left alone", 1],
+            ["My traumatic childhood", 2],
+            ["The love of my life", 3],
+            ["I will never reveal my weakness", 4],
         ]
     },
     {
@@ -132,6 +132,19 @@ const QUESTIONS = [{
             ["To take over the world", 4],
         ]
     },
+    {
+        'question': "Which personality trait applies to you most?",
+        "optionOne": "Aggressive",
+        "optionTwo": "Greedy",
+        "optionThree": "Narcissistic",
+        "optionFour": "Jealous",
+        "answers": [
+            ["Aggressive", 1],
+            ["Greedy", 2],
+            ["Narcissistic", 3],
+            ["TJealous", 4],
+        ]
+    }
 ];
 
 let currentQuestionIndex = 0;
@@ -171,13 +184,26 @@ function calculateScore(event) {
     let answerScore = '';
     let answerText = '';
 
-    if (event.target.endsWith('One')) {
+    if (event.target.id.endsWith('One')) {
         answerText = answers[0][0];
-        answerScore = answers [0][1];
-    } else if (event.target.endsWith('Two')) {
+        answerScore = answers[0][1]
+    } 
+    
+    else if (event.target.id.endsWith('Two')) {
         answerText = answers[1][0];
         answerScore = answers[1][1];
+    } 
+
+    else if (event.target.id.endsWith('Three')) {
+        answerText = answers[2][0];
+        answerScore = answers[2][1]
     }
+    else if (event.target.id.endsWith('Four')) {
+        answerText = answers[3][0];
+        answerScore = answers[3][1];
+    }
+ 
+ 
 
     console.log(answerScore);
     console.log(answerText);

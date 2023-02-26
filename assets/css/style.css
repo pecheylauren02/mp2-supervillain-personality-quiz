@@ -263,10 +263,6 @@ main {
         line-height: 150%;
     }
 
-    .input {
-        
-    }
-
     #name-submit {
         width: 89%;
         font-size: 150%;
@@ -275,5 +271,27 @@ main {
     .quiz-btn-main {
        width: 100%;
        font-size: 150%;
+    }
+
+    .quiz-container {
+        
+    }
+    
+    /* Set the styles for the quiz questions */
+    .question-container {
+        
+    
+    }
+    
+    #question {
+        font-size: 250%;
+    }
+    
+    .option {
+        font-size: 200%;
+    }
+    
+    .quiz-answer-btn {
+        font-size: 80%;
     }
 }

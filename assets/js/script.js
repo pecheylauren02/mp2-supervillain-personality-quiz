@@ -13,7 +13,7 @@ const QUESTIONS = [{
 
     },
     {
-        'question': "What made you become a villain",
+        'question': "What made you become a villain?",
         "optionOne": "I want justice",
         "optionTwo": "My parents were killed",
         "optionThree": "I was bullied at school",
@@ -115,22 +115,28 @@ const QUESTIONS = [{
     },
 ];
 
-let questionIndex = 0;
+let currentQuestionIndex = 0;
+let selectedAnswers = [];
+
+const questionElement = document.getElementById("question");
 
 function displayQuestion() {
-    let question = QUESTIONS[questionIndex];
+    let question = QUESTIONS[currentQuestionIndex];
     document.getElementById("question").innerText = question.question;
     document.getElementById("optionOne").innerText = question.optionOne;
     document.getElementById("optionTwo").innerText = question.optionTwo;
     document.getElementById("optionThree").innerText = question.optionThree;
     document.getElementById("optionFour").innerText = question.optionFour;
-}
+} 
 
-/*questionIndex = 1;*/
 displayQuestion();
 
-document.getElementById("optionOne").addEventListener('click', calculateScore);
+function showNextQuestion() {
+    currentQuestionIndex++;
+    displayQuestion();
+}
 
+document.getElementById("optionOne").addEventListener('click', calculateScore);
 document.getElementById("optionTwo").addEventListener('click', calculateScore);
 document.getElementById("optionThree").addEventListener('click', calculateScore);
 document.getElementById("optionFour").addEventListener('click', calculateScore);
@@ -142,6 +148,8 @@ function calculateScore(event) {
     score += QUESTIONS[questionIndex][value];
     console.log(score);
 }
+
+calculateScore();
 
 /**
 remove the hide class from result area

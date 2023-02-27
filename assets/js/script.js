@@ -1,3 +1,22 @@
+/* // Declaring conts for Welcome Page DOM objects 
+
+const takeQuizBtn = getElementById("take-quiz-btn");
+const instructionsDiv = getElementsByClassName("instructions");
+
+function startQuiz(event) {
+    event.preventDefault();
+
+    // Captures name of user
+
+    username = document.getElementById("name-submit");
+
+    // Alert if no username is entered
+    if (username.value === "") {
+        alert(`Please enter your name first to take the quiz!`)
+    } else {
+
+    }
+} */
 
 let score = 0;
 

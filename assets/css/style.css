@@ -237,7 +237,7 @@ footer {
     background: #880808;
     height: auto;
     width: 100vw;
-    padding-top: 40px;
+    padding-top: 20px;
     color: #ffffff;
 }
 
@@ -253,7 +253,7 @@ footer {
     font-size: 120%;
     font-weight: 500;
     text-transform: capitalize;
-    line-height: 150%;
+    line-height: 120%;
 }
 
 .footer-content p {
@@ -288,16 +288,35 @@ footer {
     color: #1f1f1f;
 }
 
+.footer-copyright {
+    background: #1f1f1f;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-copyright p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
 /* Media Queries */
 
 /* For Small devices (landscape phones, 576px and above)*/
 
-@media screen and (min-width: 576px) { ... }
+@media screen and (min-width: 576px) {
+    ...
+}
 
 /* For Medium Devices (tablets, iPads, 768px and above) */
 
 @media screen and (min-width: 768px) {
-    body, .quiz-container  {
+
+    body,
+    .quiz-container {
         padding: 40px;
     }
 
@@ -328,24 +347,22 @@ footer {
         width: 89%;
         font-size: 150%;
     }
-    
+
     .quiz-btn-main {
-       width: 100%;
-       font-size: 150%;
+        width: 100%;
+        font-size: 150%;
     }
 
-    .quiz-container {
-        
-    }
-    
+    .quiz-container {}
+
     #question {
         font-size: 250%;
     }
-    
+
     .option {
         font-size: 200%;
     }
-    
+
     .quiz-answer-btn {
         font-size: 80%;
     }
@@ -354,7 +371,7 @@ footer {
         height: 300px;
         width: 300px;
     }
-    
+
     .super-vil-img {
         width: 300px;
         height: 300px;
@@ -363,9 +380,9 @@ footer {
     .footer-semi-circ {
         width: 400px;
         height: 90px;
-        
+
     }
-    
+
     .social-links {
         list-style-type: none;
         display: flex;
@@ -373,19 +390,19 @@ footer {
         align-items: center;
         margin: 0;
     }
-    
+
     .social-links li {
         margin: 0 30px;
         display: inline;
     }
-    
+
     .social-links i {
         font-size: 150%;
         margin: 2%;
         padding: 5%;
         color: #FFD700;
     }
-    
+
     .social-links i:hover {
         color: #088888;
     }
@@ -393,8 +410,12 @@ footer {
 
 /* For Large Devices (Desktops, 992px and above) */
 
-@media screen and (min-width: 992px) { ... }
+@media screen and (min-width: 992px) {
+    ...
+}
 
 /* For Extra Large Devices (Large desktops, 1200px and above */
 
-@media screen and (min-width: 1200px) { ... }
+@media screen and (min-width: 1200px) {
+    ...
+}

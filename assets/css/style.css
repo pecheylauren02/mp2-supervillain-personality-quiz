@@ -7,6 +7,10 @@
     border: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Cormorant Garamond', serif;
     background-color: #880808;
@@ -176,6 +180,8 @@ main {
     border-bottom: 2px solid #FFD700;
     border-top: 2px solid #FFD700;
     border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .quiz-results {
@@ -352,8 +358,6 @@ footer {
         font-size: 150%;
     }
 
-    .quiz-container {}
-
     #question {
         font-size: 250%;
     }
@@ -397,7 +401,57 @@ footer {
 /* For Large Devices (Desktops, 992px and above) */
 
 @media screen and (min-width: 992px) {
-    ...
+    
+    #instructions-area {
+        padding: 20px;
+    }
+    
+    .semi-circ-container {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .left-semi-circ {
+        border-radius: 50%;
+        border:2px solid #FFD700;
+    }
+    
+    .right-semi-circ {
+        border-radius: 50%;
+        border:2px solid #FFD700;
+    }
+
+    .instructions-text {
+        font-size: 160%;
+    }
+
+    .big-heading {
+        font-size: 320%;
+    }
+
+    .circle-container {
+        height: 300px;
+        width: 300px;
+    }
+    
+    .footer-content h3 {
+        font-size: 180%;
+        line-height: 150%;
+    }
+    
+    .footer-content p {
+        font-size: 150%;
+    }
+    
+    .social-links i {
+        font-size: 180%;
+    }
+
+    .footer-copyright p {
+        font-size: 120%;
+    }
+}
+    
 }
 
 /* For Extra Large Devices (Large desktops, 1200px and above */

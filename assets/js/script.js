@@ -1,3 +1,4 @@
+
 let score = 0;
 
 const QUESTIONS = [{
@@ -179,7 +180,7 @@ function calculateScore(event) {
 
     let value = event.target.innerText;
 
-    let answers = QUESTIONS[currentQuestionIndex]['answers']
+    let answers = QUESTIONS[currentQuestionIndex]['answers'];
 
     let answerScore = '';
     let answerText = '';

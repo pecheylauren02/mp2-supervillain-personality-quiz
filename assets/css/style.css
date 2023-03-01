@@ -26,6 +26,10 @@ main {
     flex-grow: 1;
 }
 
+.hide {
+    display: none !important;
+}
+
 #instructions-area {
     border-radius: 12px;
     display: flex;
@@ -83,11 +87,6 @@ main {
 
 .instr-right {
     text-align: right;
-}
-
-.input {
-    display: flex;
-    align-items: center;
 }
 
 #name-submit {

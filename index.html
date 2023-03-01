@@ -44,15 +44,15 @@
             <br>
             <!-- Name Input & Start Quiz Area -->
             <div id="start-quiz-area">
-                <form action="" id="start-quiz-form" method="POST" onclick="scrollQuiz()" onsubmit="startQuiz(event)">
+                <form action="" id="start-quiz-form" method="POST">
                     <input id="name-submit" type="text" placeholder="Enter your name here..."
                         aria-label="Enter your name" minlength="2" maxlength="15">
-                    <input id="take-quiz-btn" class="quiz-btn-main" type="submit" value="Take Quiz"></input>
+                    <button id="take-quiz-btn" class="quiz-btn-main" type="button" onclick="startQuiz()">TAKE QUIZ</button>
                 </form>
             </div>
         </section>
 
-        <section id="quiz-area" class="quiz-container">
+        <section id="quiz-area" class="quiz-container hide">
             <div class="question-container">
                 <span id="question"></span>
             </div>

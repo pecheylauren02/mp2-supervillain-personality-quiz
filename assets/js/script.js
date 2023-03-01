@@ -20,7 +20,7 @@ function startQuiz(event) {
 
 let score = 0;
 
-const QUESTIONS = [{
+let QUESTIONS = [{
         'question': "Which superpower appeals to you the most?",
         "optionOne": "The ability to fly",
         "optionTwo": "Being invisible",
@@ -159,7 +159,7 @@ let currentQuestionIndex = 0;
 
 const questionElement = document.getElementById("question");
 
-function displayQuestion() {
+function displayQuestion(q) {
     let question = QUESTIONS[currentQuestionIndex];
     document.getElementById("question").innerText = question.question;
     document.getElementById("optionOne").innerText = question.optionOne;
@@ -170,10 +170,26 @@ function displayQuestion() {
 
 displayQuestion();
 
+function startQuiz() {
+    console.log("PLAYING QUIZ");
+    // Hide the instructions area
+    document.getElementById('instructions-area').classList.add('hide');
+    // Show the quiz area
+    document.getElementById('quiz-area').classList.remove('hide');
+
+    //Load the first question
+    // currentQuestionIndex(0);
+    
+}
+
+startQuiz();
+
 function showNextQuestion() {
     displayQuestion();
     currentQuestionIndex++;
 }
+
+showNextQuestion();
 
 document.getElementById("optionOne").addEventListener('click', calculateScore);
 document.getElementById("optionTwo").addEventListener('click', calculateScore);

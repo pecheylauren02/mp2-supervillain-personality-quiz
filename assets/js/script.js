@@ -27,10 +27,10 @@ const QUESTIONS = [{
         "optionThree": "Controlling the weather",
         "optionFour": "Super strength",
         "answers": [
-            ["The ability to fly", 1],
+            ["The ability to fly", 4],
             ["Being invisible", 2],
-            ["Controlling the weather", 3],
-            ["Super strength", 4],
+            ["Controlling the weather", 1],
+            ["Super strength", 3],
         ]
     },
     {
@@ -41,9 +41,9 @@ const QUESTIONS = [{
         "optionFour": "Loneliness",
         "answers": [
             ["I want justice", 1],
-            ["My parents were killed", 2],
-            ["I was bullied at school", 3],
-            ["Loneliness", 4],
+            ["My parents were killed", 3],
+            ["I was bullied at school", 4],
+            ["Loneliness", 2],
         ]
 
     },
@@ -54,10 +54,10 @@ const QUESTIONS = [{
         "optionThree": "To get revenge on my nemesis",
         "optionFour": "To take over the world",
         "answers": [
-            ["To destroy anything that comes in my way", 1],
+            ["To destroy anything that comes in my way", 3],
             ["To start a revolution against society", 2],
-            ["To get revenge on my nemesis", 3],
-            ["To take over the world", 4],
+            ["To get revenge on my nemesis", 4],
+            ["To take over the world", 1],
         ]
 
     },
@@ -69,8 +69,8 @@ const QUESTIONS = [{
         "optionFour": "A giant tarantula",
         "answers": [
             ["A python", 1],
-            ["A rottweiler", 2],
-            ["A raven", 3],
+            ["A rottweiler", 3],
+            ["A raven", 2],
             ["A giant tarantula", 4],
         ]
     },
@@ -81,10 +81,10 @@ const QUESTIONS = [{
         "optionThree": "The love of my life",
         "optionFour": "I will never reveal my weakness",
         "answers": [
-            ["My fear of being left alone", 1],
-            ["My traumatic childhood", 2],
+            ["My fear of being left alone", 2],
+            ["My traumatic childhood", 4],
             ["The love of my life", 3],
-            ["I will never reveal my weakness", 4],
+            ["I will never reveal my weakness", 1],
         ]
     },
     {
@@ -94,10 +94,10 @@ const QUESTIONS = [{
         "optionThree": "In a luxurious mansion",
         "optionFour": "Deep in the ocean",
         "answers": [
-            ["Inside a cave", 1],
-            ["In an abandoned house", 2],
-            ["In a luxurious mansion", 3],
-            ["Deep in the ocean", 4],
+            ["Inside a cave", 2],
+            ["In an abandoned house", 4],
+            ["In a luxurious mansion", 1],
+            ["Deep in the ocean", 3],
         ]
     },
     {
@@ -107,10 +107,10 @@ const QUESTIONS = [{
         "optionThree": "Act normal but secretly plot your revenge",
         "optionFour": "Go solo, you don't need anyone else",
         "answers": [
-            ["Wallow in your own self-pity", 1],
-            ["Destroy their reputation", 2],
-            ["Act normal but secretly plot your revenge", 3],
-            ["Go solo, you don't need anyone else", 4],
+            ["Wallow in your own self-pity", 2],
+            ["Destroy their reputation", 3],
+            ["Act normal but secretly plot your revenge", 4],
+            ["Go solo, you don't need anyone else", 1],
         ]
     },
     {
@@ -121,8 +121,8 @@ const QUESTIONS = [{
         "optionFour": "A sword",
         "answers": [
             ["Magic potions and spells", 1],
-            ["My own brute force and strength", 2],
-            ["Disguises, deception and manipulation", 3],
+            ["My own brute force and strength", 3],
+            ["Disguises, deception and manipulation", 2],
             ["A sword", 4],
         ]
     },
@@ -133,23 +133,10 @@ const QUESTIONS = [{
         "optionThree": "With a team of minions",
         "optionFour": "Under the instructions of another villain",
         "answers": [
-            ["Completely alone", 1],
-            ["With my sidekick, spirit animal", 2],
-            ["With a team of minions", 3],
+            ["Completely alone", 2],
+            ["With my sidekick, spirit animal", 3],
+            ["With a team of minions", 1],
             ["Under the instructions of another villain", 4],
-        ]
-    },
-    {
-        'question': "What is your deepest desire as a villain?",
-        "optionOne": "To destroy anything that comes in my way",
-        "optionTwo": "To start a revolution against society",
-        "optionThree": "To get revenge on my nemesis",
-        "optionFour": "To take over the world",
-        "answers": [
-            ["To destroy anything that comes in my way", 1],
-            ["To start a revolution against society", 2],
-            ["To get revenge on my nemesis", 3],
-            ["To take over the world", 4],
         ]
     },
     {
@@ -159,9 +146,9 @@ const QUESTIONS = [{
         "optionThree": "Narcissistic",
         "optionFour": "Jealous",
         "answers": [
-            ["Aggressive", 1],
-            ["Greedy", 2],
-            ["Narcissistic", 3],
+            ["Aggressive", 3],
+            ["Greedy", 1],
+            ["Narcissistic", 2],
             ["TJealous", 4],
         ]
     }
@@ -206,7 +193,7 @@ function calculateScore(event) {
 
     if (event.target.id.endsWith('One')) {
         answerText = answers[0][0];
-        answerScore = answers[0][1]
+        answerScore = answers[0][1];
     } 
     
     else if (event.target.id.endsWith('Two')) {
@@ -216,15 +203,14 @@ function calculateScore(event) {
 
     else if (event.target.id.endsWith('Three')) {
         answerText = answers[2][0];
-        answerScore = answers[2][1]
+        answerScore = answers[2][1];
     }
     else if (event.target.id.endsWith('Four')) {
         answerText = answers[3][0];
         answerScore = answers[3][1];
-    } else {
-        console.log(answerScore);
-        console.log(answerText);
     }
+    console.log(answerScore);
+    console.log(answerText);
     
     score += answerScore;
 

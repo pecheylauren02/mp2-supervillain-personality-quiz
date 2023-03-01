@@ -171,15 +171,27 @@ function displayQuestion(q) {
 displayQuestion();
 
 function startQuiz() {
-    console.log("PLAYING QUIZ");
-    // Hide the instructions area
-    document.getElementById('instructions-area').classList.add('hide');
-    // Show the quiz area
-    document.getElementById('quiz-area').classList.remove('hide');
-    // Hide the results area
-    document.getElementById('result-area').classList.add('hide');
+    event.preventDefault();
 
-    document.getElementById('result-area').classList.add('hide');
+    // Captures name of user
+
+    username = document.getElementById("name-submit");
+
+    // Alert if no username is entered
+    if (username.value === "") {
+        alert(`Please enter your name first to take the quiz!`)
+    } else {
+        // Hide the instructions area
+        document.getElementById('instructions-area').classList.add('hide');
+    // Show the quiz area
+        document.getElementById('quiz-area').classList.remove('hide');
+    // Hide the results area
+        document.getElementById('result-area').classList.add('hide');
+
+        document.getElementById('footer-area').classList.add('hide');
+    }
+    console.log("PLAYING QUIZ");
+    
     
 }
 
@@ -204,15 +216,14 @@ function calculateScore(event) {
     let answerScore = '';
     let answerText = '';
 
-    for (let i = 0; i < answers.length; i++) {
+    /* for (let i = 0; i < answers.length; i++) {
         if (event.target.id.endsWith(`One${i + 1}`)) {
           answerText = answers[i][0];
           answerScore = answers[i][1];
           break;
         }
-      }
+      } help from website */
 
-    /*
     if (event.target.id.endsWith('One')) {
         answerText = answers[0][0];
         answerScore = answers[0][1];
@@ -230,7 +241,8 @@ function calculateScore(event) {
     else if (event.target.id.endsWith('Four')) {
         answerText = answers[3][0];
         answerScore = answers[3][1];
-    }*/
+    } 
+    
     console.log(answerScore);
     console.log(answerText);
     
@@ -248,10 +260,10 @@ add text to final result
 function displayQuizResult() {
     document.getElementById("result-area").classList.remove("hide");
     document.getElementById("final-result").innerText = "";
-    document.getElementsByClassName("resultOne");
+    /*document.getElementsByClassName("resultOne");
     document.getElementsByClassName("resultTwo");
     document.getElementsByClassName("resultThree");
-    document.getElementsByClassName("resultFour");
+    document.getElementsByClassName("resultFour");*/
 }
      
     //This should work but check why it is not working

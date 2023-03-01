@@ -155,7 +155,7 @@ let QUESTIONS = [{
 ];
 
 let currentQuestionIndex = 0;
-// let selectedAnswers = [];
+let selectedAnswers = [];
 
 const questionElement = document.getElementById("question");
 
@@ -166,6 +166,7 @@ function displayQuestion(q) {
     document.getElementById("optionTwo").innerText = question.optionTwo;
     document.getElementById("optionThree").innerText = question.optionThree;
     document.getElementById("optionFour").innerText = question.optionFour;
+    document.getElementById('footer-area').classList.remove('hide');
 } 
 
 displayQuestion();
@@ -176,20 +177,16 @@ function startQuiz() {
     document.getElementById('instructions-area').classList.add('hide');
     // Show the quiz area
     document.getElementById('quiz-area').classList.remove('hide');
-
     // Hide the results area
     document.getElementById('result-area').classList.add('hide');
-    //Load the first question
-    // currentQuestionIndex(0);
     
 }
 
 function showNextQuestion() {
     displayQuestion();
     currentQuestionIndex++;
+    
 }
-
-showNextQuestion();
 
 document.getElementById("optionOne").addEventListener('click', calculateScore);
 document.getElementById("optionTwo").addEventListener('click', calculateScore);
@@ -201,7 +198,6 @@ function calculateScore(event) {
     // console.log("clicked"); previous code
 
     let value = event.target.innerText;
-
     let answers = QUESTIONS[currentQuestionIndex]['answers'];
 
     let answerScore = '';

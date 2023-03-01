@@ -166,7 +166,6 @@ function displayQuestion(q) {
     document.getElementById("optionTwo").innerText = question.optionTwo;
     document.getElementById("optionThree").innerText = question.optionThree;
     document.getElementById("optionFour").innerText = question.optionFour;
-    document.getElementById('footer-area').classList.remove('hide');
 } 
 
 displayQuestion();
@@ -178,6 +177,8 @@ function startQuiz() {
     // Show the quiz area
     document.getElementById('quiz-area').classList.remove('hide');
     // Hide the results area
+    document.getElementById('result-area').classList.add('hide');
+
     document.getElementById('result-area').classList.add('hide');
     
 }
@@ -195,7 +196,7 @@ document.getElementById("optionFour").addEventListener('click', calculateScore);
 
 
 function calculateScore(event) {
-    // console.log("clicked"); previous code
+    console.log("clicked"); 
 
     let value = event.target.innerText;
     let answers = QUESTIONS[currentQuestionIndex]['answers'];
@@ -203,6 +204,15 @@ function calculateScore(event) {
     let answerScore = '';
     let answerText = '';
 
+    for (let i = 0; i < answers.length; i++) {
+        if (event.target.id.endsWith(`One${i + 1}`)) {
+          answerText = answers[i][0];
+          answerScore = answers[i][1];
+          break;
+        }
+      }
+
+    /*
     if (event.target.id.endsWith('One')) {
         answerText = answers[0][0];
         answerScore = answers[0][1];
@@ -220,7 +230,7 @@ function calculateScore(event) {
     else if (event.target.id.endsWith('Four')) {
         answerText = answers[3][0];
         answerScore = answers[3][1];
-    }
+    }*/
     console.log(answerScore);
     console.log(answerText);
     
@@ -239,6 +249,9 @@ function displayQuizResult() {
     document.getElementById("result-area").classList.remove("hide");
     document.getElementById("final-result").innerText = "";
     document.getElementsByClassName("resultOne");
+    document.getElementsByClassName("resultTwo");
+    document.getElementsByClassName("resultThree");
+    document.getElementsByClassName("resultFour");
 }
      
     //This should work but check why it is not working

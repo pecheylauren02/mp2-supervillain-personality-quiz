@@ -177,12 +177,12 @@ function startQuiz() {
     // Show the quiz area
     document.getElementById('quiz-area').classList.remove('hide');
 
+    // Hide the results area
+    document.getElementById('result-area').classList.add('hide');
     //Load the first question
     // currentQuestionIndex(0);
     
 }
-
-startQuiz();
 
 function showNextQuestion() {
     displayQuestion();
@@ -261,5 +261,3 @@ function displayQuizResult() {
         document.getElementsByClassName("resultFour");
     } */
 
-
-displayQuizResult();

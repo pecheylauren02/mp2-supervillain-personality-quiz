@@ -19,7 +19,7 @@
         <section id="instructions-area" class="background-div">
             <!-- Welcome and Instructions Area -->
             <div class="instructions">
-                <h1 class="big-heading">The Ultimate Supervillain Personality Quiz</h1>
+                <h1 class="big-heading" onclick="typeWriter()">The Ultimate Supervillain Personality Quiz</h1>
                 <div class="semi-circ-container left-semi-circ">
                     <div class="circ-image-left"></div>
                 </div>
@@ -47,11 +47,18 @@
                 <form action="" id="start-quiz-form" method="POST">
                     <input id="name-submit" type="text" placeholder="Enter your name here..."
                         aria-label="Enter your name" minlength="2" maxlength="15">
-                    <button id="take-quiz-btn" class="quiz-btn-main" type="button" onclick="startQuiz()">TAKE QUIZ</button>
+                    <button id="take-quiz-btn" class="quiz-btn-main" type="button" onclick="startQuiz()">TAKE
+                        QUIZ</button>
                 </form>
             </div>
         </section>
 
+        <!-- Progress bar -->
+        <progress id="progress-bar" value="0" max="100"></progress>
+        <p id="progress-text">Question <span id="current-question">0</span> of <span id="total-questions">0</span></p>
+
+
+        <!-- Quiz Area -->
         <section id="quiz-area" class="quiz-container hide">
             <div class="question-container">
                 <span id="question"></span>

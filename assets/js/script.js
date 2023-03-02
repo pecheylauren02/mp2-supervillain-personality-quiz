@@ -146,7 +146,7 @@ function displayQuestion(q) {
     document.getElementById("optionTwo").innerText = question.optionTwo;
     document.getElementById("optionThree").innerText = question.optionThree;
     document.getElementById("optionFour").innerText = question.optionFour;
-} 
+}
 
 displayQuestion();
 
@@ -163,21 +163,27 @@ function startQuiz() {
     } else {
         // Hide the instructions area
         document.getElementById('instructions-area').classList.add('hide');
-    // Show the quiz area
+        // Show the quiz area
         document.getElementById('quiz-area').classList.remove('hide');
-    // Hide the results area
+        // Hide the results area
         document.getElementById('result-area').classList.add('hide');
-    // Hide the footer area
+        // Hide the footer area
         document.getElementById('footer-area').classList.add('hide');
     }
     console.log("PLAYING QUIZ");
-    
+
 }
+
 
 function showNextQuestion() {
     displayQuestion();
     currentQuestionIndex++;
 }
+
+/* PROGRESS BAR
+document.getElementById("question").innerText = questionCounter;
+document.getElementById("total-questions").innerText = TOTAL_QUESTIONS; */
+
 
 document.getElementById("optionOne").addEventListener('click', calculateScore);
 document.getElementById("optionTwo").addEventListener('click', calculateScore);
@@ -186,7 +192,7 @@ document.getElementById("optionFour").addEventListener('click', calculateScore);
 
 
 function calculateScore(event) {
-    console.log("clicked"); 
+    console.log("clicked");
     event.preventDefault();
 
     let value = event.target.innerText;
@@ -206,25 +212,20 @@ function calculateScore(event) {
     if (event.target.id.endsWith('One')) {
         answerText = answers[0][0];
         answerScore = answers[0][1];
-    } 
-    
-    else if (event.target.id.endsWith('Two')) {
+    } else if (event.target.id.endsWith('Two')) {
         answerText = answers[1][0];
         answerScore = answers[1][1];
-    } 
-
-    else if (event.target.id.endsWith('Three')) {
+    } else if (event.target.id.endsWith('Three')) {
         answerText = answers[2][0];
         answerScore = answers[2][1];
-    }
-    else if (event.target.id.endsWith('Four')) {
+    } else if (event.target.id.endsWith('Four')) {
         answerText = answers[3][0];
         answerScore = answers[3][1];
-    } 
-    
+    }
+
     console.log(answerScore);
     console.log(answerText);
-    
+
     score += answerScore;
 
     showNextQuestion();
@@ -232,23 +233,6 @@ function calculateScore(event) {
 }
 
 /* Results area */
-
-function displayResults() {
-    let score = 0;
-  
-    // loop through each selected answer and add up the scores
-    for (let i = 0; i < selectedAnswers.length; i++) {
-      let answer = selectedAnswers[i];
-      score += answer[1];
-    }
-  
-    // display the user's score
-    let resultElement = document.getElementById("results-area");
-    resultElement.innerText = "Your villain score is: " + score;
-  }
-  
-
-/*
 
 function displayQuizResult() {
     document.getElementById("result-area").classList.remove("hide");
@@ -266,6 +250,5 @@ function displayQuizResult() {
     } else if (score <= 49) {
         document.getElementById("final-result").innerText = "Joker";
         document.getElementsByClassName("resultFour");
+    }
 }
-} */
-

@@ -314,7 +314,7 @@ footer {
 }
 
 #error-div p {
-    padding: 5%;
+    padding: 0 5%;
 }
 
 #logo {
@@ -325,12 +325,14 @@ footer {
 #go-home-btn {
     background-color: #880808;
     border-radius: 12px;
-    border: 2px solid #880808;
+    border: 2px solid #ffffff;
     color: #ffffff;
     font-weight: bold;
     padding: 5%;
     margin: 10% 0;
     text-decoration: none;
+    text-transform: uppercase;
+
 }
 
 #go-home-btn:hover {
@@ -500,6 +502,27 @@ footer {
     .footer-copyright p {
         font-size: 120%;
     }
+
+
+    #error-div {
+        font-size: 180%;
+    }
+
+    #error-div p {
+        padding: 0 2%;
+    }
+    
+    #logo {
+        height: 500px;
+        width: 500px;
+        padding-top: 20px;
+    }
+    
+    #go-home-btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
 }
     
 /* For Extra Large Devices (Large desktops, 1200px and above */

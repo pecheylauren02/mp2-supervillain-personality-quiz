@@ -426,6 +426,26 @@ footer {
     .footer-copyright p {
         font-size: 120%;
     }
+
+    #error-div {
+        font-size: 160%;
+    }
+
+    #error-div p {
+        padding: 0 3%;
+    }
+    
+    #logo {
+        height: 425px;
+        width: 425px;
+        padding-top: 20px;
+    }
+    
+    #go-home-btn {
+        font-weight: bold;
+        padding: 3%;
+    }
+
 }
 
 /* For Large Devices (Desktops, 992px and above) */

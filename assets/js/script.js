@@ -155,7 +155,7 @@ function startQuiz() {
 
     // Captures name of user
 
-    username = document.getElementById("name-submit");
+    let username = document.getElementById("name-submit");
 
     // Alert if no username is entered
     if (username.value === "") {
@@ -180,10 +180,21 @@ function showNextQuestion() {
     currentQuestionIndex++;
 }
 
-/* PROGRESS BAR
-document.getElementById("question").innerText = questionCounter;
-document.getElementById("total-questions").innerText = TOTAL_QUESTIONS; */
+/* PROGRESS BAR 
 
+function updateProgress() {
+    const progressBar = document.getElementById('progress-bar');
+    const currentQuestion = QUESTIONS.getCurrentQuestionIndex() + 1;
+    const totalQuestions = QUESTIONS.getQuestions().length;
+    const progressPercent = (currentQuestion / totalQuestions) * 100;
+  
+    progressBar.value = progressPercent;
+    document.getElementById('current-question').innerHTML = currentQuestion;
+    document.getElementById('total-questions').innerHTML = totalQuestions;
+    console.log(currentQuestion);
+    console.log(totalQuestions);
+  } */
+  
 
 document.getElementById("optionOne").addEventListener('click', calculateScore);
 document.getElementById("optionTwo").addEventListener('click', calculateScore);
@@ -230,6 +241,8 @@ function calculateScore(event) {
 
     showNextQuestion();
     console.log(score);
+
+    updateProgress();
 }
 
 /* Results area */

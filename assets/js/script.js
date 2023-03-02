@@ -1,23 +1,3 @@
-/* // Declaring conts for Welcome Page DOM objects 
-
-const takeQuizBtn = getElementById("take-quiz-btn");
-const instructionsDiv = getElementsByClassName("instructions");
-
-function startQuiz(event) {
-    event.preventDefault();
-
-    // Captures name of user
-
-    username = document.getElementById("name-submit");
-
-    // Alert if no username is entered
-    if (username.value === "") {
-        alert(`Please enter your name first to take the quiz!`)
-    } else {
-
-    }
-} */
-
 let score = 0;
 
 let QUESTIONS = [{
@@ -187,18 +167,16 @@ function startQuiz() {
         document.getElementById('quiz-area').classList.remove('hide');
     // Hide the results area
         document.getElementById('result-area').classList.add('hide');
-
+    // Hide the footer area
         document.getElementById('footer-area').classList.add('hide');
     }
     console.log("PLAYING QUIZ");
-    
     
 }
 
 function showNextQuestion() {
     displayQuestion();
     currentQuestionIndex++;
-    
 }
 
 document.getElementById("optionOne").addEventListener('click', calculateScore);
@@ -209,6 +187,7 @@ document.getElementById("optionFour").addEventListener('click', calculateScore);
 
 function calculateScore(event) {
     console.log("clicked"); 
+    event.preventDefault();
 
     let value = event.target.innerText;
     let answers = QUESTIONS[currentQuestionIndex]['answers'];
@@ -249,36 +228,44 @@ function calculateScore(event) {
     score += answerScore;
 
     showNextQuestion();
-    // score += QUESTIONS[questionIndex][value]; previous code, ignore for now
-   // console.log(score); previous code, ignore for now
+    console.log(score);
 }
 
-/**
-remove the hide class from result area
-add text to final result
-**/
+/* Results area */
+
+function displayResults() {
+    let score = 0;
+  
+    // loop through each selected answer and add up the scores
+    for (let i = 0; i < selectedAnswers.length; i++) {
+      let answer = selectedAnswers[i];
+      score += answer[1];
+    }
+  
+    // display the user's score
+    let resultElement = document.getElementById("results-area");
+    resultElement.innerText = "Your villain score is: " + score;
+  }
+  
+
+/*
+
 function displayQuizResult() {
     document.getElementById("result-area").classList.remove("hide");
     document.getElementById("final-result").innerText = "";
-    /*document.getElementsByClassName("resultOne");
-    document.getElementsByClassName("resultTwo");
-    document.getElementsByClassName("resultThree");
-    document.getElementsByClassName("resultFour");*/
-}
-     
-    //This should work but check why it is not working
 
-    /*if (score < 19) {
+    if (score <= 19) {
         document.getElementById("final-result").innerText = "Scar";
         document.getElementsByClassName("resultOne");
-    } else if (score < 29) {
+    } else if (score <= 29) {
         document.getElementById("final-result").innerText = "Green Goblin";
         document.getElementsByClassName("resultTwo");
-    } else if (score < 39) {
+    } else if (score <= 39) {
         document.getElementById("final-result").innerText = "It";
         document.getElementsByClassName("resultThree");
-    } else if (score < 49) {
+    } else if (score <= 49) {
         document.getElementById("final-result").innerText = "Joker";
         document.getElementsByClassName("resultFour");
-    } */
+}
+} */
 

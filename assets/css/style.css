@@ -100,13 +100,17 @@ main {
 .quiz-btn-main {
     background-color: #880808;
     border-radius: 12px;
-    border: 2px solid #880808;
+    border: 2px solid #ffffff;
     color: #ffffff;
     font-weight: bold;
     padding: 5%;
     margin: 10% 0;
+    transition: all .2s ease-in-out; 
 }
 
+.quiz-btn-main:hover {
+    transform: scale(1.1); 
+}
 /* Set the styles for the quiz container */
 .quiz-container {
     background-color: #111;
@@ -166,6 +170,11 @@ main {
     padding: 10px 20px;
     font-weight: bold;
     background-color: #088888;
+    transition: all .2s ease-in-out; 
+}
+
+.quiz-answer-btn:hover {
+    transform: scale(1.1); 
 }
 
 /* Results area */
@@ -332,11 +341,11 @@ footer {
     margin: 10% 0;
     text-decoration: none;
     text-transform: uppercase;
-
+    transition: all .2s ease-in-out; 
 }
 
 #go-home-btn:hover {
-    background: #088888;
+    transform: scale(1.1); 
 }
 
 

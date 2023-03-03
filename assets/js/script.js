@@ -1,7 +1,7 @@
 let score = 0;
 
 let QUESTIONS = [{
-        'question': "Which superpower appeals to you the most?",
+        'question': "1. Which superpower appeals to you the most?",
         "optionOne": "The ability to fly",
         "optionTwo": "Being invisible",
         "optionThree": "Controlling the weather",
@@ -14,7 +14,7 @@ let QUESTIONS = [{
         ]
     },
     {
-        'question': "What made you become a villain?",
+        'question': "2. What made you become a villain?",
         "optionOne": "I want justice",
         "optionTwo": "My parents were killed",
         "optionThree": "I was bullied at school",
@@ -28,7 +28,7 @@ let QUESTIONS = [{
 
     },
     {
-        'question': "What is your deepest desire as a villain?",
+        'question': "3. What is your deepest desire as a villain?",
         "optionOne": "To destroy anything that comes in my way",
         "optionTwo": "To start a revolution against society",
         "optionThree": "To get revenge on my nemesis",
@@ -42,7 +42,7 @@ let QUESTIONS = [{
 
     },
     {
-        'question': "Which animal would you choose as your sidekick?",
+        'question': "4. Which animal would you choose as your sidekick?",
         "optionOne": "A python",
         "optionTwo": "A rottweiler",
         "optionThree": "A raven",
@@ -55,7 +55,7 @@ let QUESTIONS = [{
         ]
     },
     {
-        'question': "What is your biggest weakness?",
+        'question': "5. What is your biggest weakness?",
         "optionOne": "My fear of being left alone",
         "optionTwo": "My traumatic childhood",
         "optionThree": "The love of my life",
@@ -68,7 +68,7 @@ let QUESTIONS = [{
         ]
     },
     {
-        'question': "Where is your secret hideout?",
+        'question': "6. Where is your secret hideout?",
         "optionOne": "Inside a cave",
         "optionTwo": "In an abandoned house",
         "optionThree": "In a luxurious mansion",
@@ -81,7 +81,7 @@ let QUESTIONS = [{
         ]
     },
     {
-        'question': "Your best friend betrays you. How do you deal with them?",
+        'question': "7. Your best friend betrays you. How do you deal with them?",
         "optionOne": "Wallow in your own self-pity",
         "optionTwo": "Destroy their reputation",
         "optionThree": "Act normal but secretly plot your revenge",
@@ -94,7 +94,7 @@ let QUESTIONS = [{
         ]
     },
     {
-        'question': "What weapons would you use against your enemies?",
+        'question': "8. What weapons would you use against your enemies?",
         "optionOne": "Magic potions and spells",
         "optionTwo": "My own brute force and strength",
         "optionThree": "Disguises, deception and manipulation",
@@ -107,7 +107,7 @@ let QUESTIONS = [{
         ]
     },
     {
-        'question': "How would you work as a villain?",
+        'question': "9. How would you work as a villain?",
         "optionOne": "Completely alone",
         "optionTwo": "With my sidekick, spirit animal",
         "optionThree": "With a team of minions",
@@ -120,7 +120,7 @@ let QUESTIONS = [{
         ]
     },
     {
-        'question': "Which personality trait applies to you most?",
+        'question': "10. Which personality trait applies to you most?",
         "optionOne": "Aggressive",
         "optionTwo": "Greedy",
         "optionThree": "Narcissistic",
@@ -129,7 +129,7 @@ let QUESTIONS = [{
             ["Aggressive", 3],
             ["Greedy", 1],
             ["Narcissistic", 2],
-            ["TJealous", 4],
+            ["Jealous", 4],
         ]
     }
 ];
@@ -176,8 +176,8 @@ function startQuiz() {
 
 
 function showNextQuestion() {
-    displayQuestion();
     currentQuestionIndex++;
+    displayQuestion();
 }
 
 /* PROGRESS BAR 
@@ -212,14 +212,6 @@ function calculateScore(event) {
     let answerScore = '';
     let answerText = '';
 
-    /* for (let i = 0; i < answers.length; i++) {
-        if (event.target.id.endsWith(`One${i + 1}`)) {
-          answerText = answers[i][0];
-          answerScore = answers[i][1];
-          break;
-        }
-      } help from website */
-
     if (event.target.id.endsWith('One')) {
         answerText = answers[0][0];
         answerScore = answers[0][1];
@@ -232,7 +224,7 @@ function calculateScore(event) {
     } else if (event.target.id.endsWith('Four')) {
         answerText = answers[3][0];
         answerScore = answers[3][1];
-    }
+    } 
 
     console.log(answerScore);
     console.log(answerText);
@@ -242,14 +234,37 @@ function calculateScore(event) {
     showNextQuestion();
     console.log(score);
 
-    updateProgress();
+ 
+
 }
 
 /* Results area */
 
-function displayQuizResult() {
-    document.getElementById("result-area").classList.remove("hide");
-    document.getElementById("final-result").innerText = "";
+function displayResults() {
+    document.getElementById('quiz-area').classList.add("hide");
+    document.getElementById("final-result").innerText = "Your Supervillain Match is...";
+    document.getElementsByClassName("resultOne").classList.remove("hide"); 
+    displayResults();
+}
+    
+   /* if (score > 30) {
+    
+        alert('You got the Joker!');
+        document.getElementsByClassName("resultOne").classList.remove("hide");
+    document.getElementsByClassName("resultTwo").classList.add("hide");
+    document.getElementsByClassName("resultThree").classList.add("hide");
+    document.getElementsByClassName("resultFour").classList.add("hide");
+    } else {
+        alert('You got noone');
+    }
+
+    displayQuizResult();   
+
+}
+
+/*
+    let totalScore = QUESTIONS + answerScore;
+    console.log(totalScore);
 
     if (score <= 19) {
         document.getElementById("final-result").innerText = "Scar";
@@ -264,4 +279,4 @@ function displayQuizResult() {
         document.getElementById("final-result").innerText = "Joker";
         document.getElementsByClassName("resultFour");
     }
-}
+} */

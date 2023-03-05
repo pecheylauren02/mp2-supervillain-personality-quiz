@@ -239,7 +239,7 @@ function calculateScore(event) {
     if (questionsAnswered === 9) {
         displayResults();
     } else {
-        alert("Quiz not finished yet keep going");
+        console.log("Quiz not finished yet keep going");
     }
 
 }
@@ -249,6 +249,7 @@ function calculateScore(event) {
 function displayResults() {
     document.getElementById('quiz-area').classList.add('hide');
     document.getElementById('result-area').classList.remove('hide');
+    document.getElementById('footer-area').classList.remove('hide');
 
     if (score >= 10 && score <= 14) {
         document.getElementById("resultOneDiv").classList.remove("hide");

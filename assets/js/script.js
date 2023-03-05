@@ -159,6 +159,8 @@ function startQuiz() {
     // Alert if no username is entered
     if (username.value === "") {
         alert(`Please enter your name first to take the quiz!`);
+        document.getElementById('footer-area').classList.remove('hide');
+        document.getElementById('result-area').classList.add('hide');
     } else {
         // Hide the instructions area
         document.getElementById('instructions-area').classList.add('hide');

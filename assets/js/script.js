@@ -1,6 +1,7 @@
 let score = 0;
+let questionsAnswered = 0;
 
-let QUESTIONS = [{
+let questions = [{
         'question': "1. Which superpower appeals to you the most?",
         "optionOne": "The ability to fly",
         "optionTwo": "Being invisible",
@@ -135,12 +136,12 @@ let QUESTIONS = [{
 ];
 
 let currentQuestionIndex = 0;
-let selectedAnswers = [];
+//let selectedAnswers = [];
 
-const questionElement = document.getElementById("question");
+//const questionElement = document.getElementById("question");
 
-function displayQuestion(q) {
-    let question = QUESTIONS[currentQuestionIndex];
+function displayQuestion() {
+    let question = questions[currentQuestionIndex];
     document.getElementById("question").innerText = question.question;
     document.getElementById("optionOne").innerText = question.optionOne;
     document.getElementById("optionTwo").innerText = question.optionTwo;
@@ -151,10 +152,8 @@ function displayQuestion(q) {
 displayQuestion();
 
 function startQuiz() {
-    event.preventDefault();
 
     // Captures name of user
-
     let username = document.getElementById("name-submit");
 
     // Alert if no username is entered
@@ -173,7 +172,6 @@ function startQuiz() {
     console.log("PLAYING QUIZ");
 
 }
-
 
 function showNextQuestion() {
     currentQuestionIndex++;
@@ -207,7 +205,7 @@ function calculateScore(event) {
     event.preventDefault();
 
     let value = event.target.innerText;
-    let answers = QUESTIONS[currentQuestionIndex]['answers'];
+    let answers = questions[currentQuestionIndex]['answers'];
 
     let answerScore = '';
     let answerText = '';
@@ -224,7 +222,9 @@ function calculateScore(event) {
     } else if (event.target.id.endsWith('Four')) {
         answerText = answers[3][0];
         answerScore = answers[3][1];
-    } 
+    } else {
+        console.log('Scores not calculated');
+    }
 
     console.log(answerScore);
     console.log(answerText);
@@ -234,17 +234,39 @@ function calculateScore(event) {
     showNextQuestion();
     console.log(score);
 
- 
+    questionsAnswered++;
+
+    if (questionsAnswered === questions.length) {
+        alert('You are done with the quiz');
+        displayResults();
+    } else {
+        currentQuestionIndex++;
+        displayQuestion();
+    }
 
 }
 
 /* Results area */
 
 function displayResults() {
-    document.getElementById('quiz-area').classList.add("hide");
-    document.getElementById("final-result").innerText = "Your Supervillain Match is...";
-    document.getElementsByClassName("resultOne").classList.remove("hide"); 
-    displayResults();
+    
+    if (score === 10) {
+        document.getElementById("resultOneDiv").classList.remove("hide");
+    } else if (score === 20) {
+        document.getElementById("resultTwoDiv").classList.remove("hide");
+    } else if (score >= 20 && score <= 24) {
+        document.getElementById("resultTwoDiv").classList.remove("hide");
+    } else if (score >= 25 && score <= 29) {
+        document.getElementById("resultTwoDiv").classList.remove("hide");
+    } else if (score >= 30 && score <= 34) {
+        document.getElementById("resultTwoDiv").classList.remove("hide");
+    } else if (score >= 35 && score <= 39) {
+        document.getElementById("resultTwoDiv").classList.remove("hide");
+    } else if (score >= 40 && score <= 44) {
+        document.getElementById("resultTwoDiv").classList.remove("hide");
+    } else {
+        console.log("REDO QUIZ")
+    } 
 }
     
    /* if (score > 30) {

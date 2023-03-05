@@ -43,8 +43,10 @@ main {
 }
 
 .big-heading {
+    font-size: 200%;
+    line-height: 120%;
     padding: 20px;
-    font-weight: bold;
+    font-weight: 1000px;
     margin: 0 auto;
 }
 
@@ -186,10 +188,15 @@ main {
     border-top: 2px solid #FFD700;
     border-radius: 12px;
     max-width: 600px;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     padding: 5px;
 }
 
+/* Commented out code for now
 .quiz-results {
     margin-top: 30px;
 }
@@ -197,7 +204,7 @@ main {
 .final-result {
     font-size: 24px;
     font-weight: bold;
-}
+}*/
 
 .circle-container {
     height: 280px;
@@ -213,6 +220,19 @@ main {
     width: 280px;
     height: 280px;
     margin: 0 auto;
+}
+
+.medium-heading {
+    font-size: 150%;
+    line-height: 120%;
+    padding: 20px 20px 0 20px;
+    font-weight: 1000px;
+    margin: 0 auto;
+}
+
+.result-feedback {
+    line-height: 150%;
+    padding: 20px;
 }
 
 .resultOne {

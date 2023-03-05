@@ -45,6 +45,7 @@ main {
 .big-heading {
     padding: 20px;
     font-weight: bold;
+    margin: 0 auto;
 }
 
 /* Circular container */
@@ -223,11 +224,11 @@ main {
 }
 
 .resultThree {
-    background: url('../images/joker_resultThree.png');
+    background: url('../images/joker_result_three.png');
 }
 
 .resultFour {
-    background: url('../images/green_goblin_resultFour.png');
+    background: url('../images/green_goblin_result_four.png');
 }
 
 .resultFive {

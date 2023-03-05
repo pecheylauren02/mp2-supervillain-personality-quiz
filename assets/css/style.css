@@ -223,16 +223,17 @@ main {
 }
 
 .medium-heading {
-    font-size: 150%;
+    font-size: 180%;
     line-height: 120%;
     padding: 20px 20px 0 20px;
-    font-weight: 1000px;
+    font-weight: bold;
     margin: 0 auto;
 }
 
 .result-feedback {
     line-height: 150%;
     padding: 20px;
+    font-size: 110%;
 }
 
 .resultOne {
@@ -252,19 +253,19 @@ main {
 }
 
 .resultFive {
-    background: url('../images/thanos_resultFive.png');
+    background: url('../images/thanos_result_five.png');
 }
 
 .resultSix {
-    background: url('../images/vecna_resultSix.png');
+    background: url('../images/vecna_result_six.png');
 }
 
 .resultSeven {
-    background: url('../images/maleficent_resultSeven.png');
+    background: url('../images/maleficent_result_seven.png');
 }
 
 .resultEight {
-    background: url('../images/cruella_resultEight.png');
+    background: url('../images/magneto_result_eight.png');
 }
 
 /* Set the styles for the quiz feedback */

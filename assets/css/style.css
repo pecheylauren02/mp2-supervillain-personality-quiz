@@ -199,8 +199,8 @@ main {
 }
 
 .circle-container {
-    height: 250px;
-    width: 250px;
+    height: 280px;
+    width: 280px;
     border: 2px solid #FFD700;
     border-radius: 50%;
     margin: 0 auto;
@@ -208,8 +208,8 @@ main {
 
 .super-vil-img {
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     margin: 0 auto;
 }
 
@@ -218,15 +218,31 @@ main {
 }
 
 .resultTwo {
-    background: url('../images/joker_res.png');
+    background: url('../images/magneto_resultTwo.png');
 }
 
 .resultThree {
-    background: url('../images/thanos_res.png');
+    background: url('../images/joker_resultThree.png');
 }
 
 .resultFour {
-    background: url('../images/maleficent_res.png');
+    background: url('../images/green_goblin_resultFour.png');
+}
+
+.resultFive {
+    background: url('../images/thanos_resultFive.png');
+}
+
+.resultSix {
+    background: url('../images/vecna_resultSix.png');
+}
+
+.resultSeven {
+    background: url('../images/maleficent_resultSeven.png');
+}
+
+.resultEight {
+    background: url('../images/cruella_resultEight.png');
 }
 
 /* Set the styles for the quiz feedback */

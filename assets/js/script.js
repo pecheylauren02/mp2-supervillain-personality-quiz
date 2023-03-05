@@ -158,7 +158,7 @@ function startQuiz() {
 
     // Alert if no username is entered
     if (username.value === "") {
-        alert(`Please enter your name first to take the quiz!`)
+        alert(`Please enter your name first to take the quiz!`);
     } else {
         // Hide the instructions area
         document.getElementById('instructions-area').classList.add('hide');
@@ -236,12 +236,10 @@ function calculateScore(event) {
 
     questionsAnswered++;
 
-    if (questionsAnswered === questions.length) {
-        alert('You are done with the quiz');
+    if (questionsAnswered === 9) {
         displayResults();
     } else {
-        currentQuestionIndex++;
-        displayQuestion();
+        console.log("Quiz not finished yet keep going");
     }
 
 }
@@ -249,24 +247,35 @@ function calculateScore(event) {
 /* Results area */
 
 function displayResults() {
-    
-    if (score === 10) {
+    document.getElementById('quiz-area').classList.add('hide');
+    document.getElementById('result-area').classList.remove('hide');
+
+    if (score >= 10 && score <= 14) {
         document.getElementById("resultOneDiv").classList.remove("hide");
-    } else if (score === 20) {
+        console.log("resultOne")
+    } else if (score >= 15 && score <= 19) {
         document.getElementById("resultTwoDiv").classList.remove("hide");
+        console.log("resultTwo")
     } else if (score >= 20 && score <= 24) {
-        document.getElementById("resultTwoDiv").classList.remove("hide");
+        document.getElementById("resultThreeDiv").classList.remove("hide");
+        console.log("resultThree")
     } else if (score >= 25 && score <= 29) {
-        document.getElementById("resultTwoDiv").classList.remove("hide");
+        document.getElementById("resultFourDiv").classList.remove("hide");
+        console.log("resultFour")
     } else if (score >= 30 && score <= 34) {
-        document.getElementById("resultTwoDiv").classList.remove("hide");
+        document.getElementById("resultFiveDiv").classList.remove("hide");
+        console.log("resultFive")
     } else if (score >= 35 && score <= 39) {
-        document.getElementById("resultTwoDiv").classList.remove("hide");
+        document.getElementById("resultSixDiv").classList.remove("hide");
+        console.log("resultSix")
     } else if (score >= 40 && score <= 44) {
-        document.getElementById("resultTwoDiv").classList.remove("hide");
+        document.getElementById("resultSevenDiv").classList.remove("hide");
+        console.log("resultSeven")
     } else {
-        console.log("REDO QUIZ")
+        document.getElementById("resultEightDiv").classList.remove("hide");
+        console.log("resultEight")
     } 
+    
 }
     
    /* if (score > 30) {

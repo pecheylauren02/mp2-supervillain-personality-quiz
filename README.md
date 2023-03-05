@@ -863,3 +863,14 @@ _Label_
 - https://www.seekpng.com/ipng/u2w7q8e6y3a9q8t4_green-goblin-ios-avengers-alliance-green-goblin/ Green Goblin
 - https://www.seekpng.com/idown/u2w7w7q8t4q8r5r5_disneys-hades-as-kilgrave-marvel-hades/ Hades from Hercules
 - https://www.seekpng.com/idown/u2q8y3a9r5e6a9e6_maleficent-disney-villains/ Maleficent
+
+NEW RESULTS:
+
+- https://www.wallpaperbetter.com/en/hd-wallpaper-weflb/download/1920x1080 Voldemort
+- https://learn.codeinstitute.net/dashboard Magneto
+- https://www.wallpaperbetter.com/en/hd-wallpaper-shryv/download/1366x768 Joker
+- https://www.wallpaperbetter.com/en/hd-wallpaper-peptw/download/1366x768 The green goblin
+- https://www.wallpaperbetter.com/en/hd-wallpaper-sormx thanos
+- https://www.nawpic.com/vecna-10/ Vecna
+- https://www.wallpaperbetter.com/en/hd-wallpaper-swlee/download/1366x768 Maleficent
+- https://www.wallpaperbetter.com/en/hd-wallpaper-wfnbu/download/1366x768 Cruella

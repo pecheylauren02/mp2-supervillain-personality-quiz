@@ -95,7 +95,7 @@ let questions = [{
         ]
     },
     {
-        'question': "8. What weapons would you use against your enemies?",
+        'question': "8. Which weapons would you use against your enemies?",
         "optionOne": "Magic potions and spells",
         "optionTwo": "My own brute force and strength",
         "optionThree": "Disguises, deception and manipulation",
@@ -159,8 +159,6 @@ function startQuiz() {
     // Alert if no username is entered
     if (username.value === "") {
         alert(`Please enter your name first to take the quiz!`);
-        document.getElementById('footer-area').classList.remove('hide');
-        document.getElementById('result-area').classList.add('hide');
     } else {
         // Hide the instructions area
         document.getElementById('instructions-area').classList.add('hide');
@@ -241,7 +239,7 @@ function calculateScore(event) {
     if (questionsAnswered === 9) {
         displayResults();
     } else {
-        console.log("Quiz not finished yet keep going");
+        alert("Quiz not finished yet keep going");
     }
 
 }

@@ -54,7 +54,7 @@ main {
 }
 
 .left-semi-circ {
-    background: url('../images/joker_home.png') no-repeat center center;
+    background: url('../') no-repeat center center;
     border-radius: 0 12rem 12rem 0;
     float: left;
     border-right: 2px solid #FFD700;
@@ -204,6 +204,7 @@ main {
     border: 2px solid #FFD700;
     border-radius: 50%;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .super-vil-img {
@@ -218,7 +219,7 @@ main {
 }
 
 .resultTwo {
-    background: url('../images/cruella_resultEight.png');
+    background: url('../images/cruella_result_two.png');
 }
 
 .resultThree {

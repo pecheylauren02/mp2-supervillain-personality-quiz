@@ -5,7 +5,6 @@ let progressText = document.getElementById("progress-text");
 let currentQuestion = document.getElementById("current-question");
 let totalQuestions = document.getElementById("total-questions");
 let retakeButton = document.getElementById("retake-button");
-//retakeButton.addEventListener("click", retakeQuiz);
 
 let questions = [{
         'question': "Which superpower appeals to you the most?",
@@ -180,8 +179,6 @@ function startQuiz() {
         // Hide the footer area
         document.getElementById('footer-area').classList.add('hide');
     }
-
-
     console.log("PLAYING QUIZ");
 
 }
@@ -279,8 +276,18 @@ function displayResults() {
         console.log("resultEight")
     }
 
+}
+
+function restartQuiz() {
+
+    document.getElementById('quiz-area').classList.remove('hide');
+    document.getElementById('result-area').classList.add('hide');
+    document.getElementById('footer-area').classList.add('hide');
 
 }
+
+retakeButton.addEventListener("click", retakeQuiz);
+restartQuiz()
 
 
   

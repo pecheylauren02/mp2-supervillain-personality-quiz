@@ -538,12 +538,12 @@ footer {
     
     .left-semi-circ {
         border-radius: 50%;
-        border:2px solid #FFD700;
+        border: 2px solid #FFD700;
     }
     
     .right-semi-circ {
         border-radius: 50%;
-        border:2px solid #FFD700;
+        border: 2px solid #FFD700;
     }
 
     .instructions-text {
@@ -604,6 +604,15 @@ footer {
 /* For Extra Large Devices (Large desktops, 1200px and above */
 
 @media screen and (min-width: 1200px) {
+    
+    .left-semi-circ, .right-semi-circ {
+        border-radius: 50%;
+    }
+    
+    .circle-container {
+        padding: 30px;
+    }
+
     .quiz-container {
         padding: 40px;
         width: 800px;

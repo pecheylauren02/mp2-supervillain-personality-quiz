@@ -614,18 +614,18 @@ footer {
     .question-container {
         padding: 20px;
     }
-    
+
     #question {
-        font-size: 40px;
-        padding: 60px;
+        font-size: 230%;
+        padding: 80px;
     }
 
-    .option {
-        padding: 10px;
+    .options {
+        margin-top: 20px;
     }
     
-    .quiz-answer-btn {
-        font-size: 35px;
+    .option {
+        margin-bottom: 20px;
     }
 
 }

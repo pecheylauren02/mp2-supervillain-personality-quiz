@@ -501,6 +501,27 @@ footer {
         padding-bottom: 30px;
     }
 
+    #result-area {
+        padding-bottom: 40px;
+    }
+    
+    .medium-heading {
+        font-size: 250%;
+        line-height: 150%;
+        padding: 30px 30px 0 30px;
+    }
+    
+    .result-feedback {
+        line-height: 150%;
+        padding: 40px;
+        font-size: 150%;
+    }
+
+    #retake-button {
+        width: 40%;
+        margin: 0 auto;
+    }
+
 }
 
 /* For Large Devices (Desktops, 992px and above) */

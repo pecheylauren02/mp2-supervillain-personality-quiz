@@ -4,6 +4,8 @@ let progressBar = document.getElementById("progress-bar");
 let progressText = document.getElementById("progress-text");
 let currentQuestion = document.getElementById("current-question");
 let totalQuestions = document.getElementById("total-questions");
+let retakeButton = document.getElementById("retake-button");
+retakeButton.addEventListener("click", retakeQuiz);
 
 let questions = [{
         'question': "Which superpower appeals to you the most?",
@@ -146,7 +148,7 @@ let currentQuestionIndex = 0;
 function updateProgress() {
     progressBar.style.width = (questionsAnswered / questions.length * 100) + "%";
     progressText.innerHTML = `Question ${questionsAnswered} of ${questions.length}`;
-  }
+}
 
 function displayQuestion() {
     let question = questions[currentQuestionIndex];
@@ -189,7 +191,9 @@ function showNextQuestion() {
     displayQuestion();
     updateProgress();
 }
-  
+
+// Event Listeners for when user clicks the buttons
+
 document.getElementById("optionOne").addEventListener('click', calculateScore);
 document.getElementById("optionTwo").addEventListener('click', calculateScore);
 document.getElementById("optionThree").addEventListener('click', calculateScore);
@@ -272,40 +276,14 @@ function displayResults() {
     } else {
         document.getElementById("resultEightDiv").classList.remove("hide");
         console.log("resultEight")
-    } 
-    
-}
-    
-   /* if (score > 30) {
-    
-        alert('You got the Joker!');
-        document.getElementsByClassName("resultOne").classList.remove("hide");
-    document.getElementsByClassName("resultTwo").classList.add("hide");
-    document.getElementsByClassName("resultThree").classList.add("hide");
-    document.getElementsByClassName("resultFour").classList.add("hide");
-    } else {
-        alert('You got noone');
     }
-
-    displayQuizResult();   
 
 }
 
-/*
-    let totalScore = QUESTIONS + answerScore;
-    console.log(totalScore);
-
-    if (score <= 19) {
-        document.getElementById("final-result").innerText = "Scar";
-        document.getElementsByClassName("resultOne");
-    } else if (score <= 29) {
-        document.getElementById("final-result").innerText = "Green Goblin";
-        document.getElementsByClassName("resultTwo");
-    } else if (score <= 39) {
-        document.getElementById("final-result").innerText = "It";
-        document.getElementsByClassName("resultThree");
-    } else if (score <= 49) {
-        document.getElementById("final-result").innerText = "Joker";
-        document.getElementsByClassName("resultFour");
-    }
-} */
+function retakeQuiz() {
+    score = 0;
+    questionsAnswered = 1;
+    currentQuestionIndex = 0;
+    displayQuestion();
+    //startQuiz();
+}

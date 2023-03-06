@@ -445,7 +445,6 @@ footer {
         margin-bottom: 40px;
     }
     
-
     .quiz-answer-btn {
         font-size: 200%;
     }
@@ -553,6 +552,10 @@ footer {
 
     .big-heading {
         font-size: 320%;
+    }
+
+    .quiz-answer-btn {
+        font-size: 160%;
     }
 
     .circle-container {

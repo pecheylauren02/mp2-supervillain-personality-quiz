@@ -69,15 +69,15 @@ This is the documentation for a fun Supervillain Quiz! It has been built using H
 
 ## Project Development and Planning 
 
-This website was planned and developed using principles of User Experience (UX) design, which include the five planes of Strategy, Scope, Structure, Skeleton and Surface. Using these principles, the aim was to create a fun, easy-to-use, responsive and engaging quiz website to entertain users who are interested in learning more about their personalities. 
+This website was planned and developed using principles of User Experience (UX) design, which include the five planes of Strategy, Scope, Structure, Skeleton and Surface. Using these principles, the aim was to create a fun, easy to use, responsive and engaging quiz website to entertain users who are interested in learning more about their personalities. 
 
 ### Project Goals 
 
 #### Project Purpose
 
-- The Supervillain Quiz website is an interactive quiz designed to entertain users of all ages and backgrounds who want to learn more about the different sides of their personality, particularly those interested in superheroes and supervillains. 
+- The Supervillain Quiz website is an interactive quiz designed to entertain users of all ages and backgrounds who want to learn more about the different sides of their personalities, particularly those interested in superheroes and supervillains. 
 - It provides the user with thought-provoking questions and scenarios relating to the dark side of their personalities, which will eventually lead them to identify with a famous supervillain. 
-- The website was designed to be easy-to-navigate and eye-catching, to provide the users with an interactive, exciting quiz to teach them more about themselves and what they would do in certain situations. 
+- The website was designed to be easy to navigate and eye-catching, to provide the users with an interactive, exciting quiz to teach them more about themselves and what they would do in certain situations. 
 - Users will be able to respond to 10 questions, each with 5 answer options, and will only be able to select the one that is most suited to their personality. 
 - Users can also sign up with their name, email/username and password, and later login with the same details should they choose to revisit the website. 
 
@@ -88,7 +88,7 @@ This website was planned and developed using principles of User Experience (UX) 
 
 #### User Goals 
 - To have a professional, bold and inviting appearance, to encourage users to take part in the quiz. 
-- To give users the opportunity to Sign Up easily and safely using a simple, secure sign up form. 
+- To allow users the opportunity to Sign Up easily and safely using a simple, secure sign up form. 
 - To ensure that users can Log In easily using the same email/username and password if they revisit the website to retake the quiz. 
 - To ensure that users can answer each question in the quiz smoothly, and retake it as many times as they wish. 
 - To change the order of the questions and generate new questions, so that if the user retakes the quiz, they will feel like they are taking a new quiz and may even get different results.
@@ -108,7 +108,7 @@ Before designing the website, I reviewed other personality quiz websites (see be
 - The Website should be clean, simple and easy to navigate
 - The Quiz should not have too many questions (a maximum of 10 questions appears to be the ideal number to maintain the users' attention)
 - Clear, enticing images of famous Supervillains are key features to draw in the users to take part in the quiz
-- Navigation, sign up and login elements should be simple and quick to use 
+- Navigation, sign up and log in elements should be simple and quick to use 
 
 ## User Stories
 - User Story 1: As someone interested in taking the SuperVillain personality quiz I want to:
@@ -117,7 +117,7 @@ Before designing the website, I reviewed other personality quiz websites (see be
      - have the option of retaking the quiz if I don't like the result
      - learn more about why I was matched with a specific SuperVillain at the end of the quiz
      - sign up quickly and easily
-     - log in using the same login details quickly and easily
+     - log in using the same log in details quickly and easily
      - navigate easily between pages
 
 - User Story 2: As a : 

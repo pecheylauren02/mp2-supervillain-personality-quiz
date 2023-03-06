@@ -201,8 +201,8 @@ main {
 }
 
 .circle-container {
-    height: 280px;
-    width: 280px;
+    height: 250px;
+    width: 250px;
     border: 2px solid #FFD700;
     border-radius: 50%;
     margin: 0 auto;
@@ -211,8 +211,8 @@ main {
 
 .super-vil-img {
     border-radius: 50%;
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto;
 }
 
@@ -424,16 +424,30 @@ footer {
         font-size: 150%;
     }
 
+    .quiz-container {
+        height: 850px;
+    }
+
+    .question-container {
+        padding: 15px;
+    }
+
     #question {
         font-size: 250%;
+        padding: 80px;
     }
 
-    .option {
-        font-size: 200%;
+    .options {
+        margin-top: 45px;
     }
+    
+    .option {
+        margin-bottom: 40px;
+    }
+    
 
     .quiz-answer-btn {
-        font-size: 80%;
+        font-size: 200%;
     }
 
     .circle-container {
@@ -480,6 +494,11 @@ footer {
     #go-home-btn {
         font-weight: bold;
         padding: 3%;
+    }
+
+    #progress-text {
+        font-size: 250%;
+        padding-bottom: 30px;
     }
 
 }
@@ -536,7 +555,6 @@ footer {
     .footer-copyright p {
         font-size: 120%;
     }
-
 
     #error-div {
         font-size: 160%;

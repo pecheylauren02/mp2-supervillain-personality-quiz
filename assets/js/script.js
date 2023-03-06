@@ -6,7 +6,7 @@ let currentQuestion = document.getElementById("current-question");
 let totalQuestions = document.getElementById("total-questions");
 
 let questions = [{
-        'question': "1. Which superpower appeals to you the most?",
+        'question': "Which superpower appeals to you the most?",
         "optionOne": "The ability to fly",
         "optionTwo": "Being invisible",
         "optionThree": "Controlling the weather",
@@ -19,7 +19,7 @@ let questions = [{
         ]
     },
     {
-        'question': "2. What made you become a villain?",
+        'question': "What made you become a villain?",
         "optionOne": "I want justice",
         "optionTwo": "My parents were killed",
         "optionThree": "I was bullied at school",
@@ -33,7 +33,7 @@ let questions = [{
 
     },
     {
-        'question': "3. What is your deepest desire as a villain?",
+        'question': "What is your deepest desire as a villain?",
         "optionOne": "To destroy anything that comes in my way",
         "optionTwo": "To start a revolution against society",
         "optionThree": "To get revenge on my nemesis",
@@ -47,7 +47,7 @@ let questions = [{
 
     },
     {
-        'question': "4. Which animal would you choose as your sidekick?",
+        'question': "Which animal would you choose as your sidekick?",
         "optionOne": "A python",
         "optionTwo": "A rottweiler",
         "optionThree": "A raven",
@@ -60,7 +60,7 @@ let questions = [{
         ]
     },
     {
-        'question': "5. What is your biggest weakness?",
+        'question': "What is your biggest weakness?",
         "optionOne": "My fear of being left alone",
         "optionTwo": "My traumatic childhood",
         "optionThree": "The love of my life",
@@ -73,7 +73,7 @@ let questions = [{
         ]
     },
     {
-        'question': "6. Where is your secret hideout?",
+        'question': "Where is your secret hideout?",
         "optionOne": "Inside a cave",
         "optionTwo": "In an abandoned house",
         "optionThree": "In a luxurious mansion",
@@ -86,7 +86,7 @@ let questions = [{
         ]
     },
     {
-        'question': "7. Your best friend betrays you. How do you deal with them?",
+        'question': "Your best friend betrays you. How do you deal with them?",
         "optionOne": "Wallow in your own self-pity",
         "optionTwo": "Destroy their reputation",
         "optionThree": "Act normal but secretly plot your revenge",
@@ -99,7 +99,7 @@ let questions = [{
         ]
     },
     {
-        'question': "8. Which weapons would you use against your enemies?",
+        'question': "Which weapons would you use against your enemies?",
         "optionOne": "Magic potions and spells",
         "optionTwo": "My own brute force and strength",
         "optionThree": "Disguises, deception and manipulation",
@@ -112,7 +112,7 @@ let questions = [{
         ]
     },
     {
-        'question': "9. How would you work as a villain?",
+        'question': "How would you work as a villain?",
         "optionOne": "Completely alone",
         "optionTwo": "With my sidekick, spirit animal",
         "optionThree": "With a team of minions",
@@ -125,7 +125,7 @@ let questions = [{
         ]
     },
     {
-        'question': "10. Which personality trait applies to you most?",
+        'question': "Which personality trait applies to you most?",
         "optionOne": "Aggressive",
         "optionTwo": "Greedy",
         "optionThree": "Narcissistic",

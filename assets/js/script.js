@@ -1,5 +1,9 @@
 let score = 0;
 let questionsAnswered = 0;
+let progressBar = document.getElementById("progress-bar");
+let progressText = document.getElementById("progress-text");
+let currentQuestion = document.getElementById("current-question");
+let totalQuestions = document.getElementById("total-questions");
 
 let questions = [{
         'question': "1. Which superpower appeals to you the most?",
@@ -139,6 +143,10 @@ let currentQuestionIndex = 0;
 //let selectedAnswers = [];
 
 //const questionElement = document.getElementById("question");
+function updateProgress() {
+    progressBar.style.width = (questionsAnswered / questions.length * 100) + "%";
+    progressText.innerHTML = `Question ${questionsAnswered} of ${questions.length}`;
+  }
 
 function displayQuestion() {
     let question = questions[currentQuestionIndex];
@@ -147,6 +155,7 @@ function displayQuestion() {
     document.getElementById("optionTwo").innerText = question.optionTwo;
     document.getElementById("optionThree").innerText = question.optionThree;
     document.getElementById("optionFour").innerText = question.optionFour;
+    updateProgress();
 }
 
 displayQuestion();
@@ -169,6 +178,8 @@ function startQuiz() {
         // Hide the footer area
         document.getElementById('footer-area').classList.add('hide');
     }
+
+
     console.log("PLAYING QUIZ");
 
 }
@@ -176,24 +187,9 @@ function startQuiz() {
 function showNextQuestion() {
     currentQuestionIndex++;
     displayQuestion();
+    updateProgress();
 }
-
-/* PROGRESS BAR 
-
-function updateProgress() {
-    const progressBar = document.getElementById('progress-bar');
-    const currentQuestion = QUESTIONS.getCurrentQuestionIndex() + 1;
-    const totalQuestions = QUESTIONS.getQuestions().length;
-    const progressPercent = (currentQuestion / totalQuestions) * 100;
   
-    progressBar.value = progressPercent;
-    document.getElementById('current-question').innerHTML = currentQuestion;
-    document.getElementById('total-questions').innerHTML = totalQuestions;
-    console.log(currentQuestion);
-    console.log(totalQuestions);
-  } */
-  
-
 document.getElementById("optionOne").addEventListener('click', calculateScore);
 document.getElementById("optionTwo").addEventListener('click', calculateScore);
 document.getElementById("optionThree").addEventListener('click', calculateScore);
@@ -240,6 +236,7 @@ function calculateScore(event) {
         displayResults();
     } else {
         console.log("Quiz not finished yet keep going");
+        updateProgress();
     }
 
 }

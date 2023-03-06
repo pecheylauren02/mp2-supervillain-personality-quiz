@@ -5,7 +5,7 @@ let progressText = document.getElementById("progress-text");
 let currentQuestion = document.getElementById("current-question");
 let totalQuestions = document.getElementById("total-questions");
 let retakeButton = document.getElementById("retake-button");
-retakeButton.addEventListener("click", retakeQuiz);
+//retakeButton.addEventListener("click", retakeQuiz);
 
 let questions = [{
         'question': "Which superpower appeals to you the most?",
@@ -17,7 +17,7 @@ let questions = [{
             ["The ability to fly", 4],
             ["Being invisible", 2],
             ["Controlling the weather", 1],
-            ["Super strength", 3],
+            ["Super strength", 3]
         ]
     },
     {
@@ -30,7 +30,7 @@ let questions = [{
             ["I want justice", 1],
             ["My parents were killed", 3],
             ["I was bullied at school", 4],
-            ["Loneliness", 2],
+            ["Loneliness", 2]
         ]
 
     },
@@ -44,7 +44,7 @@ let questions = [{
             ["To destroy anything that comes in my way", 3],
             ["To start a revolution against society", 2],
             ["To get revenge on my nemesis", 4],
-            ["To take over the world", 1],
+            ["To take over the world", 1]
         ]
 
     },
@@ -58,7 +58,7 @@ let questions = [{
             ["A python", 1],
             ["A rottweiler", 3],
             ["A raven", 2],
-            ["A giant tarantula", 4],
+            ["A giant tarantula", 4]
         ]
     },
     {
@@ -71,7 +71,7 @@ let questions = [{
             ["My fear of being left alone", 2],
             ["My traumatic childhood", 4],
             ["The love of my life", 3],
-            ["I will never reveal my weakness", 1],
+            ["I will never reveal my weakness", 1]
         ]
     },
     {
@@ -84,7 +84,7 @@ let questions = [{
             ["Inside a cave", 2],
             ["In an abandoned house", 4],
             ["In a luxurious mansion", 1],
-            ["Deep in the ocean", 3],
+            ["Deep in the ocean", 3]
         ]
     },
     {
@@ -97,7 +97,7 @@ let questions = [{
             ["Wallow in your own self-pity", 2],
             ["Destroy their reputation", 3],
             ["Act normal but secretly plot your revenge", 4],
-            ["Go solo, you don't need anyone else", 1],
+            ["Go solo, you don't need anyone else", 1]
         ]
     },
     {
@@ -110,7 +110,7 @@ let questions = [{
             ["Magic potions and spells", 1],
             ["My own brute force and strength", 3],
             ["Disguises, deception and manipulation", 2],
-            ["A sword", 4],
+            ["A sword", 4]
         ]
     },
     {
@@ -123,7 +123,7 @@ let questions = [{
             ["Completely alone", 2],
             ["With my sidekick, spirit animal", 3],
             ["With a team of minions", 1],
-            ["Under the instructions of another villain", 4],
+            ["Under the instructions of another villain", 4]
         ]
     },
     {
@@ -136,7 +136,7 @@ let questions = [{
             ["Aggressive", 3],
             ["Greedy", 1],
             ["Narcissistic", 2],
-            ["Jealous", 4],
+            ["Jealous", 4]
         ]
     }
 ];
@@ -238,6 +238,7 @@ function calculateScore(event) {
 
     if (questionsAnswered === 10) {
         displayResults();
+        //restartQuiz();
     } else {
         console.log("Quiz not finished yet keep going");
         updateProgress();
@@ -278,12 +279,8 @@ function displayResults() {
         console.log("resultEight")
     }
 
+
 }
 
-function retakeQuiz() {
-    score = 0;
-    questionsAnswered = 1;
-    currentQuestionIndex = 0;
-    displayQuestion();
-    //startQuiz();
-}
+
+  

@@ -47,10 +47,30 @@ main {
 .big-heading {
     font-size: 200%;
     line-height: 120%;
-    padding: 20px;
+    padding: 20px 0;
     font-weight: 1000px;
     margin: 0 auto;
 }
+
+.hover {
+    border-bottom: 4px solid;
+    border-radius: 12px;
+    border-image: repeating-linear-gradient(135deg, #FFD700 0 10px, #880808 0 20px) 8;
+    -webkit-mask:
+        conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
+        conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat,
+        linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.hover:hover {
+    --_i: 100%;
+    color: #088888;
+    transition: .3s, -webkit-mask-size .3s .3s;
+}
+
 
 .semi-circ-container {
     width: 125px;
@@ -115,7 +135,7 @@ main {
 
 .quiz-btn-main:hover {
     background-color: #088888;
-    
+
 }
 
 /* Quiz Area */
@@ -176,12 +196,12 @@ main {
     padding: 10px 20px;
     font-weight: bold;
     background-color: #088888;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
     width: 100%;
 }
 
 .quiz-answer-btn:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 /* Results area */
@@ -366,11 +386,11 @@ footer {
     margin: 10% 0;
     text-decoration: none;
     text-transform: uppercase;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
 
 #go-home-btn:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 
@@ -378,9 +398,7 @@ footer {
 
 /* For Small devices (landscape phones, 576px and above)*/
 
-@media screen and (min-width: 576px) {
-    
-}
+@media screen and (min-width: 576px) {}
 
 /* For Medium Devices (tablets, iPads, 768px and above) */
 
@@ -440,11 +458,11 @@ footer {
     .options {
         margin-top: 45px;
     }
-    
+
     .option {
         margin-bottom: 40px;
     }
-    
+
     .quiz-answer-btn {
         font-size: 200%;
     }
@@ -458,16 +476,16 @@ footer {
         width: 300px;
         height: 300px;
     }
-    
+
     .footer-content h3 {
         font-size: 180%;
         line-height: 150%;
     }
-    
+
     .footer-content p {
         font-size: 150%;
     }
-    
+
     .social-links i {
         font-size: 180%;
     }
@@ -483,13 +501,13 @@ footer {
     #error-div p {
         padding: 0 3%;
     }
-    
+
     #logo {
         height: 425px;
         width: 425px;
         padding-top: 20px;
     }
-    
+
     #go-home-btn {
         font-weight: bold;
         padding: 3%;
@@ -503,13 +521,13 @@ footer {
     #result-area {
         padding-bottom: 40px;
     }
-    
+
     .medium-heading {
         font-size: 250%;
         line-height: 150%;
         padding: 30px 30px 0 30px;
     }
-    
+
     .result-feedback {
         line-height: 150%;
         padding: 40px;
@@ -526,21 +544,21 @@ footer {
 /* For Large Devices (Desktops, 992px and above) */
 
 @media screen and (min-width: 992px) {
-    
+
     #instructions-area {
         padding: 20px;
     }
-    
+
     .semi-circ-container {
         width: 300px;
         height: 300px;
     }
-    
+
     .left-semi-circ {
         border-radius: 50%;
         border: 2px solid #FFD700;
     }
-    
+
     .right-semi-circ {
         border-radius: 50%;
         border: 2px solid #FFD700;
@@ -562,16 +580,16 @@ footer {
         height: 300px;
         width: 300px;
     }
-    
+
     .footer-content h3 {
         font-size: 180%;
         line-height: 150%;
     }
-    
+
     .footer-content p {
         font-size: 150%;
     }
-    
+
     .social-links i {
         font-size: 180%;
     }
@@ -587,28 +605,29 @@ footer {
     #error-div p {
         padding: 0 2%;
     }
-    
+
     #logo {
         height: 500px;
         width: 500px;
         padding-top: 20px;
     }
-    
+
     #go-home-btn {
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
 }
-    
+
 /* For Extra Large Devices (Large desktops, 1200px and above */
 
 @media screen and (min-width: 1200px) {
-    
-    .left-semi-circ, .right-semi-circ {
+
+    .left-semi-circ,
+    .right-semi-circ {
         border-radius: 50%;
     }
-    
+
     .circle-container {
         padding: 30px;
     }
@@ -619,7 +638,7 @@ footer {
         height: 700px;
         margin: 0 auto;
     }
-    
+
     .question-container {
         padding: 20px;
     }
@@ -632,7 +651,7 @@ footer {
     .options {
         margin-top: 20px;
     }
-    
+
     .option {
         margin-bottom: 20px;
     }

@@ -1,12 +1,12 @@
 let score = 0;
-let questionsAnswered = 1;
+//let questionsAnswered = 0;
 let progressBar = document.getElementById("progress-bar");
 let progressText = document.getElementById("progress-text");
 let currentQuestion = document.getElementById("current-question");
 let totalQuestions = document.getElementById("total-questions");
 let retakeButton = document.getElementById("retake-button");
 
-let questions = [{
+const questions = [{
         'question': "Which superpower appeals to you the most?",
         "optionOne": "The ability to fly",
         "optionTwo": "Being invisible",
@@ -145,8 +145,9 @@ let currentQuestionIndex = 0;
 
 //const questionElement = document.getElementById("question");
 function updateProgress() {
-    progressBar.style.width = (questionsAnswered / questions.length * 100) + "%";
-    progressText.innerHTML = `Question ${questionsAnswered} of ${questions.length}`;
+    progressBar.style.width = (currentQuestionIndex / questions.length * 100) + "%";
+    let questionIndex = currentQuestionIndex + 1;
+    progressText.innerHTML = `Question ${questionIndex} of ${questions.length}`;
 }
 
 function displayQuestion() {
@@ -156,10 +157,10 @@ function displayQuestion() {
     document.getElementById("optionTwo").innerText = question.optionTwo;
     document.getElementById("optionThree").innerText = question.optionThree;
     document.getElementById("optionFour").innerText = question.optionFour;
-    updateProgress();
+    //updateProgress();
 }
 
-displayQuestion();
+showNextQuestion();
 
 function startQuiz() {
 
@@ -184,7 +185,8 @@ function startQuiz() {
 }
 
 function showNextQuestion() {
-    currentQuestionIndex++;
+    //currentQuestionIndex++;
+    console.log(currentQuestionIndex);
     displayQuestion();
     updateProgress();
 }
@@ -228,17 +230,19 @@ function calculateScore(event) {
 
     score += answerScore;
 
-    showNextQuestion();
+    //showNextQuestion();
     console.log(score);
 
-    questionsAnswered++;
+    //questionsAnswered++;
+    currentQuestionIndex++;
 
-    if (questionsAnswered === 10) {
+    if (currentQuestionIndex === 10) {
         displayResults();
         //restartQuiz();
     } else {
         console.log("Quiz not finished yet keep going");
-        updateProgress();
+        showNextQuestion();
+        //updateProgress(); 
     }
 
 }

@@ -149,7 +149,7 @@ main {
 
 #progress-text {
     font-size: 150%;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .question-container {

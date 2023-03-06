@@ -279,15 +279,16 @@ function displayResults() {
 }
 
 function restartQuiz() {
-
+    score = 0;
+    questionsAnswered = 1;
+    currentQuestionIndex = 1;
     document.getElementById('quiz-area').classList.remove('hide');
     document.getElementById('result-area').classList.add('hide');
     document.getElementById('footer-area').classList.add('hide');
 
 }
 
-retakeButton.addEventListener("click", retakeQuiz);
-restartQuiz()
+retakeButton.addEventListener("click", restartQuiz);
 
 
   

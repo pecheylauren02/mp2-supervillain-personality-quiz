@@ -1,5 +1,5 @@
 let score = 0;
-let questionsAnswered = 0;
+let questionsAnswered = 1;
 let progressBar = document.getElementById("progress-bar");
 let progressText = document.getElementById("progress-text");
 let currentQuestion = document.getElementById("current-question");
@@ -232,7 +232,7 @@ function calculateScore(event) {
 
     questionsAnswered++;
 
-    if (questionsAnswered === 9) {
+    if (questionsAnswered === 10) {
         displayResults();
     } else {
         console.log("Quiz not finished yet keep going");

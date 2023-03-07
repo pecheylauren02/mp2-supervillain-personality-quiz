@@ -3,11 +3,11 @@
 <img src=""> *Add image of final design on four screens*
 
 #### By Lauren Pechey
-[Click here to view the live web application](*Add link to live site here*)
+[Click here to view the live web application](https://pecheylauren02.github.io/supervillain-quiz/)
 
 #### HELLO EVERYONE!
 
-This is the documentation for a fun Supervillain Quiz! It has been built using HTML5, CSS3 and JavaScript as an educational Project offered as part of Code Institute’s Diploma in Full Stack Software Development. Please use the table of contents below to navigate through all of the planning, features, deployment, testing and more!
+This is the documentation for a fun web application: The Ultimate Supervillain Personality Quiz! It has been built using HTML5, CSS3 and JavaScript as an educational Project offered as part of Code Institute’s Diploma in Full Stack Software Development. Please use the table of contents below to navigate through all of the planning, features, deployment, testing and more!
 
 ## Table of Contents
 
@@ -69,27 +69,45 @@ This is the documentation for a fun Supervillain Quiz! It has been built using H
 
 ## Project Development and Planning 
 
-This website was planned and developed using principles of User Experience (UX) design, which include the five planes of Strategy, Scope, Structure, Skeleton and Surface. Using these principles, the aim was to create a fun, easy to use, responsive and engaging quiz website to entertain users who are interested in learning more about their personalities. 
-
 ### Project Goals 
 
 #### Project Purpose
 
-- The Supervillain Quiz website is an interactive quiz designed to entertain users of all ages and backgrounds who want to learn more about the different sides of their personalities, particularly those interested in superheroes and supervillains. 
-- It provides the user with thought-provoking questions and scenarios relating to the dark side of their personalities, which will eventually lead them to identify with a famous supervillain. 
+
+This web-based quiz was planned and developed using principles of User Experience (UX) design, which include the five planes of Strategy, Scope, Structure, Skeleton, and Surface. Using these principles, the aim was to create a fun, easy-to-use, responsive, and engaging quiz that entertains users who are interested in learning more about their personalities. 
+
+#### Client Goals
+
+The Ultimate Supervillain Personality Quiz website was built as a milestone project for my Diploma in Fullstack Software Development with [Code Institute](https://codeinstitute.net/global/full-stack-software-development-diploma/). It is an interactive quiz designed to entertain users of all ages and backgrounds who want to learn more about the different sides of their personalities, particularly those interested in superheroes and supervillains. Despite this being built for educational reasons, it was treated as a real-world application for clients interested in both learning about their personalities in a fun, engaging way. Thus, this client's goals would be:
+
+- Engaging the users with interactive, fun questions and life choices
+- Helping users learn more about their personalities
+- Entertaining users by linking their personalities to fictional, quirky supervillain characters
+- Ensuring the questions and options are clear, and the quiz is simple to navigate
+
+REMOVE THIS OR PUT ELSEWHERE 
+- It provides the user with thought-provoking questions and scenarios, with a selection of four answer choices.
+- Users can only select one of the four options, and after completing all ten questions, will be matched with a supervillain based on their total score.  
 - The website was designed to be easy to navigate and eye-catching, to provide the users with an interactive, exciting quiz to teach them more about themselves and what they would do in certain situations. 
-- Users will be able to respond to 10 questions, each with 5 answer options, and will only be able to select the one that is most suited to their personality. 
 - Users can also sign up with their name, email/username and password, and later login with the same details should they choose to revisit the website. 
 
 #### Target Audience
 
-- The Supervillain Quiz website is designed for users of any background or age, but will most like gain more interest from audiences who are interested in Disney, Marvel or DC superheroes and supervillains.
+- This quiz is designed for users of any background or age, but will most likely gain more interest from fans of Disney, Marvel, or DC superheroes and supervillains.
+- It is also likely to draw in users who are inquisitive about their personality and how they would deal with certain scenarios in life. 
 - The simplicity of the website makes it easy for adults, teenagers and even children to take and retake the quiz as many times as they want, and access the results each time. 
 
 #### User Goals 
+
+As a user, I would like to:
+
+- Learn more about my personality and how I could handle certain life scenarios
+- Be entertained and engaged while taking a short quiz
+- Navigate easily through the questions without interruptions
+- Be given results
 - To have a professional, bold and inviting appearance, to encourage users to take part in the quiz. 
-- To allow users the opportunity to Sign Up easily and safely using a simple, secure sign up form. 
-- To ensure that users can Log In easily using the same email/username and password if they revisit the website to retake the quiz. 
+- To allow users the opportunity to input their name easily before taking the quiz. 
+- To 
 - To ensure that users can answer each question in the quiz smoothly, and retake it as many times as they wish. 
 - To change the order of the questions and generate new questions, so that if the user retakes the quiz, they will feel like they are taking a new quiz and may even get different results.
 - To allow users to navigate between pages with ease, and to keep the design and colour palette consistent throughout. 

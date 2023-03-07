@@ -7,7 +7,7 @@
 
 #### HELLO EVERYONE!
 
-This is the documentation for a fun web application: The Ultimate Supervillain Personality Quiz! It has been built using HTML5, CSS3 and JavaScript as an educational Project offered as part of Code Institute’s Diploma in Full Stack Software Development. Please use the table of contents below to navigate through all of the planning, features, deployment, testing and more!
+This is the documentation for a fun web application: The Ultimate Supervillain Personality Quiz! It has been built using HTML5, CSS3 and JavaScript as an educational Project offered as part of Code Institute’s Diploma in Full Stack Software Development. Disclaimer: This quiz is not backed up by psychological research, and thus the results are designed for entertainment purposes only. Please use the table of contents below to navigate through all of the planning, features, deployment, testing and more!
 
 ## Table of Contents
 
@@ -85,12 +85,6 @@ The Ultimate Supervillain Personality Quiz website was built as a milestone proj
 - Entertaining users by linking their personalities to fictional, quirky supervillain characters
 - Ensuring the questions and options are clear, and the quiz is simple to navigate
 
-REMOVE THIS OR PUT ELSEWHERE 
-- It provides the user with thought-provoking questions and scenarios, with a selection of four answer choices.
-- Users can only select one of the four options, and after completing all ten questions, will be matched with a supervillain based on their total score.  
-- The website was designed to be easy to navigate and eye-catching, to provide the users with an interactive, exciting quiz to teach them more about themselves and what they would do in certain situations. 
-- Users can also sign up with their name, email/username and password, and later login with the same details should they choose to revisit the website. 
-
 #### Target Audience
 
 - This quiz is designed for users of any background or age, but will most likely gain more interest from fans of Disney, Marvel, or DC superheroes and supervillains.
@@ -99,18 +93,13 @@ REMOVE THIS OR PUT ELSEWHERE
 
 #### User Goals 
 
-As a user, I would like to:
+The quiz aims to ensure that users can:
 
-- Learn more about my personality and how I could handle certain life scenarios
+- Learn more about their personalities and how they would handle certain life scenarios
 - Be entertained and engaged while taking a short quiz
 - Navigate easily through the questions without interruptions
-- Be given results
-- To have a professional, bold and inviting appearance, to encourage users to take part in the quiz. 
-- To allow users the opportunity to input their name easily before taking the quiz. 
-- To 
-- To ensure that users can answer each question in the quiz smoothly, and retake it as many times as they wish. 
-- To change the order of the questions and generate new questions, so that if the user retakes the quiz, they will feel like they are taking a new quiz and may even get different results.
-- To allow users to navigate between pages with ease, and to keep the design and colour palette consistent throughout. 
+- See eye-catching results after answering all of the questions
+- Retake the quiz as many times as they want to, to explore different results
 
 ## Research 
 
@@ -122,29 +111,45 @@ Before designing the website, I reviewed other personality quiz websites (see be
 
 ### Key Takeaways from Market Review 
 
-- The website should be eye-catching, to make users excited about taking the SuperVillain Quiz
+- The website should be eye-catching, to make users excited about taking the quiz
 - The Website should be clean, simple and easy to navigate
-- The Quiz should not have too many questions (a maximum of 10 questions appears to be the ideal number to maintain the users' attention)
-- Clear, enticing images of famous Supervillains are key features to draw in the users to take part in the quiz
-- Navigation, sign up and log in elements should be simple and quick to use 
+- 10 questions is the ideal number to keep the user engaged and interested
+- Many quizzes did not offer a back button to allow the user to change their responses
+- Clear, enticing images are displayed in the results section
+- Most quizzes had a retake quiz button to allow the user to take the quiz again
 
 ## User Stories
-- User Story 1: As someone interested in taking the SuperVillain personality quiz I want to:
-     - find out what the quiz is about and what to expect before starting the quiz
-     - navigate easily through the quiz questions 
-     - have the option of retaking the quiz if I don't like the result
-     - learn more about why I was matched with a specific SuperVillain at the end of the quiz
-     - sign up quickly and easily
-     - log in using the same log in details quickly and easily
-     - navigate easily between pages
 
-- User Story 2: As a : 
-     - more information here
+In a real-world application, this kind of quiz will mostly likely be used by a visitor once, rather than repeatedly, as it would likely form part of a bigger website e.g. a website about personality types, so all user stories relate to a first-time user.
 
-- User Story 3: As a :
-     - more information here
+- find out what the quiz is about and what to expect before starting the quiz
+- navigate easily through the quiz questions 
+- have the option of retaking the quiz if I don't like the result
+- learn more about why I was matched with a specific SuperVillain at the end of the quiz
+- sign up with my name quickly and easily
+- access the quiz on any device
 
 These user stories gave me a clear scope for the website and enabled me to stay on track with the project, preventing issues like scope creep at a later stage after the coding process. 
+
+## Content 
+
+This quiz is made up of 10 questions with 4 answer options to choose from, and is set up as follows:
+- It provides the user with thought-provoking questions and scenarios, and the user can only select 1 of the 4 options.
+- Each answer option is assigned a value of 1 to 4, and each time the user answers a question, a score will be added until all 10 questions are answered.
+- After completing all ten questions, the user will be matched with a supervillain based on their total score.  
+- Before starting the quiz, users must sign up with their names. 
+
+Each time the user selects an answer it builds up a picture of what kind of personality they have. These results are then processed to calculate the best supervillain match for them, and I included 8 possible matches (a mix of Disney, Marvel, Stranger Things, and DC supervillains):
+- Lord Voldemort
+- Cruella de Vil
+- Magneto
+- Vecna
+- Maleficent
+- The Joker
+- Thanos
+- The Green Goblin
+
+It is worth noting that whilst this is presented as a personality test, this quiz is built for entertainment purposes, and is not backed by any specific psychological research.
 
 ## Design, Layout and Structure 
 The design, layout and structure remained consistent across all pages for certain elements, such as the colour palette for the headings, paragraphs and backgrounds and the design of the navigation bar. However, the layout of each page was slightly different, to allow users to differentiate between the Sign Up/Log In pages and the Quiz and Results pages. On the quiz page, some visual content, such as eye-catching images, bold colours and buttons were incorporated.

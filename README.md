@@ -19,6 +19,7 @@ This is the documentation for a fun web application: The Ultimate Supervillain P
         - [Market Review](#market-review)
         - [Key Takeaways](#key-takeaways-from-market-review)
     - [User Stories](#user-stories)
+    - [Content](#content)
     - [Design, Layout and Structure](#design-layout-and-structure)
         - [Wireframes](#wireframes)
         - [Structure](#structure)
@@ -173,38 +174,6 @@ _Phone Wireframe for Home Page_
 
 </details>
 
-<details><summary>Sign Up Page</summary>
-
-<img src="">
-
-_Desktop Wireframe for Sign Up Page_
-
-<img src="">
-
-_iPad Wireframe for Sign Up Page_
-
-<img src="">
-
-_Phone Wireframe for Sign Up Page_
-
-</details>
-
-<details><summary>Log In Page</summary>
-
-<img src="">
-
-_Desktop Wireframe for Log In Page_
-
-<img src="">
-
-_iPad Wireframe for Log In Page_
-
-<img src="">
-
-_Phone Wireframe for Log In Page_
-
-</details>
-
 <details><summary>Quiz Page</summary>
 
 <img src="">
@@ -237,40 +206,26 @@ _Phone Wireframe for Quiz Results Page_
 
 </details>
 
-### Structure
+### Structure & Layout
 
 The structure of this website was informed by the scope, principles of interactive design (IXD), as well as the user goals of the quiz. Keeping these important concepts in mind ensured that the website conformed to user's expectations and needs. 
 
-The site is made of a simple, five page structure:
-- Home Page
-     - Gives the users a brief summary of what the quiz is about, as well as simple instructions on how to take the quiz so the user knows what to expect before they begin the quiz.
-     - Above the summary is the title of the quiz, as well as an eye-catching image of a random famous Supervillain, to get the user excited about taking the quiz. 
-     - The "LOGIN" button on the top right corner of the header takes the user to the Log In Page (more information below).
-     - The user can also choose to take the quiz by pressing the "TAKE QUIZ" button, with or without logging in first. 
-- Log In Page
-     - Gives the user the opportunity to login with their email/username and password, or alternatively they are given the option to press a link to the Sign Up if this is their first time inputting their details.
-- Sign Up Page
-     - Allows users who have not yet created an account to Sign Up to the website by giving details of their name, email/username and creating their own password. 
-- Quiz Page
-     - This page is where the user will take the quiz. One question will be displayed at a time, and the user will need to answer all 10 questions in order to get the results. 
-- Quiz Results Page
-    - After completing all 10 questions of the quiz, the user will be taken to the results page, where a picture of a Supervillain that matches their answers will appear, alongside a description of why that Supervillain was matched with their choices. If the user does not like the result, or simply wants to try again, they can retake the quiz by clicking the "RETAKE QUIZ" button. 
+The main site is a simple, single-page website with content displayed and hidden at different points in the game using JavaScript code. There are three main sections within the page which appear and disappear depending on where you are in the game, these are:
 
-There is also a subpage:
-- 404
-     - more information here
+- Welcome and Instructions Area: A brief introduction with a name capture input to personalise the user's results, as well as "take quiz" button
+- Quiz Area: The main quiz area, with a progress bar, question, question container, and four answer options to choose from 
+- Results Area: The results of the quiz, showing the user's personality results breakdown in the form of a supervillain image and information about their personality match. This section also contains a "Retake Quiz" button to take the user back to the start if they want to begin the quiz again.
+- Footer Area: Displays my name and details
+
+There is also a 404 page for when a user lands on a non-existent page with a button to link back to index.html to start the quiz again.
+
+### Design & Colour
 
 This site was designed using a mobile-first approach, because after conducting some research (using sites like [Adobe](https://xd.adobe.com/ideas/process/ui-design/what-is-mobile-first-design/)), it appears that most users use their mobile devices over desktop or iPad screens, especially when partaking in quizzes. 
 
-The site has a navigation bar, with a hamburger menu on the top left corner of each screen, the logo in the top center, and a button on the top right corner. The navbar was reduced to a hamburger menu to prevent it from taking up too much real estate on smaller screens and to give a cleaner appearance overall. The navbar allows users to access any page they need and is useful for both new and returning users.
-
-On the Home Page, there is a "LOGIN" button, which the user can click to fill in their details. Alternatively, they can click the "TAKE QUIZ" button which will take them to the quiz page. If they decide to Log In first, once they are finished, they can click the "HOME" button to take them back to the Home Page, or the "Sign Up" link if they are putting in their information for the first time. 
-
-The suggested route is HOME PAGE > LOGIN/SIGN UP > HOME PAGE > TAKE QUIZ BUTTON > COMPLETE QUIZ > VIEW QUIZ RESULTS > RETAKE/RETURN HOME
-
-### Colour 
-
-I chose to use a bright, bold design using villain-inspired colours like deep and bright shades of red for the background. To contrast this, I used shades of grey and white for the buttons and text. 
+- The design was influenced by villain-inspired colours like deep and bright shades of red, black, gold and green which contrast well and allow for good legibility. 
+- The welcome page has images of supervillains looking at the user through semi-circles, to add to villainous theme. 
+- I used the same border-radius for all buttons and options to give maintain consistency throughout the site. 
 
 <details><summary>Colour Palette</summary>
 

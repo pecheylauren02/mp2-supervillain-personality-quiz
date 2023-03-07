@@ -350,28 +350,70 @@ _Hover effect on Take Quiz button_
 
 </details>
  
-#### Title here for Log In
+### Quiz Section
+
+The quiz section is fully responsive with the answers increasing in font size and expanding in width on larger devices. I used [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) to choose the shade of green for the option buttons. This colour was selected because it was matched as complimentary to the shade of red chosen in the background. 
 
 <details><summary>Screenshots</summary>
 
 <img src="">
 
-_Label_
+_Quiz section on Desktop_
 
 <img src="">
 
-_Label_
+_Quiz section on Desktop_
+
+<img src="">
+
+_Quiz section on Phone_
+
+#### Progress Bar
+
+- Gives the user an indication of where they are in the quiz and how many questions are left
+- Contains both a visual reference in the colour bar and a number reference in the question number
+- Updates when a user selects an answer and the question is repopulated
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Progress Bar updates with each question answered_
 
 </details>
-- More info here
 
-#### Title here for Log In
+#### Questions & Options
+
+- Displays the question and four options, and updates with the next question and a set of options each time the user makes a selection
+- Has a different colour hover effect on the answers on non touchscreen devices with a smooth transition
+- Once the user has selected an answer it turns ADD COLOUR HERE
+- CHANGE THIS FIRST IN CODE There is a brief timeout to allow the orange to appear before the question & answers update, this gives the user a sense that the answer has definitely been selected and submitted and gives them time to see the question update happenning - all part of creating an intuitive and positive user experience.
+- A separate 'next question' button was excluded from the options, as it adds an extra click for the user which they may find annoying
+- CHANGE THIS FIRST IN CODE During the time out the user cannot select another answer - this avoids accidental selections or duplicate results
 
 <details><summary>Screenshots</summary>
 
 <img src="">
 
-_Label_
+_Option selection and question/option update_
+
+<img src="">
+
+_Answer hover effect_
+
+</details>
+
+#### Retake Quiz Button
+
+- This button is displayed below the results section and allows the user to restart the quiz
+- It has the same design, colour and hover effect as the Take Quiz button, to maintain consistency throughout the quiz
+- It is only displayed in the results section once the user has finished taking the quiz, to prevent the user from accidentally restarting the quiz when they have not completed all of the questions
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Retake Quiz Button_
 
 </details>
 

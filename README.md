@@ -618,22 +618,22 @@ I ran manual tests on the website, based on the user stories mentioned above:
 
 #### Browser Compatibility
 
-The site was tested on the following browsers:
+The site was tested on the following browsers, with no browser-specific bugs detected. 
 
 - Google Chrome
 - Mozilla Firefox
 - Apple Safari
-
-**ADD INFO HERE**.
 
 #### Responsiveness/Device Testing
 
 The website was tested on the following devices:
 - HP Display 27-inch External Monitor
 - Apple Macbook Pro 13-inch
-- Samsung Galaxy S10
+- Galaxy S9+
+- Apple iPhone 12 Pro
 - Apple iPhone SE
 - Apple iPad mini
+- Apple iPad
 - Galaxy Tablet
 - Google Chrome Developer Tools - using responsive testing for all screen sizes
 

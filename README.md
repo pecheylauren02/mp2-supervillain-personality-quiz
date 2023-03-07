@@ -244,7 +244,7 @@ _Colour Palette for buttons_
 
 ### Font
 
-My choice of font was [put here](link here) for all paragraphs and [put here](link here) for all headings. Both font choices were imported from [Google Fonts](https://fonts.google.com/) and had a backup font of Sans Serif. I chose these fonts for my website because **they both have an elegant, professional and welcoming finish** which is best suited for a website aiming to attract its users. The boldness also displayed a strong legibility as headings over images, text and videos. 
+My choice of font was [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond?query=cor) for all paragraphs and headings. This font choice was imported from [Google Fonts](https://fonts.google.com/) and had a backup font of Serif. I chose this font for my website because the cursive style contributed to the supervillain theme, whilst also providing a professional, legible finish.
 
 ## Technologies Used 
 
@@ -268,73 +268,46 @@ This website used a combination of three different Front-End development languag
     - Google Fonts was used to select and import the fonts to the project (Libre Baskerville and Libre Baskerville Bold).
 - [Font Awesome](https://fontawesome.com/)
     - Font Awesome was used to add icons to the site to help with UX and to add more character to the project visually.
-- **Change this** [Sirv](https://sirv.com/)
-     - Sirv was used to organise images for the website, as well as optimise size and find the image source urls. 
-- **Change this** [I Love Img](https://www.iloveimg.com/resize-image)
-     - This was used to optimise images by size.
+- [Tiny PNG](https://tinypng.com/)
+    - Used to further optimise the images for the site and reduce file size
+- [Bulk Image Crop](https://bulkimagecrop.com/)
+    - Used to bulk crop bulk
 - [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html) and [Adobe Color] (https://color.adobe.com/create/color-wheel)
     - These were used to create the colour pallette as well as ideas for the initial design.
+- [Favicon.io](https://favicon.io/favicon-converter/)
+    - Used to create and add the favicon to the browser tab
 
 ## Features
 
 ### Whole Site
 
-#### Navbar and Header
+#### Favicon
+
+I included a Favicon for the site using the female supervillain graphic which had the same colours as the site's design. This helped to build the brand and continue the site design in the user's browser tab.
 
 <details><summary>Screenshots</summary>
 
 <img src="">
 
-_Navbar on desktop_
-
-<img src="">
-
-_Navbar after hover_
-
-<img src="">
-
-_Navbar on iPad_
-
-<img src="">
-
-_Navbar on phone_
-
+_Favicon_
 </details>
-
-- more information here
-
-#### Another feature on whole site
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-<img src="">
-
-_Label_
-
-<img src="">
-
-_Label_
-
-<img src="">
-
-_Label_
-
-</details>
-
-- more information here
 
 #### Footer 
-- more information here
+
+- The footer contains the text "Made By Lauren Pechey" and links to my relevant social media sites so that it can be used as a portfolio project
+- The footer social icons have aria labels to improve accessibility
+- The footer social icons have a hover effect with a smooth colour transition 
+- The footer is responsive on all screen sizes
 
 <details><summary>Screenshots</summary>
 
 <img src="">
 
 _Footer on Desktop_
+
+<img src="">
+
+_Footer on iPad_
 
 <img src="">
 

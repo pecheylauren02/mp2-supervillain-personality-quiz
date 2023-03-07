@@ -467,11 +467,18 @@ _Go Home Button_
 
 ## Future Features 
 
-I would like to add an additional feature to the website. This unfortunately fell out of the scope of this project, but would be useful to users in future. 
+I would like to add additional features to expand the site. This unfortunately fell out of the scope of this project, but would be useful to users in future. 
 
-#### New Feature here 
+#### User Log In Account and Sign Up Page
 
-I would like to add **Add text here**
+This would give the user the ability to save their results and recommendations, creating a secure account and log in so that they can re-access their data.
+
+#### Additional Personality Quizzes
+
+As was mentioned previously, this quiz is a simple design, but would ideally be part of a larger, more complex quiz website. Therefore, for future features, I would like to add:
+- Different types of personality quizzes, so the user can learn about their personality in a variety of different contexts
+- Add a navbar that would help the user navigate through the different quizzes
+- Add more detailed information, backed by psychological research, about the different personality types in the quiz results sections
 
 ## Testing and Bugs
 
@@ -486,19 +493,11 @@ _HTML Validator Result Home Page_
 
 <img src="">
 
-_HTML Validator Log In Page_
+_HTML Validator Quiz Section_
 
 <img src="">
 
-_HTML Validator Result Sign Up Page_
-
-<img src="">
-
-_HTML Validator Quiz Page_
-
-<img src="">
-
-_HTML Validator Quiz Results_
+_HTML Validator Result Results Section_
 
 </details>
 
@@ -535,23 +534,7 @@ _Accessibility result on Home Page_
 
 </details>
 
-<details><summary>Log In Page</summary>
-
-<img src="">
-
-_Accessibility result on Log In Page_
-
-</details>
-
-<details><summary>Sign Up Page</summary>
-
-<img src="">
-
-_Accessibility result on Sign Up Page_
-
-</details>
-
-<details><summary>Quiz Page</summary>
+<details><summary>Quiz Section</summary>
 
 <img src="">
 
@@ -559,7 +542,7 @@ _Accessibility result on Quiz Page_
 
 </details>
 
-<details><summary>Quiz Results Page</summary>
+<details><summary>Quiz Results Section</summary>
 
 <img src="">
 

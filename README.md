@@ -443,128 +443,27 @@ _Retake Quiz Button_
 
 </details>
 
-### Sign Up Page
- 
-#### Title here for Sign Up
+### 404 Page
+
+![404 Page - Mock Up](ADD LINK HERE)
+
+- The 404 page was set up to smoothly handle user's who have ended up on a non-existent part of the site
+- This page provides a positive emotional response to the user and a better user experience
+- It has the same design as the rest of the site, so the users don't feel like they have left the site, encouraging them to return to the home page
+- The design, colour and text all match the supervillain theme of the quiz in order to maintain consistency
+- The go back button takes the user back to the home page so there is no need for the user to use the browser back button
 
 <details><summary>Screenshots</summary>
 
 <img src="">
 
-_Label_
+_404 Page_
 
 <img src="">
 
-_Label_
+_Go Home Button_
 
 </details>
-- More info here
-
-#### Title here for Sign Up 
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-</details>
-
-- more info here
-
-#### Title here for Sign Up
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-</details>
-
-- more info here
-
-### Quiz Page
- 
-#### Title here for Quiz 
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-<img src="">
-
-_Label_
-
-</details>
-- More info here
-
-#### Title here for Quiz
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-</details>
-
-- more info here
-
-#### Title here for Quiz
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-</details>
-
-- more info here
-
-### Quiz Results Page
- 
-#### Title here for Quiz Results Page
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-<img src="">
-
-_Label_
-
-</details>
-- More info here
-
-#### Title here for Quiz Results Page
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-</details>
-
-- more info here
-
-#### Title here for Quiz Results Page
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-</details>
-
-- more info here
 
 ## Future Features 
 

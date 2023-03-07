@@ -313,6 +313,10 @@ _Footer on iPad_
 
 _Footer on Phone_
 
+<img src="">
+
+_Hover effect on social links_
+
 </details>
 
 ### Welcome Section
@@ -328,6 +332,23 @@ This section contains the following features:
     - The name limits the number of characters to a minimum of 2 and a maximum of 15 to make the text in the results section work visually
 - Take Quiz button - launches the quiz
     - Has a hover effect on non-touchscreen devices with a smooth colour transition 
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+<img src="">
+
+_Welcome section for Desktops, iPad and Phone view_
+
+<img src="docs/features/features_welcome_startquiz.jpeg">
+
+_Welcome section - Take Quiz button_
+
+<img src="docs/features/features_welcome_startquiz.gif">
+
+_Hover effect on Take Quiz button_
+
+</details>
  
 #### Title here for Log In
 

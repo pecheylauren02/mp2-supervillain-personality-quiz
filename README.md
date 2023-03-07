@@ -315,7 +315,19 @@ _Footer on Phone_
 
 </details>
 
-### Log In Page
+### Welcome Section
+
+This section contains the following features:
+
+- A brief introduction and information about the quiz, how it works and some persuasion for the user to take it
+- The layout is responsive on all devices, with margins widening on larger devices
+- The semi-circles with the supervillain images in this section expand to full circles on larger screens
+- Name input section:
+    - User must enter a name to start game - CHANGE THIS alert with appears if no name entered CHANGE THIS
+    - The name is used in the results section to personalise the results
+    - The name limits the number of characters to a minimum of 2 and a maximum of 15 to make the text in the results section work visually
+- Take Quiz button - launches the quiz
+    - Has a hover effect on non-touchscreen devices with a smooth colour transition 
  
 #### Title here for Log In
 

@@ -149,14 +149,13 @@ Each time the user selects an answer it builds up a picture of what kind of pers
 - Thanos
 - The Green Goblin
 
-It is worth noting that whilst this is presented as a personality test, this quiz is built for entertainment purposes, and is not backed by any specific psychological research.
+It is worth noting that while this is presented as a personality test, this quiz is built for entertainment purposes, and is not backed by any specific psychological research.
 
 ## Design, Layout and Structure 
-The design, layout and structure remained consistent across all pages for certain elements, such as the colour palette for the headings, paragraphs and backgrounds and the design of the navigation bar. However, the layout of each page was slightly different, to allow users to differentiate between the Sign Up/Log In pages and the Quiz and Results pages. On the quiz page, some visual content, such as eye-catching images, bold colours and buttons were incorporated.
 
 ### Wireframes
 
-I used [Balsamiq](https://balsamiq.com/) in the initial design phase, before the coding process. This enabled me to develop the website's structure, skeleton, layout and overall look and style.
+I used [Balsamiq](https://balsamiq.com/) in the initial design phase, before the coding process. This enabled me to develop the website's structure, skeleton, layout and overall look and style. I created designs for desktop, tablet and mobile to make sure that responsiveness was at the forefront of the application from the beginning.
 
 <details><summary>Home Page</summary>
 

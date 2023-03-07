@@ -123,6 +123,7 @@ Before designing the website, I reviewed other personality quiz websites (see be
 
 In a real-world application, this kind of quiz will mostly likely be used by a visitor once, rather than repeatedly, as it would likely form part of a bigger website e.g. a website about personality types, so all user stories relate to a first-time user.
 
+- take part in an interesting quiz and learn more about my personality
 - find out what the quiz is about and what to expect before starting the quiz
 - navigate easily through the quiz questions 
 - have the option of retaking the quiz if I don't like the result
@@ -482,7 +483,9 @@ As was mentioned previously, this quiz is a simple design, but would ideally be 
 
 ## Testing and Bugs
 
-### HTML Validator Testing 
+### Automated Testing
+
+#### HTML Validator Testing 
 
 I ran my HTML code for each page through the [W3C HTML Validator](https://validator.w3.org/). Thankfully, no errors were displayed. **Add info here**
 <details><summary>Screenshots</summary>
@@ -501,7 +504,7 @@ _HTML Validator Result Results Section_
 
 </details>
 
-### CSS Validator Testing
+#### CSS Validator Testing
 
 I ran my CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) as well as [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). No errors were displayed. 
 
@@ -513,18 +516,15 @@ _CSS Validator Result_
 
 </details>
 
-### JavaScript Validator Testing
+#### JavaScript Validator Testing
 
 I ran my JavaScript code through [Jshint validator](https://jshint.com/) and no errors were found. The following metrics were returned: 
 **ADJUST INFO BELOW**:
-- There are 11 functions in this file.
-- Function with the largest signature takes 2 arguments, while the median is 0.
-- Largest function has 10 statements in it, while the median is 3.
-- The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+- There are ADD NUMBER functions in this file.
 
-### Accessibility
+#### Accessibility
 
-I tested accessibility of the website using Google Chrome Dev Tools Lighthouse, and the scores came out clean.
+I tested accessibility of the website using Google Chrome Dev Tools Lighthouse, and the scores came out clean. I also ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave.webaim.org/). 
 
 <details><summary>Home Page</summary>
 
@@ -550,7 +550,7 @@ _Accessibility result on Quiz Results Page_
 
 </details>
 
-### Performance
+#### Performance
 
 I tested the site's performance through Google Chrome Dev Tools Lighthouse. The scores showed high on all pages, but needed improvement for **ADD INFO HERE**.
 
@@ -594,7 +594,29 @@ _Label_
 
 </details>
 
-### Browser Compatibility
+### Manual Testing
+
+#### Testing User Stories
+
+I ran manual tests on the website, based on the user stories mentioned above:
+
+| No. | User Goal | How is it achieved? |
+| :--- | :--- | :--- |
+| 1 | I want to take part in an interesting quiz and learn more about my personality | The quiz is an engaging, online game which gives people an insight into their personality and how they would match with a supervillain. It has been designed to have limited questions to keep the user interested, and creates fun, unusual scenarios for the user to choose from. |
+| 2 | I want to find out what the quiz is about and what to expect before starting the quiz | The welcome section contains information about what the quiz is about, and is designed with the supervillain theme in mind so the user knows what to expect from the beginning. |
+| 3 | learn more about why I was matched with a specific SuperVillain at the end of the quiz | The personality results are detailed with a picture of the matched supervillain, as well as a clear description of their personality based on their choices. |
+| 4 | I want to access the quiz on any device | The quiz has been designed to be fully responsive across desktop, tablet and mobile and extensively tested on each. |
+| 5 | I want to navigate easily through the quiz questions | The site has a linear navigation where you follow the quiz through and minimal clicks are required to submit answers. |
+| 6 | I want to sign up with my name quickly and easily | The site has a simple name-input section which allows the user the enter their name, and upon submission, the quiz will start immediately. |
+| 7 | I want to have the option of retaking the quiz if I don't like the result | The site has a retake quiz button below the results, once the user has completed the quiz, to give them the option of taking the quiz again. |
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+</details>
+
+#### Browser Compatibility
 
 The site was tested on the following browsers:
 
@@ -604,7 +626,7 @@ The site was tested on the following browsers:
 
 **ADD INFO HERE**.
 
-### Responsiveness/Device Testing
+#### Responsiveness/Device Testing
 
 The website was tested on the following devices:
 - HP Display 27-inch External Monitor
@@ -619,7 +641,9 @@ The website functioned as expected on all devices.
 
 ### Solved Bugs
 
-#### Bug 1
+#### Results displaying prematurely 
+
+The results were being displayed after 9 out of 10 questions were answered, thus the user was unable to answer all 10 questions. 
 
 **HOW I FIXED IT**.
 
@@ -659,105 +683,6 @@ _Label_
 
 </details>
 
-### Testing User Stories
-
-I ran manual tests on the website, based on the user stories mentioned above.
-
-#### 1. Add user story here
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-<img src="">
-
-_Label_
-
-</details>
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Welcome Introduction • Welcome video • "Why Stay With Us" Text | Scroll down on About Us page, read Welcome Introduction, watch video relating to intro, read more detail about reasons to stay on About Us page | Find information about Sable Safari | Works as expected |
-| Nav Bar - About Us Link • About Us Text | Click on "About Us" on navbar, read more detail on About Us page | Find information about Sable Safari | Works as expected |
-
-#### 2. Add user story here
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-<img src="">
-
-_Label_
-
-</details>
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Welcome Introduction • Welcome video • "Why Stay With Us" Text | Scroll down on About Us page, read Welcome Introduction, watch video relating to intro, read more detail about reasons to stay on About Us page | Find information about Sable Safari | Works as expected |
-| Nav Bar - About Us Link • About Us Text | Click on "About Us" on navbar, read more detail on About Us page | Find information about Sable Safari | Works as expected |
-
-
-#### 3. Add user story here
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-<img src="">
-
-_Label_
-
-</details>
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Welcome Introduction • Welcome video • "Why Stay With Us" Text | Scroll down on About Us page, read Welcome Introduction, watch video relating to intro, read more detail about reasons to stay on About Us page | Find information about Sable Safari | Works as expected |
-| Nav Bar - About Us Link • About Us Text | Click on "About Us" on navbar, read more detail on About Us page | Find information about Sable Safari | Works as expected |
-
-#### 4. Add user story here
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-<img src="">
-
-_Label_
-
-</details>
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Welcome Introduction • Welcome video • "Why Stay With Us" Text | Scroll down on About Us page, read Welcome Introduction, watch video relating to intro, read more detail about reasons to stay on About Us page | Find information about Sable Safari | Works as expected |
-| Nav Bar - About Us Link • About Us Text | Click on "About Us" on navbar, read more detail on About Us page | Find information about Sable Safari | Works as expected |
-
-#### 5. Add user story here
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-<img src="">
-
-_Label_
-
-</details>
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Welcome Introduction • Welcome video • "Why Stay With Us" Text | Scroll down on About Us page, read Welcome Introduction, watch video relating to intro, read more detail about reasons to stay on About Us page | Find information about Sable Safari | Works as expected |
-| Nav Bar - About Us Link • About Us Text | Click on "About Us" on navbar, read more detail on About Us page | Find information about Sable Safari | Works as expected |
 
 ## Deployment
 

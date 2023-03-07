@@ -340,16 +340,16 @@ This section contains the following features:
 
 _Welcome section for Desktops, iPad and Phone view_
 
-<img src="docs/features/features_welcome_startquiz.jpeg">
+<img src="">
 
-_Welcome section - Take Quiz button_
+_Name Input and Take Quiz button_
 
-<img src="docs/features/features_welcome_startquiz.gif">
+<img src="">
 
 _Hover effect on Take Quiz button_
 
 </details>
- 
+
 ### Quiz Section
 
 The quiz section is fully responsive with the answers increasing in font size and expanding in width on larger devices. I used [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) to choose the shade of green for the option buttons. This colour was selected because it was matched as complimentary to the shade of red chosen in the background. 
@@ -403,6 +403,32 @@ _Answer hover effect_
 
 </details>
 
+### Results Section
+
+#### Supervillian Personality Reveal
+
+- This section gives detailed information about the user's supervillain personality results
+- The title result is personalised to the user with the name that the user input at the start of the quiz
+- The total score calculated once the user has answered all 10 questions is calculated and matched with one of eight possible supervillains (see the list above)
+- The result includes a picture of the supervillain chosen, as well as information about the personality type associated with that supervillain match
+- The supervillain personality results are fully responsive, expanding in size on larger screens
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+_Results section on Desktop_
+
+<img src="">
+
+_Results section on iPad_
+
+<img src="">
+
+_Results section on Phone_
+
+</details>
+
 #### Retake Quiz Button
 
 - This button is displayed below the results section and allows the user to restart the quiz
@@ -416,20 +442,6 @@ _Answer hover effect_
 _Retake Quiz Button_
 
 </details>
-
-- more info here
-
-#### Title here for Log In
-
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-_Label_
-
-</details>
-
-- more info here
 
 ### Sign Up Page
  

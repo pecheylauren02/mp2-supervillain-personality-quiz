@@ -770,7 +770,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 4. Click 'Save'
 5. A live link will be displayed when published successfully. 
 
-The live link can be found here - [https://emmahewson.github.io/mp2_travel_quiz/](https://emmahewson.github.io/mp2_travel_quiz/)
+The live link can be found here: [The Ultimate Supervillain Personality Quiz](https://pecheylauren02.github.io/supervillain-quiz/)
 
 ### Forking the GitHub Repository
 
@@ -794,7 +794,7 @@ The project will now be cloned locally for you to use.
 
 ### Design and Planning
 
-- [Adobe Color] (https://color.adobe.com/create/color-wheel) helped in developing the colour palette for the initial design phase of the website
+- [Adobe Color](https://color.adobe.com/create/color-wheel) helped in developing the colour palette for the initial design phase of the website
 
 ### Code
 

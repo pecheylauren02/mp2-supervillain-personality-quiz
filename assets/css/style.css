@@ -78,7 +78,7 @@ main {
 
 .left-semi-circ:hover,
 .right-semi-circ:hover {
-    
+
     transition: border .4s ease;
 }
 
@@ -107,6 +107,13 @@ main {
     text-align: right;
 }
 
+#start-quiz-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 #name-submit {
     font-family: 'Cormorant Garamond', serif;
     border-left: 10px solid #088888;
@@ -121,9 +128,15 @@ main {
 
 #alert-div {
     border: 2px solid #FFD700;
-    background: #088888;
+    background: #111111;
     font-weight: 400;
     border-radius: 12px;
+    margin-top: 20px;
+    width: 50%;
+}
+
+#alert-div i {
+    color: #FFD700;
 }
 
 .quiz-btn-main {
@@ -134,12 +147,12 @@ main {
     font-weight: bold;
     padding: 5%;
     margin: 10% 0;
-    width: 70%;
-    transition: color .4s ease;
+    width: 60%;
 }
 
 .quiz-btn-main:hover {
-    background-color: #088888;
+    transition: background-color .4s ease;
+    transform: scale(1.1);
 }
 
 /* Quiz Area */
@@ -600,22 +613,22 @@ footer {
         width: 250px;
         margin: 0 10px 10px 10px;
     }
-    
+
     .left-semi-circ:hover {
         border-top: 5px solid #FFD700;
         border-bottom: 5px solid #880808;
     }
-    
+
     .right-semi-circ:hover {
         border-top: 5px solid #880808;
         border-bottom: 5px solid #FFD700;
     }
-    
+
     .left-semi-circ:hover,
     .right-semi-circ:hover {
         transition: border .4s ease;
     }
-    
+
     .right-semi-circ {
         border-radius: 12px;
         border-top: 5px solid #FFD700;

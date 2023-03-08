@@ -108,10 +108,21 @@ main {
 
 #name-submit {
     font-family: 'Cormorant Garamond', serif;
-    border-left: 5px solid #088888;
+    border-left: 10px solid #088888;
     border-radius: 12px;
     padding: 5%;
     margin: 0 auto;
+}
+
+#name-submit:hover {
+    border-left: 20px solid #088888;
+}
+
+#alert-div {
+    border: 2px solid #FFD700;
+    background: #088888;
+    font-weight: 400;
+    border-radius: 12px;
 }
 
 .quiz-btn-main {

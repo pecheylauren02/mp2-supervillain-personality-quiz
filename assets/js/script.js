@@ -1,6 +1,8 @@
 let score = 0;
 let progressBar = document.getElementById("progress-bar");
 let progressText = document.getElementById("progress-text");
+let input = document.getElementById("name-submit");
+let takeQuizButton = document.getElementById("take-quiz-btn")
 //let currentQuestion = document.getElementById("current-question");
 //let retakeButton = document.getElementById("retake-button");
 
@@ -164,10 +166,13 @@ function startQuiz() {
 
     // Alert if no username is entered
     if (username.value === "") {
-        alert(`Please enter your name first to take the quiz!`);
+        //alert(`Please enter your name first to take the quiz!`);
+        document.getElementById("alert-div").classList.remove('hide');
+        //input.style.backgroundColor = 'grey';
     } else {
         // Hide the instructions area
         document.getElementById('instructions-area').classList.add('hide');
+        document.getElementById("alert-div").classList.add('hide');
         // Show the quiz area
         document.getElementById('quiz-area').classList.remove('hide');
         // Hide the results area

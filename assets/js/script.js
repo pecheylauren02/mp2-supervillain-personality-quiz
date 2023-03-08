@@ -1,9 +1,7 @@
 let score = 0;
-//let questionsAnswered = 0;
 let progressBar = document.getElementById("progress-bar");
 let progressText = document.getElementById("progress-text");
 let currentQuestion = document.getElementById("current-question");
-//let totalQuestions = document.getElementById("total-questions");
 let retakeButton = document.getElementById("retake-button");
 
 const QUESTIONS = [{
@@ -141,9 +139,7 @@ const QUESTIONS = [{
 ];
 
 let currentQuestionIndex = 0;
-//let selectedAnswers = [];
 
-//const questionElement = document.getElementById("question");
 function updateProgress() {
     progressBar.style.width = (currentQuestionIndex / QUESTIONS.length * 100) + "%";
     let questionIndex = currentQuestionIndex + 1;
@@ -157,7 +153,6 @@ function displayQuestion() {
     document.getElementById("optionTwo").innerText = question.optionTwo;
     document.getElementById("optionThree").innerText = question.optionThree;
     document.getElementById("optionFour").innerText = question.optionFour;
-    //updateProgress();
 }
 
 showNextQuestion();
@@ -187,7 +182,6 @@ function startQuiz() {
 }
 
 function showNextQuestion() {
-    //currentQuestionIndex++;
     console.log(currentQuestionIndex);
     displayQuestion();
     updateProgress();
@@ -231,20 +225,14 @@ function calculateScore(event) {
     console.log(answerText);
 
     score += answerScore;
-
-    //showNextQuestion();
     console.log(score);
-
-    //questionsAnswered++;
     currentQuestionIndex++;
 
     if (currentQuestionIndex === 10) {
         displayResults();
-        //restartQuiz();
     } else {
         console.log("Quiz not finished yet keep going");
         showNextQuestion();
-        //updateProgress(); 
     }
 
 }
@@ -255,7 +243,6 @@ function displayResults() {
     document.getElementById('quiz-area').classList.add('hide');
     document.getElementById('result-area').classList.remove('hide');
     document.getElementById('footer-area').classList.remove('hide');
-    //documents.getElementById("retake-button").classList.remove("hide");
 
     if (score >= 10 && score <= 14) {
         document.getElementById("resultOneDiv").classList.remove("hide");
@@ -347,8 +334,3 @@ function restartQuiz() {
     currentQuestionIndex = 0;
     startQuiz();
 }
-
-//retakeButton.addEventListener("click", restartQuiz);
-
-
-  

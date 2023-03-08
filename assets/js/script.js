@@ -259,27 +259,83 @@ function displayResults() {
 
     if (score >= 10 && score <= 14) {
         document.getElementById("resultOneDiv").classList.remove("hide");
+        document.getElementById("resultTwoDiv").classList.add("hide");
+        document.getElementById("resultThreeDiv").classList.add("hide");
+        document.getElementById("resultFourDiv").classList.add("hide");
+        document.getElementById("resultFiveDiv").classList.add("hide");
+        document.getElementById("resultSixDiv").classList.add("hide");
+        document.getElementById("resultSevenDiv").classList.add("hide");
+        document.getElementById("resultEightDiv").classList.add("hide");
         console.log("resultOne")
     } else if (score >= 15 && score <= 19) {
         document.getElementById("resultTwoDiv").classList.remove("hide");
+        document.getElementById("resultOneDiv").classList.add("hide");
+        document.getElementById("resultThreeDiv").classList.add("hide");
+        document.getElementById("resultFourDiv").classList.add("hide");
+        document.getElementById("resultFiveDiv").classList.add("hide");
+        document.getElementById("resultSixDiv").classList.add("hide");
+        document.getElementById("resultSevenDiv").classList.add("hide");
+        document.getElementById("resultEightDiv").classList.add("hide");
         console.log("resultTwo")
     } else if (score >= 20 && score <= 24) {
         document.getElementById("resultThreeDiv").classList.remove("hide");
+        document.getElementById("resultTwoDiv").classList.add("hide");
+        document.getElementById("resultOneDiv").classList.add("hide");
+        document.getElementById("resultFourDiv").classList.add("hide");
+        document.getElementById("resultFiveDiv").classList.add("hide");
+        document.getElementById("resultSixDiv").classList.add("hide");
+        document.getElementById("resultSevenDiv").classList.add("hide");
+        document.getElementById("resultEightDiv").classList.add("hide");
         console.log("resultThree")
     } else if (score >= 25 && score <= 29) {
         document.getElementById("resultFourDiv").classList.remove("hide");
+        document.getElementById("resultTwoDiv").classList.add("hide");
+        document.getElementById("resultThreeDiv").classList.add("hide");
+        document.getElementById("resultOneDiv").classList.add("hide");
+        document.getElementById("resultFiveDiv").classList.add("hide");
+        document.getElementById("resultSixDiv").classList.add("hide");
+        document.getElementById("resultSevenDiv").classList.add("hide");
+        document.getElementById("resultEightDiv").classList.add("hide");
         console.log("resultFour")
     } else if (score >= 30 && score <= 34) {
         document.getElementById("resultFiveDiv").classList.remove("hide");
+        document.getElementById("resultTwoDiv").classList.add("hide");
+        document.getElementById("resultThreeDiv").classList.add("hide");
+        document.getElementById("resultFourDiv").classList.add("hide");
+        document.getElementById("resultOneDiv").classList.add("hide");
+        document.getElementById("resultSixDiv").classList.add("hide");
+        document.getElementById("resultSevenDiv").classList.add("hide");
+        document.getElementById("resultEightDiv").classList.add("hide");
         console.log("resultFive")
     } else if (score >= 35 && score <= 39) {
         document.getElementById("resultSixDiv").classList.remove("hide");
+        document.getElementById("resultTwoDiv").classList.add("hide");
+        document.getElementById("resultThreeDiv").classList.add("hide");
+        document.getElementById("resultFourDiv").classList.add("hide");
+        document.getElementById("resultFiveDiv").classList.add("hide");
+        document.getElementById("resultOneDiv").classList.add("hide");
+        document.getElementById("resultSevenDiv").classList.add("hide");
+        document.getElementById("resultEightDiv").classList.add("hide");
         console.log("resultSix")
     } else if (score >= 40 && score <= 44) {
         document.getElementById("resultSevenDiv").classList.remove("hide");
+        document.getElementById("resultTwoDiv").classList.add("hide");
+        document.getElementById("resultThreeDiv").classList.add("hide");
+        document.getElementById("resultFourDiv").classList.add("hide");
+        document.getElementById("resultFiveDiv").classList.add("hide");
+        document.getElementById("resultSixDiv").classList.add("hide");
+        document.getElementById("resultOneDiv").classList.add("hide");
+        document.getElementById("resultEightDiv").classList.add("hide");
         console.log("resultSeven")
     } else {
         document.getElementById("resultEightDiv").classList.remove("hide");
+        document.getElementById("resultTwoDiv").classList.add("hide");
+        document.getElementById("resultThreeDiv").classList.add("hide");
+        document.getElementById("resultFourDiv").classList.add("hide");
+        document.getElementById("resultFiveDiv").classList.add("hide");
+        document.getElementById("resultSixDiv").classList.add("hide");
+        document.getElementById("resultSevenDiv").classList.add("hide");
+        document.getElementById("resultOneDiv").classList.add("hide");
         console.log("resultEight")
     }
 

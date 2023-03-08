@@ -1,8 +1,8 @@
 let score = 0;
 let progressBar = document.getElementById("progress-bar");
 let progressText = document.getElementById("progress-text");
-let currentQuestion = document.getElementById("current-question");
-let retakeButton = document.getElementById("retake-button");
+//let currentQuestion = document.getElementById("current-question");
+//let retakeButton = document.getElementById("retake-button");
 
 const QUESTIONS = [{
         'question': "Which superpower appeals to you the most?",
@@ -197,8 +197,8 @@ document.getElementById("optionFour").addEventListener('click', calculateScore);
 function calculateScore(event) {
     event.preventDefault();
 
-    let value = event.target.innerText;
-    let answers = QUESTIONS[currentQuestionIndex]['answers'];
+    //let value = event.target.innerText;
+    let answers = QUESTIONS[currentQuestionIndex].answers;
 
     let answerScore = '';
     let answerText = '';

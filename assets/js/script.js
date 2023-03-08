@@ -142,8 +142,8 @@ const QUESTIONS = [{
 let currentQuestionIndex = 0;
 
 function updateProgress() {
-    progressBar.style.width = (currentQuestionIndex / QUESTIONS.length * 100) + "%";
     let questionIndex = currentQuestionIndex + 1;
+    progressBar.style.width = (questionIndex / QUESTIONS.length * 100) + "%";
     progressText.innerHTML = `Question ${questionIndex} of ${QUESTIONS.length}`;
 }
 
@@ -158,16 +158,14 @@ function displayQuestion() {
 
 showNextQuestion();
 
-function initializeQuiz() {
+/*function initializeQuiz() {
     let startQuizButton = document.getElementById("take-quiz-btn");
     let retakeButton = document.getElementsByClassName("retake-button");
     startQuizButton.addEventListener("click", startQuiz);
     retakeButton.addEventListener("click", restartQuiz);
+}*/
 
-
-}
-
-addEventListener('DOMContentLoaded', initializeQuiz);
+// addEventListener('DOMContentLoaded', initializeQuiz);
 
 function startQuiz() {
 

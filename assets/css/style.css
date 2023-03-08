@@ -170,6 +170,12 @@ main {
     height: 575px;
 }
 
+progress::-webkit-progress-bar {
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    background-color: #088888;
+}
+
 #progress-text {
     font-size: 150%;
     margin-bottom: 20px;
@@ -219,6 +225,9 @@ main {
 
 .quiz-answer-btn:hover {
     transform: scale(1.1);
+    border: 2px solid #ffffff;
+    color: #088888;
+    background-color: #ffffff;
 }
 
 /* Results area */

@@ -2,7 +2,8 @@ let score = 0;
 let progressBar = document.getElementById("progress-bar");
 let progressText = document.getElementById("progress-text");
 let input = document.getElementById("name-submit");
-let takeQuizButton = document.getElementById("take-quiz-btn")
+let takeQuizButton = document.getElementById("take-quiz-btn");
+document.getElementById("footer-area").classList.remove("hide");
 //let currentQuestion = document.getElementById("current-question");
 
 const QUESTIONS = [{

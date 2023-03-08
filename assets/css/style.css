@@ -43,6 +43,7 @@ main {
     border-bottom: 2px solid #FFD700;
     padding: 0;
     margin-bottom: 20px;
+    font-size: 110%;
 }
 
 .big-heading {
@@ -237,13 +238,13 @@ progress::-webkit-progress-bar {
     border-bottom: 2px solid #FFD700;
     border-top: 2px solid #FFD700;
     border-radius: 12px;
-    max-width: 600px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 5px;
+    padding: 0 20px;
+    margin: 0 auto;
+    font-size: 100%;
 }
 
 .circle-container {
@@ -252,10 +253,10 @@ progress::-webkit-progress-bar {
     /*border: 2px solid #FFD700;
     border-radius: 50%;*/
     margin: 0 auto;
-    padding: 10px;
+    padding: 0;
     --color: #FFD700;
     /* the color of the border */
-    --border: 10px;
+    --border: 5px;
     /* the thickness of the border */
     --offset: 30px;
     /* control the movement of the border */
@@ -296,15 +297,12 @@ progress::-webkit-progress-bar {
 .medium-heading {
     font-size: 180%;
     line-height: 120%;
-    padding: 20px 20px 0 20px;
     font-weight: bold;
     margin: 0 auto;
 }
 
 .result-feedback {
     line-height: 150%;
-    padding: 20px;
-    font-size: 110%;
 }
 
 .resultOne {

@@ -42,6 +42,7 @@ main {
     border-top: 2px solid #FFD700;
     border-bottom: 2px solid #FFD700;
     padding: 0;
+    margin-bottom: 20px;
 }
 
 .big-heading {
@@ -410,20 +411,20 @@ footer {
     width: 250px;
 }
 
-#go-home-btn {
-    background-color: #880808;
+.go-home-btn {
+    background-color: #088888;
     border-radius: 12px;
     border: 2px solid #ffffff;
     color: #ffffff;
     font-weight: bold;
     padding: 5%;
     margin: 10% 0;
+    width: 70%;
     text-decoration: none;
-    text-transform: uppercase;
-    transition: all .2s ease-in-out;
+    transition: background-color .4s ease;
 }
 
-#go-home-btn:hover {
+.go-home-btn:hover {
     transform: scale(1.1);
 }
 
@@ -597,7 +598,7 @@ footer {
         padding: 0;
         height: 250px;
         width: 250px;
-        margin: 0 20px 20px 20px;
+        margin: 0 10px 10px 10px;
     }
     
     .left-semi-circ:hover {
@@ -624,7 +625,7 @@ footer {
         padding: 0;
         height: 250px;
         width: 250px;
-        margin: 0 20px 20px 20px;
+        margin: 0 10px 10px 10px;
     }
 
     .instructions-text {

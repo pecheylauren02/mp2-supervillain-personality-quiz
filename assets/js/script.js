@@ -3,10 +3,10 @@ let score = 0;
 let progressBar = document.getElementById("progress-bar");
 let progressText = document.getElementById("progress-text");
 let currentQuestion = document.getElementById("current-question");
-let totalQuestions = document.getElementById("total-questions");
+//let totalQuestions = document.getElementById("total-questions");
 let retakeButton = document.getElementById("retake-button");
 
-const questions = [{
+const QUESTIONS = [{
         'question': "Which superpower appeals to you the most?",
         "optionOne": "The ability to fly",
         "optionTwo": "Being invisible",
@@ -145,13 +145,13 @@ let currentQuestionIndex = 0;
 
 //const questionElement = document.getElementById("question");
 function updateProgress() {
-    progressBar.style.width = (currentQuestionIndex / questions.length * 100) + "%";
+    progressBar.style.width = (currentQuestionIndex / QUESTIONS.length * 100) + "%";
     let questionIndex = currentQuestionIndex + 1;
-    progressText.innerHTML = `Question ${questionIndex} of ${questions.length}`;
+    progressText.innerHTML = `Question ${questionIndex} of ${QUESTIONS.length}`;
 }
 
 function displayQuestion() {
-    let question = questions[currentQuestionIndex];
+    let question = QUESTIONS[currentQuestionIndex];
     document.getElementById("question").innerText = question.question;
     document.getElementById("optionOne").innerText = question.optionOne;
     document.getElementById("optionTwo").innerText = question.optionTwo;
@@ -182,6 +182,8 @@ function startQuiz() {
     }
     console.log("PLAYING QUIZ");
 
+    showNextQuestion();
+
 }
 
 function showNextQuestion() {
@@ -204,7 +206,7 @@ function calculateScore(event) {
     event.preventDefault();
 
     let value = event.target.innerText;
-    let answers = questions[currentQuestionIndex]['answers'];
+    let answers = QUESTIONS[currentQuestionIndex]['answers'];
 
     let answerScore = '';
     let answerText = '';
@@ -253,6 +255,7 @@ function displayResults() {
     document.getElementById('quiz-area').classList.add('hide');
     document.getElementById('result-area').classList.remove('hide');
     document.getElementById('footer-area').classList.remove('hide');
+    //documents.getElementById("retake-button").classList.remove("hide");
 
     if (score >= 10 && score <= 14) {
         document.getElementById("resultOneDiv").classList.remove("hide");
@@ -283,16 +286,13 @@ function displayResults() {
 }
 
 function restartQuiz() {
+    console.log("Restarting function");
     score = 0;
-    questionsAnswered = 1;
-    currentQuestionIndex = 1;
-    document.getElementById('quiz-area').classList.remove('hide');
-    document.getElementById('result-area').classList.add('hide');
-    document.getElementById('footer-area').classList.add('hide');
-
+    currentQuestionIndex = 0;
+    startQuiz();
 }
 
-retakeButton.addEventListener("click", restartQuiz);
+//retakeButton.addEventListener("click", restartQuiz);
 
 
   

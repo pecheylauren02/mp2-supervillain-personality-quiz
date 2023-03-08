@@ -48,7 +48,6 @@ main {
     font-size: 200%;
     line-height: 120%;
     padding: 20px 0;
-    font-weight: 1000px;
     margin: 0 auto;
 }
 
@@ -61,8 +60,8 @@ main {
     background: url('../images/cruella_result_two.png') no-repeat center center;
     border-radius: 0 12rem 12rem 0;
     float: left;
-    border-left: 8px solid;
-    border-image: repeating-linear-gradient(135deg, #FFD700 0 10px) 8;
+    border-left: 8px solid #FFD700;
+    /*border-image: repeating-linear-gradient(135deg, #FFD700 0 10px) 8;*/
     -webkit-mask:
         conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
         conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat,
@@ -81,8 +80,8 @@ main {
     background: url('../images/maleficent_res.png') no-repeat center center;
     border-radius: 12rem 0 0 12rem;
     float: right;
-    border-right: 8px solid;
-    border-image: repeating-linear-gradient(135deg, #FFD700 0 10px) 8;
+    border-right: 8px solid #FFD700;
+    /*border-image: repeating-linear-gradient(135deg, #FFD700 0 10px) 8;*/
     -webkit-mask:
         conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
         conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat,

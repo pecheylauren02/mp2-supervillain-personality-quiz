@@ -175,7 +175,6 @@ function startQuiz() {
         // Hide the footer area
         document.getElementById('footer-area').classList.add('hide');
     }
-    console.log("PLAYING QUIZ");
 
     showNextQuestion();
 
@@ -196,7 +195,6 @@ document.getElementById("optionFour").addEventListener('click', calculateScore);
 
 
 function calculateScore(event) {
-    console.log("clicked");
     event.preventDefault();
 
     let value = event.target.innerText;
@@ -218,7 +216,7 @@ function calculateScore(event) {
         answerText = answers[3][0];
         answerScore = answers[3][1];
     } else {
-        console.log('Scores not calculated');
+        alert('Scores not calculated');
     }
 
     console.log(answerScore);
@@ -231,7 +229,6 @@ function calculateScore(event) {
     if (currentQuestionIndex === 10) {
         displayResults();
     } else {
-        console.log("Quiz not finished yet keep going");
         showNextQuestion();
     }
 
@@ -253,7 +250,6 @@ function displayResults() {
         document.getElementById("resultSixDiv").classList.add("hide");
         document.getElementById("resultSevenDiv").classList.add("hide");
         document.getElementById("resultEightDiv").classList.add("hide");
-        console.log("resultOne")
     } else if (score >= 15 && score <= 19) {
         document.getElementById("resultTwoDiv").classList.remove("hide");
         document.getElementById("resultOneDiv").classList.add("hide");
@@ -263,7 +259,6 @@ function displayResults() {
         document.getElementById("resultSixDiv").classList.add("hide");
         document.getElementById("resultSevenDiv").classList.add("hide");
         document.getElementById("resultEightDiv").classList.add("hide");
-        console.log("resultTwo")
     } else if (score >= 20 && score <= 24) {
         document.getElementById("resultThreeDiv").classList.remove("hide");
         document.getElementById("resultTwoDiv").classList.add("hide");
@@ -273,7 +268,6 @@ function displayResults() {
         document.getElementById("resultSixDiv").classList.add("hide");
         document.getElementById("resultSevenDiv").classList.add("hide");
         document.getElementById("resultEightDiv").classList.add("hide");
-        console.log("resultThree")
     } else if (score >= 25 && score <= 29) {
         document.getElementById("resultFourDiv").classList.remove("hide");
         document.getElementById("resultTwoDiv").classList.add("hide");
@@ -283,7 +277,6 @@ function displayResults() {
         document.getElementById("resultSixDiv").classList.add("hide");
         document.getElementById("resultSevenDiv").classList.add("hide");
         document.getElementById("resultEightDiv").classList.add("hide");
-        console.log("resultFour")
     } else if (score >= 30 && score <= 34) {
         document.getElementById("resultFiveDiv").classList.remove("hide");
         document.getElementById("resultTwoDiv").classList.add("hide");
@@ -293,7 +286,6 @@ function displayResults() {
         document.getElementById("resultSixDiv").classList.add("hide");
         document.getElementById("resultSevenDiv").classList.add("hide");
         document.getElementById("resultEightDiv").classList.add("hide");
-        console.log("resultFive")
     } else if (score >= 35 && score <= 39) {
         document.getElementById("resultSixDiv").classList.remove("hide");
         document.getElementById("resultTwoDiv").classList.add("hide");
@@ -303,7 +295,7 @@ function displayResults() {
         document.getElementById("resultOneDiv").classList.add("hide");
         document.getElementById("resultSevenDiv").classList.add("hide");
         document.getElementById("resultEightDiv").classList.add("hide");
-        console.log("resultSix")
+
     } else if (score >= 40 && score <= 44) {
         document.getElementById("resultSevenDiv").classList.remove("hide");
         document.getElementById("resultTwoDiv").classList.add("hide");
@@ -313,7 +305,7 @@ function displayResults() {
         document.getElementById("resultSixDiv").classList.add("hide");
         document.getElementById("resultOneDiv").classList.add("hide");
         document.getElementById("resultEightDiv").classList.add("hide");
-        console.log("resultSeven")
+   
     } else {
         document.getElementById("resultEightDiv").classList.remove("hide");
         document.getElementById("resultTwoDiv").classList.add("hide");
@@ -323,13 +315,12 @@ function displayResults() {
         document.getElementById("resultSixDiv").classList.add("hide");
         document.getElementById("resultSevenDiv").classList.add("hide");
         document.getElementById("resultOneDiv").classList.add("hide");
-        console.log("resultEight")
+
     }
 
 }
 
 function restartQuiz() {
-    console.log("Restarting function");
     score = 0;
     currentQuestionIndex = 0;
     startQuiz();

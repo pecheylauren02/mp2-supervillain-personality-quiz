@@ -60,33 +60,33 @@ main {
     background: url('../images/cruella_result_two.png') no-repeat center center;
     border-radius: 0 12rem 12rem 0;
     float: left;
-    border-left: 8px solid #FFD700;
-    /*border-image: repeating-linear-gradient(135deg, #FFD700 0 10px) 8;*/
-    -webkit-mask:
-        conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
-        conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat,
-        linear-gradient(#000 0 0) padding-box no-repeat;
-    transition: .3s, -webkit-mask-position .3s .3s;
+    border-top: 5px solid #880808;
+    border-bottom: 5px solid #FFD700;
     padding-right: 20px;
+}
+
+.left-semi-circ:hover {
+    border-top: 5px solid #FFD700;
+    border-bottom: 5px solid #880808;
+}
+
+.right-semi-circ:hover {
+    border-top: 5px solid #880808;
+    border-bottom: 5px solid #FFD700;
 }
 
 .left-semi-circ:hover,
 .right-semi-circ:hover {
-    --_i: 100%;
-    transition: .3s, -webkit-mask-size .3s .3s;
+    
+    transition: border .4s ease;
 }
 
 .right-semi-circ {
     background: url('../images/maleficent_res.png') no-repeat center center;
     border-radius: 12rem 0 0 12rem;
     float: right;
-    border-right: 8px solid #FFD700;
-    /*border-image: repeating-linear-gradient(135deg, #FFD700 0 10px) 8;*/
-    -webkit-mask:
-        conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
-        conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat,
-        linear-gradient(#000 0 0) padding-box no-repeat;
-    transition: .3s, -webkit-mask-position .3s .3s;
+    border-top: 5px solid #FFD700;
+    border-bottom: 5px solid #880808;
     padding-left: 20px;
 }
 

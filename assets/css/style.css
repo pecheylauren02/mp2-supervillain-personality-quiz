@@ -234,17 +234,19 @@ progress::-webkit-progress-bar {
 /* Results area */
 
 #result-area {
-    background-color: #000;
-    border-bottom: 2px solid #FFD700;
-    border-top: 2px solid #FFD700;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0 20px;
+    background-color: #000;
+    border-top: 2px solid #FFD700;
+    border-bottom: 2px solid #FFD700;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 110%;
+    width: 90%;
     margin: 0 auto;
-    font-size: 100%;
 }
 
 .circle-container {
@@ -299,10 +301,18 @@ progress::-webkit-progress-bar {
     line-height: 120%;
     font-weight: bold;
     margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border-bottom: 4px solid #FFD700;
+    width: 50%;
+}
+
+.medium-heading:hover {
+    border-bottom: 4px solid #880808;
 }
 
 .result-feedback {
     line-height: 150%;
+    padding: 20px 40px 0 40px;
 }
 
 .resultOne {

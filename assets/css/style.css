@@ -528,7 +528,7 @@ footer {
         font-size: 150%;
     }
 
-    #retake-button {
+    .retake-button {
         width: 40%;
         margin: 0 auto;
     }
@@ -606,7 +606,7 @@ footer {
         padding-top: 20px;
     }
 
-    #go-home-btn {
+    .go-home-btn {
         margin-top: 20px;
         margin-bottom: 20px;
     }

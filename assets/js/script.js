@@ -4,7 +4,6 @@ let progressText = document.getElementById("progress-text");
 let input = document.getElementById("name-submit");
 let takeQuizButton = document.getElementById("take-quiz-btn")
 //let currentQuestion = document.getElementById("current-question");
-//let retakeButton = document.getElementById("retake-button");
 
 const QUESTIONS = [{
         'question': "Which superpower appeals to you the most?",
@@ -159,6 +158,17 @@ function displayQuestion() {
 
 showNextQuestion();
 
+function initializeQuiz() {
+    let startQuizButton = document.getElementById("take-quiz-btn");
+    let retakeButton = document.getElementsByClassName("retake-button");
+    startQuizButton.addEventListener("click", startQuiz);
+    retakeButton.addEventListener("click", restartQuiz);
+
+
+}
+
+addEventListener('DOMContentLoaded', initializeQuiz);
+
 function startQuiz() {
 
     // Captures name of user
@@ -310,7 +320,7 @@ function displayResults() {
         document.getElementById("resultSixDiv").classList.add("hide");
         document.getElementById("resultOneDiv").classList.add("hide");
         document.getElementById("resultEightDiv").classList.add("hide");
-   
+
     } else {
         document.getElementById("resultEightDiv").classList.remove("hide");
         document.getElementById("resultTwoDiv").classList.add("hide");

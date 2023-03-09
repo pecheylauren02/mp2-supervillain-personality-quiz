@@ -4,6 +4,8 @@ let progressText = document.getElementById("progress-text");
 let input = document.getElementById("name-submit");
 let takeQuizButton = document.getElementById("take-quiz-btn");
 document.getElementById("footer-area").classList.remove("hide");
+
+
 //let currentQuestion = document.getElementById("current-question");
 
 const QUESTIONS = [{
@@ -158,6 +160,15 @@ function displayQuestion() {
 }
 
 showNextQuestion();
+
+function getUserName() {
+    console.log(input.value);
+}
+
+takeQuizButton.addEventListener("click", getUserName);
+
+//let input = document.getElementById("name-submit");
+//let takeQuizButton = document.getElementById("take-quiz-btn");
 
 /*function initializeQuiz() {
     let startQuizButton = document.getElementById("take-quiz-btn");

@@ -481,9 +481,10 @@ footer {
     font-weight: bold;
     padding: 5%;
     margin: 10% 0;
-    width: 70%;
+    width: 50%;
     text-decoration: none;
     transition: background-color .4s ease;
+    font-size: 90%;
 }
 
 .go-home-btn:hover {
@@ -611,9 +612,10 @@ footer {
         padding-top: 20px;
     }
 
-    #go-home-btn {
+    .go-home-btn {
         font-weight: bold;
         padding: 3%;
+        width: 30%;
     }
 
     #progress-text {
@@ -718,6 +720,10 @@ footer {
         font-size: 320%;
     }
 
+    #quiz-area {
+        height: 900px;
+    }
+
     .quiz-answer-btn {
         font-size: 160%;
     }
@@ -750,6 +756,10 @@ footer {
 
     #error-div p {
         padding: 0 2%;
+    }
+
+    .go-home-btn {
+        padding: 2%;
     }
 
     #logo {
@@ -786,19 +796,14 @@ footer {
 
 @media screen and (min-width: 1200px) {
 
-    .left-semi-circ,
-    .right-semi-circ {
-        border-radius: 50%;
-    }
-
     .circle-container {
         padding: 30px;
     }
 
     .quiz-container {
         padding: 40px;
-        width: 800px;
-        height: 700px;
+        width: 900px;
+        height: 850px;
         margin: 0 auto;
     }
 
@@ -809,14 +814,6 @@ footer {
     #question {
         font-size: 230%;
         padding: 80px;
-    }
-
-    .options {
-        margin-top: 20px;
-    }
-
-    .option {
-        margin-bottom: 20px;
     }
 
     .result-feedback {

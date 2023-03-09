@@ -157,6 +157,7 @@ main {
 }
 
 /* Quiz Area */
+
 .quiz-container {
     background-color: #111;
     padding: 20px;
@@ -165,6 +166,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-grow: 1;
     border-radius: 12px;
     border-bottom: 2px solid #FFD700;
     border-top: 2px solid #FFD700;
@@ -172,9 +174,8 @@ main {
 }
 
 progress::-webkit-progress-bar {
-    border: 2px solid #ffffff;
-    border-radius: 12px;
     background-color: #088888;
+    margin-bottom: 20px;
 }
 
 #progress-text {
@@ -199,7 +200,7 @@ progress::-webkit-progress-bar {
     text-align: center;
     border: 1px solid #FFD700;
     border-radius: 12px;
-    padding: 50px;
+    padding: 30px;
 }
 
 .options {
@@ -721,7 +722,7 @@ footer {
     }
 
     #quiz-area {
-        height: 900px;
+        height: 800px;
     }
 
     .quiz-answer-btn {

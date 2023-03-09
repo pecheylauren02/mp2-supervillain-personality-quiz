@@ -74,7 +74,6 @@ This is the documentation for a fun web application: The Ultimate Supervillain P
 
 #### Project Purpose
 
-
 This web-based quiz was planned and developed using principles of User Experience (UX) design, which include the five planes of Strategy, Scope, Structure, Skeleton, and Surface. Using these principles, the aim was to create a fun, easy-to-use, responsive, and engaging quiz that entertains users who are interested in learning more about their personalities. 
 
 #### Client Goals
@@ -141,7 +140,7 @@ This quiz is made up of 10 questions with 4 answer options to choose from, and i
 - After completing all ten questions, the user will be matched with a supervillain based on their total score.  
 - Before starting the quiz, users must sign up with their names. 
 
-Each time the user selects an answer it builds up a picture of what kind of personality they have. These results are then processed to calculate the best supervillain match for them, and I included 8 possible matches (a mix of Disney, Marvel, Stranger Things, and DC supervillains):
+Each time the user selects an answer it builds up a picture of what kind of personality they have. These results are then processed to calculate the best supervillain match for them, and I included 8 possible matches (a mix of Disney, Marvel, Harry Potter, Stranger Things, and DC supervillains):
 - Lord Voldemort
 - Cruella de Vil
 - Magneto
@@ -151,7 +150,7 @@ Each time the user selects an answer it builds up a picture of what kind of pers
 - Thanos
 - The Green Goblin
 
-It is worth noting that while this is presented as a personality test, this quiz is built for entertainment purposes, and is not backed by any specific psychological research.
+It is worth noting that while this is presented as a personality test, this quiz is built for entertainment purposes only, and is not backed by any specific psychological research.
 
 ## Design, Layout and Structure 
 
@@ -288,9 +287,10 @@ I included a Favicon for the site using the female supervillain graphic which ha
 
 <details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/favicon.png">
 
 _Favicon_
+
 </details>
 
 #### Footer 
@@ -302,19 +302,19 @@ _Favicon_
 
 <details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/footer_desktop.png">
 
 _Footer on Desktop_
 
-<img src="">
+<img src="docs/footer_ipad.png">
 
 _Footer on iPad_
 
-<img src="">
+<img src="docs/footer_mobile.png">
 
 _Footer on Phone_
 
-<img src="">
+<img src="docs/social_link_hover.png">
 
 _Hover effect on social links_
 
@@ -394,11 +394,11 @@ _Progress Bar updates with each question answered_
 
 <details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/question_options.png">
 
-_Option selection and question/option update_
+_Questions and options section_
 
-<img src="">
+<img src="docs/options_hover.png">
 
 _Answer hover effect_
 
@@ -438,9 +438,9 @@ _Results section on Phone_
 
 <details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/input_take_quiz.png">
 
-_Retake Quiz Button_
+_User Input and Retake Quiz Button_
 
 </details>
 

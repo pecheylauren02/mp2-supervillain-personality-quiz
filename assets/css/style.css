@@ -774,6 +774,10 @@ footer {
         margin-bottom: 20px;
     }
 
+    #name-submit {
+        width: 35%;
+     }
+
 }
 
 /* For Extra Large Devices (Large desktops, 1200px and above */

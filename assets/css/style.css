@@ -654,8 +654,6 @@ footer {
         border-bottom: 5px solid #FFD700;
         border-left: 5px solid #FFD700;
         padding: 0;
-        height: 250px;
-        width: 250px;
         margin: 0 10px 10px 10px;
     }
 
@@ -681,8 +679,6 @@ footer {
         border-bottom: 5px solid #880808;
         border-left: 5px solid #880808;
         padding: 0;
-        height: 250px;
-        width: 250px;
         margin: 0 10px 10px 10px;
     }
 
@@ -763,10 +759,24 @@ footer {
 
 /* For Extra Large Devices (Large desktops, 1200px and above */
 @media screen and (min-width: 1200px) {
-
-    .circle-container {
-        padding: 30px;
+    .instructions-text {
+        margin: 0 auto;
     }
+
+    #name-submit {
+        padding: 2%;
+        width: 25%;
+    }
+
+    .quiz-btn-main {
+        padding: 2%;
+        width: 30%;
+    }
+   
+
+   
+    
+
 
     .quiz-container {
         padding: 40px;
@@ -782,6 +792,10 @@ footer {
     #question {
         font-size: 230%;
         padding: 80px;
+    }
+
+    .circle-container {
+        padding: 30px;
     }
 
     .result-feedback {

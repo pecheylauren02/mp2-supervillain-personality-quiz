@@ -407,15 +407,15 @@ _Answer hover effect_
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/results_desktop.png">
+<img src="docs/results_section_desktop.png">
 
 _Results section on Desktop_
 
-<img src="docs/results_ipad.png">
+<img src="docs/results_section_ipad.png">
 
 _Results section on iPad_
 
-<img src="">
+<img src="docs/result_section_mobile.png">
 
 _Results section on Phone_
 

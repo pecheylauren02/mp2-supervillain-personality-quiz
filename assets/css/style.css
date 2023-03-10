@@ -255,13 +255,13 @@ progress::-webkit-progress-bar {
 
 .results-heading {
     margin: 0 auto;
-    padding: 5px 20px 0 5px;
+    padding: 5px 20px 20px 5px;
 }
 
 .circle-container {
     height: 250px;
     width: 250px;
-    margin: 20px;
+    margin: 0 auto;
     padding: 0;
     border: 4px solid #FFD700;
     border-radius: 50%;
@@ -285,7 +285,7 @@ progress::-webkit-progress-bar {
     line-height: 120%;
     font-weight: bold;
     margin: 0 auto;
-    padding: 0 20px 20px 20px;
+    padding: 20px;
     border-bottom: 4px solid #880808;
     width: 50%;
     transition: 1s;
@@ -741,6 +741,10 @@ footer {
 
     #name-submit {
         width: 35%;
+    }
+
+    .results-heading {
+        padding: 5px 20px 30px 5px;
     }
 
     .result-feedback {

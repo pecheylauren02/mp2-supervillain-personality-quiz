@@ -261,7 +261,7 @@ progress::-webkit-progress-bar {
 .circle-container {
     height: 250px;
     width: 250px;
-    margin: 0 auto;
+    margin: 20px;
     padding: 0;
     border: 4px solid #FFD700;
     border-radius: 50%;
@@ -550,6 +550,7 @@ footer {
     .circle-container {
         height: 300px;
         width: 300px;
+        margin: 0 auto;
     }
 
     .super-vil-img {
@@ -626,7 +627,7 @@ footer {
         font-size: 120%;
         width: 45%;
     }
-    
+
     #return-home-btn {
         margin-bottom: 3%;
         width: 40%;
@@ -772,11 +773,6 @@ footer {
         padding: 2%;
         width: 30%;
     }
-   
-
-   
-    
-
 
     .quiz-container {
         padding: 40px;

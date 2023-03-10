@@ -497,11 +497,13 @@ _HTML Validator Result_
 
 #### CSS Validator Testing
 
-I ran my CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) as well as [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). No errors were displayed. 
+I ran my CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) as well as [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). No errors were displayed, however there was one warning shown regarding the use of vendor extended pseudo elements (see screenshot). This was kept in the file despite the warning, as it was the only way to access the progress bar for styling. 
 
 <details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/css_validator_result.png">
+
+<img src="docs/css_warning.png">
 
 _CSS Validator Result_
 
@@ -509,9 +511,7 @@ _CSS Validator Result_
 
 #### JavaScript Validator Testing
 
-I ran my JavaScript code through [Jshint validator](https://jshint.com/). The only warnings shown initially were to use -moz instead of let for global variables. However, once I configured the settings to support "New . The following metrics were returned: 
-**ADJUST INFO BELOW**:
-- There are ADD NUMBER functions in this file.
+I ran my JavaScript code through [Jshint validator](https://jshint.com/). The only warnings shown initially were to use -moz instead of let for global variables. However, once I configured the settings to support "New JavaScript Features (ES6)" there were no warnings, other than a syntax suggestion, which was fixed (see screenshots):
 
 <img src="docs/jshint_issues_two.png">
 
@@ -527,19 +527,9 @@ _Change of configuration_
 
 </details>
 
-
-
-</details>
-
-<img src="">
-
-_CSS Validator Result_
-
-</details>
-
 #### Accessibility
 
-I tested accessibility of the website using Google Chrome Dev Tools Lighthouse, and the scores came out clean. I also ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave.webaim.org/). 
+I tested accessibility of the website using Google Chrome Dev Tools Lighthouse, and the scores came out clean. I also ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave.webaim.org/). No warnings or errors were shown. 
 
 <details><summary>Screenshots</summary>
 
@@ -581,12 +571,6 @@ I ran manual tests on the website, based on the user stories mentioned above:
 | 6 | I want to sign up with my name quickly and easily | The site has a simple name-input section which allows the user the enter their name, and upon submission, the quiz will start immediately. |
 | 7 | I want to have the option of retaking the quiz if I don't like the result | The site has a retake quiz button below the results, once the user has completed the quiz, to give them the option of taking the quiz again. |
 
-<details><summary>Screenshots</summary>
-
-<img src="">
-
-</details>
-
 #### Browser Compatibility
 
 The site was tested on the following browsers, with no browser-specific bugs detected. 
@@ -612,48 +596,37 @@ The website functioned as expected on all devices.
 
 ### Solved Bugs
 
-#### Results displaying prematurely 
+#### All results were displayed at once
 
-The results were being displayed after 9 out of 10 questions were answered, thus the user was unable to answer all 10 questions. 
-
-**HOW I FIXED IT**.
+When the user retakes the quiz, all of the results were displaying at the same time, rather than just one. This was an issue with the displaying results function in the JavaScript code: The "hide" class was not being added to the unwanted results in the function. Once this was added, the results functioned as expected:
 
 <details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/results_bug.png">
 
-_Label_
+_Results bug_
 
-<img src="">
+<img src="docs/results_ipad.png">
 
-_Label_
-
-<img src="">
-
-_Label_
+_Results fixed_
 
 </details>
 
-#### Bug 2
+#### Retake Quiz button not working
 
-**INFO ON BUG HERE**.
+When the user clicked the retake quiz button, the user was taken to question 10 of 10, instead of question 1 of 10. This is because the score and progress bar were not reset to 0, so the questions were not reset to the beginning. To fix this, I reset the score and progress bar to 0.
 
 <details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/retake_bug.png">
 
-_Label_
-
-<img src="">
-
-_Label_
+_Quiz page shown after user clicked the retake quiz button_
 
 <img src="">
 
-_Label_
+_Quiz page shown after bug was fixed_
 
 </details>
-
 
 ## Deployment
 

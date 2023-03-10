@@ -509,9 +509,33 @@ _CSS Validator Result_
 
 #### JavaScript Validator Testing
 
-I ran my JavaScript code through [Jshint validator](https://jshint.com/) and no errors were found. The following metrics were returned: 
+I ran my JavaScript code through [Jshint validator](https://jshint.com/). The only warnings shown initially were to use -moz instead of let for global variables. However, once I configured the settings to support "New . The following metrics were returned: 
 **ADJUST INFO BELOW**:
 - There are ADD NUMBER functions in this file.
+
+<img src="docs/jshint_issues_two.png">
+
+_JS Validator Result_
+
+<img src="docs/jshint.png">
+
+_JS Validator Result_
+
+<img src="docs/configure.png">
+
+_Change of configuration_
+
+</details>
+
+
+
+</details>
+
+<img src="">
+
+_CSS Validator Result_
+
+</details>
 
 #### Accessibility
 
@@ -521,23 +545,11 @@ I tested accessibility of the website using Google Chrome Dev Tools Lighthouse, 
 
 <img src="docs/performance.png">
 
-_Accessibility result on Home Page_
+_Accessibility result on Lighthouse_
 
-</details>
+<img src="docs/wave_accessibility.png">
 
-<details><summary>Quiz Section</summary>
-
-<img src="">
-
-_Accessibility result on Quiz Page_
-
-</details>
-
-<details><summary>Quiz Results Section</summary>
-
-<img src="">
-
-_Accessibility result on Quiz Results Page_
+_Accessibility result on Wave_
 
 </details>
 

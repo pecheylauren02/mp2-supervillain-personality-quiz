@@ -1,3 +1,4 @@
+// Declaring all global variables
 let score = 0;
 let progressBar = document.getElementById("progress-bar");
 let progressText = document.getElementById("progress-text");
@@ -6,12 +7,14 @@ let takeQuizButton = document.getElementById("take-quiz-btn");
 let currentQuestionIndex = 0;
 document.getElementById("footer-area").classList.remove("hide");
 
+// Displays and updates progress bar
 function updateProgress() {
     let questionIndex = currentQuestionIndex + 1;
     progressBar.style.width = (questionIndex / QUESTIONS.length * 100) + "%";
     progressText.innerHTML = `Question ${questionIndex} of ${QUESTIONS.length}`;
 }
 
+// Displays all questions and answers
 function displayQuestion() {
     let question = QUESTIONS[currentQuestionIndex];
     document.getElementById("question").innerText = question.question;
@@ -23,48 +26,40 @@ function displayQuestion() {
 
 showNextQuestion();
 
+// Logs the users name in the console
 function getUserName() {
     console.log(input.value);
 }
 
 takeQuizButton.addEventListener("click", getUserName);
 
-//let input = document.getElementById("name-submit");
-//let takeQuizButton = document.getElementById("take-quiz-btn");
-
+// Initializes quiz
 function initializeQuiz() {
     let startQuizButton = document.getElementById("take-quiz-btn");
-    let retakeButton = document.getElementsByClassName("retake-button");
+    let retakeButton = document.getElementById("retake-button");
     startQuizButton.addEventListener("click", startQuiz);
     retakeButton.addEventListener("click", restartQuiz);
 }
 
-addEventListener('DOMContentLoaded', initializeQuiz);
+/**
+ * Starts the quiz
+ * Captures the name of the user
+ * Hides the instructions, results and footer area
+ * Displays the quiz area
+ */
 
 function startQuiz() {
-
-    // Captures name of user
     let username = document.getElementById("name-submit");
-
-    // Alert if no username is entered
     if (username.value === "") {
-        //alert(`Please enter your name first to take the quiz!`);
         document.getElementById("alert-div").classList.remove('hide');
-        //input.style.backgroundColor = 'grey';
     } else {
-        // Hide the instructions area
         document.getElementById('instructions-area').classList.add('hide');
         document.getElementById("alert-div").classList.add('hide');
-        // Show the quiz area
         document.getElementById('quiz-area').classList.remove('hide');
-        // Hide the results area
         document.getElementById('result-area').classList.add('hide');
-        // Hide the footer area
         document.getElementById('footer-area').classList.add('hide');
     }
-
     showNextQuestion();
-
 }
 
 function showNextQuestion() {
@@ -73,23 +68,18 @@ function showNextQuestion() {
     updateProgress();
 }
 
-// Event Listeners for when user clicks the buttons
-
+// Event Listeners for when user clicks the answer option button
 document.getElementById("optionOne").addEventListener('click', calculateScore);
 document.getElementById("optionTwo").addEventListener('click', calculateScore);
 document.getElementById("optionThree").addEventListener('click', calculateScore);
 document.getElementById("optionFour").addEventListener('click', calculateScore);
 
-
+// Calculates the users score after they click on each option
 function calculateScore(event) {
     event.preventDefault();
-
-    //let value = event.target.innerText;
     let answers = QUESTIONS[currentQuestionIndex].answers;
-
     let answerScore = '';
     let answerText = '';
-
     if (event.target.id.endsWith('One')) {
         answerText = answers[0][0];
         answerScore = answers[0][1];
@@ -105,28 +95,29 @@ function calculateScore(event) {
     } else {
         alert('Scores not calculated');
     }
-
     console.log(answerScore);
     console.log(answerText);
-
     score += answerScore;
     console.log(score);
     currentQuestionIndex++;
-
     if (currentQuestionIndex === 10) {
         displayResults();
     } else {
         showNextQuestion();
     }
-
 }
 
-/* Results area */
+/**
+ * Displays one of eight possible results depending on the user's total score
+ * Hides instructions, quiz and footer area
+ */
 
 function displayResults() {
     document.getElementById('quiz-area').classList.add('hide');
     document.getElementById('result-area').classList.remove('hide');
+    document.getElementById('retake-quiz-area').classList.remove('hide');
     document.getElementById('footer-area').classList.remove('hide');
+
 
     if (score >= 10 && score <= 14) {
         document.getElementById("resultOneDiv").classList.remove("hide");
@@ -207,8 +198,11 @@ function displayResults() {
 
 }
 
+// Restarts the quiz
 function restartQuiz() {
     score = 0;
     currentQuestionIndex = 0;
     startQuiz();
 }
+
+addEventListener('DOMContentLoaded', initializeQuiz);

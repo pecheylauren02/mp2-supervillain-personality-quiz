@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- Links, keywords and title -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,9 +45,11 @@
             <br>
             <!-- Name Input & Start Quiz Area -->
             <div id="start-quiz-area">
-                <input id="name-submit" type="text" placeholder="Enter your name here..." name="name" aria-label="Enter your name"
-                    minlength="2" maxlength="15" required>
-                <div id="alert-div" class="instructions-text hide"><i class="fas fa-exclamation-triangle warning-icons"></i> Please enter your name first to take the quiz! <i class="fas fa-exclamation-triangle warning-icons"></i></div>
+                <input id="name-submit" type="text" placeholder="Enter your name here..." name="name"
+                    aria-label="Enter your name" minlength="2" maxlength="15" required>
+                <div id="alert-div" class="instructions-text hide"><i
+                        class="fas fa-exclamation-triangle warning-icons"></i> Please enter your name first to take the
+                    quiz! <i class="fas fa-exclamation-triangle warning-icons"></i></div>
                 <button id="take-quiz-btn" class="quiz-btn-main" type="button" onclick="startQuiz()">TAKE
                     QUIZ</button>
             </div>
@@ -58,7 +61,7 @@
             <progress id="progress-bar" class="progress-bar" value="0" max="100"></progress>
             <h1 id="progress-text">Question <span id="current-question">0</span> of <span id="total-questions">0</span>
             </h1>
-            
+
             <!-- Questions and Answers section -->
             <div class="question-container">
                 <span id="question"></span>
@@ -79,6 +82,7 @@
             </div>
 
         </section>
+
         <!-- Results Area -->
         <section id="result-area" class="hide">
             <h1 class="big-heading results-heading">Your Supervillain Personality is:</h1>
@@ -90,16 +94,13 @@
                 <p id="resultOneFeedback" class="result-feedback">
                     You are a genius mastermind with highly analytical skills, and you are completely
                     motivated by power and control.
-                    Your only ambition in life is to become an all-powerful, all-controlling immortal. 
+                    Your only ambition in life is to become an all-powerful, all-controlling immortal.
                     <br><br>
                     You will stop
                     at nothing to achieve your goals and will stop anyone who gets in your way. You are a powerful
                     leader,
                     needing loyal followers to thrive and serve your every need!
                 </p>
-                <button class="retake-button" onclick="restartQuiz()">RETAKE QUIZ</button>
-                <!-- Go Home Button -->
-                <a href="index.html" class="return-home-btn" aria-label="Takes user back to Home Page"><strong>Return Home</strong></a>
             </div>
             <div id="resultTwoDiv" class="hide">
                 <div class="circle-container">
@@ -108,15 +109,12 @@
                 <h2 id="resultTwoHeading" class="medium-heading">Cruella de Vil</h2>
                 <p id="resultTwoFeedback" class="result-feedback">
                     You are a cunning, witty, and intelligent leader. You thrive under pressure because you
-                    believe that the more times you fall, the more times you will rise. 
+                    believe that the more times you fall, the more times you will rise.
                     <br><br>
                     You have a strong desire for
                     a life of luxury, and are determined to acquire your goals through power and control. One thing
                     is for certain, you have a great sense of style!
                 </p>
-                <button class="retake-button" onclick="restartQuiz()">RETAKE QUIZ</button>
-                <!-- Go Home Button -->
-                <a href="index.html" class="return-home-btn" aria-label="Takes user back to Home Page"><strong>Return Home</strong></a>
             </div>
             <div id="resultThreeDiv" class="hide">
                 <div class="circle-container">
@@ -128,7 +126,7 @@
                     attention.
                     You are thorough and always ensure that your plans will turn out the way they were supposed to!
                     In the past, you were frequently misunderstood, and have become a villain as a result of
-                    being wronged when you were too kind or naive. 
+                    being wronged when you were too kind or naive.
                     <br><br>
                     You never give up and too many failures may also be
                     hurtful
@@ -136,9 +134,6 @@
                     makes
                     people drawn to you!
                 </p>
-                <button class="retake-button" onclick="restartQuiz()">RETAKE QUIZ</button>
-                <!-- Go Home Button -->
-                <a href="index.html" class="return-home-btn" aria-label="Takes user back to Home Page"><strong>Return Home</strong></a>
             </div>
             <div id="resultFourDiv" class="hide">
                 <div class="circle-container">
@@ -149,7 +144,7 @@
                     You are extremely ambitious and business-minded, and have become self-made despite difficulties in
                     your childhood.
                     You are also highly skilled, particularly with gadgets, which
-                    you use to achieve your goals and enhance your performance. 
+                    you use to achieve your goals and enhance your performance.
                     <br><br>
                     You are also a masterful strategist, but
                     have created a
@@ -157,9 +152,6 @@
                     you refocus your
                     energy towards something good!
                 </p>
-                <button class="retake-button" onclick="restartQuiz()">RETAKE QUIZ</button>
-                <!-- Go Home Button -->
-                <a href="index.html" class="return-home-btn" aria-label="Takes user back to Home Page"><strong>Return Home</strong></a>
             </div>
             <div id="resultFiveDiv" class="hide">
                 <div class="circle-container">
@@ -169,16 +161,13 @@
                 <p id="resultFiveFeedback" class="result-feedback">
                     You are an extremely focused person, and are completely set on pursuing your goals, no
                     matter the cost. You are highly skilled at getting others to do what you want, but can
-                    be destructive, and tend to lack empathy if you hurt someone along the way. 
+                    be destructive, and tend to lack empathy if you hurt someone along the way.
                     <br><br>
                     You know how
                     powerful you are, and often act on impulse because it brings you a lot of excitement. On
                     a more positive note, you don't discriminate against others, and are not concerned with power
                     or status, only accomplishing your goals no matter what.
                 </p>
-                <button class="retake-button" onclick="restartQuiz()">RETAKE QUIZ</button>
-                <!-- Go Home Button -->
-                <a href="index.html" class="return-home-btn" aria-label="Takes user back to Home Page"><strong>Return Home</strong></a>
             </div>
             <div id="resultSixDiv" class="hide">
                 <div class="circle-container">
@@ -190,16 +179,13 @@
                     confidence
                     fall even when others doubt you. You have a strong belief in your abilities, which makes you seem
                     invincible to
-                    the people around you. 
+                    the people around you.
                     <br><br>
                     With your psychic-telekinetic powers, you can move things with your mind and
                     enter people's
                     memories, which makes you incredibly skilled and powerful. We hope you use these talents for good in
                     the future!
                 </p>
-                <button class="retake-button" onclick="restartQuiz()">RETAKE QUIZ</button>
-                <!-- Go Home Button -->
-                <a href="index.html" class="return-home-btn" aria-label="Takes user back to Home Page"><strong>Return Home</strong></a>
             </div>
             <div id="resultSevenDiv" class="hide">
                 <div class="circle-container">
@@ -209,7 +195,7 @@
                 <p id="resultSevenFeedback" class="result-feedback">
                     Although you can be sinister, you thrive to excel and love being the best at everything you do. In
                     fact, so much so that you will make sure not a single
-                    soul will get in the way of you accomplishing your dreams. 
+                    soul will get in the way of you accomplishing your dreams.
                     <br><br>
                     On the downside, when failure or
                     betrayal comes your way,
@@ -218,9 +204,6 @@
                     a caring side that wants to protect the innocent, and you will fiercely protect them at all
                     costs.
                 </p>
-                <button class="retake-button" onclick="restartQuiz()">RETAKE QUIZ</button>
-                <!-- Go Home Button -->
-                <a href="index.html" class="return-home-btn" aria-label="Takes user back to Home Page"><strong>Return Home</strong></a>
             </div>
             <div id="resultEightDiv" class="hide">
                 <div class="circle-container">
@@ -233,7 +216,7 @@
                     past,
                     you followed a code of ethics, but because of your efficiency, you are willing to put ethics aside
                     to get
-                    the job done. 
+                    the job done.
                     <br><br>
                     Despite this, you still believe in a future where we will all get along, and are
                     focused
@@ -241,13 +224,17 @@
                     is
                     still respectable!
                 </p>
-                <button class="retake-button" onclick="restartQuiz()">RETAKE QUIZ</button>
-                <!-- Go Home Button -->
-                <a href="index.html" class="return-home-btn" aria-label="Takes user back to Home Page"><strong>Return Home</strong></a>
+            </div>
+            <!-- Retake Quiz or Return Home buttons -->
+            <div id="retake-quiz-area" class="hide">
+                <button id="retake-button" onclick="restartQuiz()">RETAKE QUIZ</button>
+                <a href="index.html" class="return-home-btn" aria-label="Takes user back to Home Page"><strong>Return
+                        Home</strong></a>
             </div>
         </section>
 
     </main>
+
     <!-- Footer Area -->
     <footer id="footer-area" class="hide">
         <div class="footer-content">
@@ -269,11 +256,12 @@
         <div class="footer-copyright">
             <p>Copyright <i class="far fa-copyright"></i> 2023</p>
         </div>
-
     </footer>
 
     <!-- Font awesome script and link here -->
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+
+    <!-- Links to both Javascript files -->
     <script src="assets/js/questions.js"></script>
     <script src="assets/js/quiz.js"></script>
 </body>

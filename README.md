@@ -457,13 +457,11 @@ _User Input and Retake Quiz Button_
 
 <details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/404_phone.png">
+<img src="docs/404_ipad.png">
+<img src="docs/404_desktop.png">
 
-_404 Page_
-
-<img src="">
-
-_Go Home Button_
+_404 Page on phone, ipad and desktop screens_
 
 </details>
 
@@ -491,17 +489,9 @@ As was mentioned previously, this quiz is a simple design, but would ideally be 
 I ran my HTML code for each page through the [W3C HTML Validator](https://validator.w3.org/). Thankfully, no errors were displayed. **Add info here**
 <details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/html_val.png">
 
-_HTML Validator Result Home Page_
-
-<img src="">
-
-_HTML Validator Quiz Section_
-
-<img src="">
-
-_HTML Validator Result Results Section_
+_HTML Validator Result_
 
 </details>
 
@@ -527,9 +517,9 @@ I ran my JavaScript code through [Jshint validator](https://jshint.com/) and no 
 
 I tested accessibility of the website using Google Chrome Dev Tools Lighthouse, and the scores came out clean. I also ran the site through the [Wave Web Accessibility Evaulation Tool](https://wave.webaim.org/). 
 
-<details><summary>Home Page</summary>
+<details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/performance.png">
 
 _Accessibility result on Home Page_
 
@@ -551,47 +541,15 @@ _Accessibility result on Quiz Results Page_
 
 </details>
 
-#### Performance
+#### Performance & Lighthouse
 
-I tested the site's performance through Google Chrome Dev Tools Lighthouse. The scores showed high on all pages, but needed improvement for **ADD INFO HERE**.
+I tested the site's performance through Google Chrome Dev Tools Lighthouse. Thankfully, the performance, accessibility, SEO and best practices all produced good scores. 
 
-<details><summary>Home Page</summary>
+<details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/performance.png">
 
-_Label_
-
-</details>
-
-<details><summary>Log In Page</summary>
-
-<img src="">
-
-_Label_
-
-</details>
-
-<details><summary>Sign Up Page</summary>
-
-<img src="">
-
-_Label_
-
-</details>
-
-<details><summary>Quiz Page</summary>
-
-<img src="">
-
-_Label_
-
-</details>
-
-<details><summary>Quiz Results</summary>
-
-<img src="">
-
-_Label_
+_Performance, accessibility, SEO and best practices result_
 
 </details>
 

@@ -336,8 +336,9 @@ This section contains the following features:
 
 <details><summary>Screenshots</summary>
 
-<img src="">
-<img src="">
+<img src="docs/instructions_area_phone.png">
+<img src="docs/instructions_desktop.png">
+<img src="docs/instructions_ipad.png">
 
 _Welcome section for Desktops, iPad and Phone view_
 
@@ -730,11 +731,11 @@ The project will now be cloned locally for you to use.
 
 - [Lord Voldemort](https://www.wallpaperbetter.com/en/hd-wallpaper-weflb/download/1920x1080)
 - [Magneto](https://learn.codeinstitute.net/dashboard)
-- [The Joker](https://www.wallpaperbetter.com/en/hd-wallpaper-shryv/download/1366x768) 
+- [The Joker](https://www.wallpaperbetter.com/en/hd-wallpaper-shryv/download/1366x768)(https://www.wallpaperbetter.com/en/hd-wallpaper-swkhk/download/1366x768)
 - [The Green Goblin](https://www.wallpaperbetter.com/en/hd-wallpaper-peptw/download/1366x768)
 - [Thanos](https://www.wallpaperbetter.com/en/hd-wallpaper-sormx)
 - [Vecna](https://www.nawpic.com/vecna-10/)
-- [Maleficent](https://www.wallpaperbetter.com/en/hd-wallpaper-swlee/download/1366x768)
+- [Maleficent](https://www.wallpaperbetter.com/en/hd-wallpaper-swlee/download/1366x768)(https://www.wallpaperbetter.com/en/hd-wallpaper-cwcsi)
 - [Cruella](https://www.wallpaperbetter.com/en/hd-wallpaper-wfnbu/download/1366x768)
 
 ### Acknowledgements

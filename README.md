@@ -14,7 +14,9 @@ This is the documentation for a fun web application: The Ultimate Supervillain P
 1. [Project Development and Planning](#project-development--planning)
     - [Project Goals](#project-goals)
         - [Project Purpose](#project-purpose)
+        - [Client Goals](#client-goals)
         - [Target Audience](#target-audience)
+        - [User Goals](#user-goals)
     - [Research](#research)
         - [Market Review](#market-review)
         - [Key Takeaways](#key-takeaways-from-market-review)
@@ -22,38 +24,26 @@ This is the documentation for a fun web application: The Ultimate Supervillain P
     - [Content](#content)
     - [Design, Layout and Structure](#design-layout-and-structure)
         - [Wireframes](#wireframes)
-        - [Structure](#structure)
-        - [Colour](#colour)
+        - [Structure and Layout](#structure-and-layout)
+        - [Design and Colour](#design-and-colour)
         - [Font](#font)
 2. [Technologies Used](#technologies-used)
     - [Languages](#languages)
     - [Tools](#tools)
 3. [Features](#features)
     - [Whole Site](#whole-site)
-        - [Nav Bar and Header](#whole-site)
-        - [Add more here](#add-more-here)
-        - [Footer](#footer)
         - [Favicon](#favicon)
-    - [Home page](#home-page)
-        - [Add more here](#add-more-here)
-        - [Add more here](#add-more-here)
-        - [Add more here](#add-more-here)
-    - [Login page](#login-page)
-        - [Add more here](#add-more-here)
-        - [Add more here](#add-more-here)
-        - [Add more here](#add-more-here)
-    - [Sign Up page](#sign-up)
-        - [Add more here](#add-more-here)
-        - [Add more here](#add-more-here)
-    - [Quiz page](#quiz-page)
-        - [Add more here](#add-more-here)
-        - [Add more here](#add-more-here)
-        - [Add more here](#add-more-here)
-    - [Quiz Results Pages](#quiz-results-page)
-        - [Add more here](#add-more-here)
+        - [Footer](#footer)
+    - [Welcome Section](#welcome-section)
+    - [Quiz page](#quiz-section)
+        - [Progress Bar](#progress-bar)
+        - [Questions and Options](#questions-and-options)
+    - [Results Section](#results-section)
+        - [Supervillian Personality Reveal](#supervillain-personality-reveal)
+        - [Retake Quiz Button](#retake-quiz-button)
+        - [Return Home Button](#return-home-button)
     - [Other Pages](#other-pages)
-        - [Add more here](#add-more-here)
-        - [Add more here](#add-more-here)
+        - [404 page](#404-page)
     - [Future Features](#future-features)
 4. [Testing and bugs](#testing--bugs)
     - [HTML Validator Testing](#html-validator-testing)
@@ -101,15 +91,15 @@ The quiz aims to ensure that users can:
 - See eye-catching results after answering all of the questions
 - Retake the quiz as many times as they want to, to explore different results
 
-## Research 
+### Research 
 
-### Market Review 
+#### Market Review 
 
 Before designing the website, I reviewed other personality quiz websites (see below), in order to get a feel of how they presented themselves, which content and features they offered, and the design choices they made in terms of colour palette. I also reviewed what appeared to work well for the user and what needed improvements. 
 
 [BuzzFeed](https://www.buzzfeed.com/gustorchi/we-can-legit-tell-which-super-villain-you-would-be-9iuf1y91vp) | [16 Personalities](https://www.16personalities.com/) | [Playbuzz](https://www.playbuzz.com/quizzes/personality) | [The Superhero Quiz](https://www.thesuperheroquiz.com/villain/) | [Truity Big Five Personality Test](https://www.truity.com/test/big-five-personality-test)
 
-### Key Takeaways from Market Review 
+#### Key Takeaways
 
 - The website should be eye-catching, to make users excited about taking the quiz
 - The Website should be clean, simple and easy to navigate
@@ -118,7 +108,7 @@ Before designing the website, I reviewed other personality quiz websites (see be
 - Clear, enticing images are displayed in the results section
 - Most quizzes had a retake quiz button to allow the user to take the quiz again
 
-## User Stories
+### User Stories
 
 In a real-world application, this kind of quiz will mostly likely be used by a visitor once, rather than repeatedly, as it would likely form part of a bigger website e.g. a website about personality types, so all user stories relate to a first-time user.
 
@@ -132,7 +122,7 @@ In a real-world application, this kind of quiz will mostly likely be used by a v
 
 These user stories gave me a clear scope for the website and enabled me to stay on track with the project, preventing issues like scope creep at a later stage after the coding process. 
 
-## Content 
+### Content 
 
 This quiz is made up of 10 questions with 4 answer options to choose from, and is set up as follows:
 - It provides the user with thought-provoking questions and scenarios, and the user can only select 1 of the 4 options.
@@ -152,9 +142,9 @@ Each time the user selects an answer it builds up a picture of what kind of pers
 
 It is worth noting that while this is presented as a personality test, this quiz is built for entertainment purposes only, and is not backed by any specific psychological research.
 
-## Design, Layout and Structure 
+### Design, Layout and Structure 
 
-### Wireframes
+#### Wireframes
 
 I used [Balsamiq](https://balsamiq.com/) in the initial design phase, before the coding process. This enabled me to develop the website's structure, skeleton, layout and overall look and style. I created designs for desktop, tablet and mobile to make sure that responsiveness was at the forefront of the application from the beginning.
 
@@ -206,7 +196,7 @@ _Phone Wireframe for Quiz Results Page_
 
 </details>
 
-### Structure & Layout
+#### Structure and Layout
 
 The structure of this website was informed by the scope, principles of interactive design (IXD), as well as the user goals of the quiz. Keeping these important concepts in mind ensured that the website conformed to user's expectations and needs. 
 
@@ -219,7 +209,7 @@ The main site is a simple, single-page website with content displayed and hidden
 
 There is also a 404 page for when a user lands on a non-existent page with a button to link back to index.html to start the quiz again.
 
-### Design & Colour
+#### Design and Colour
 
 This site was designed using a mobile-first approach, because after conducting some research (using sites like [Adobe](https://xd.adobe.com/ideas/process/ui-design/what-is-mobile-first-design/)), it appears that most users use their mobile devices over desktop or iPad screens, especially when partaking in quizzes. 
 
@@ -242,7 +232,7 @@ _Colour Palette for buttons_
 
 </details>
 
-### Font
+#### Font
 
 My choice of font was [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond?query=cor) for all paragraphs and headings. This font choice was imported from [Google Fonts](https://fonts.google.com/) and had a backup font of Serif. I chose this font for my website because the cursive style contributed to the supervillain theme, whilst also providing a professional, legible finish.
 
@@ -417,11 +407,11 @@ _Answer hover effect_
 
 <details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/results_desktop.png">
 
 _Results section on Desktop_
 
-<img src="">
+<img src="docs/results_ipad.png">
 
 _Results section on iPad_
 
@@ -439,15 +429,18 @@ _Results section on Phone_
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/input_take_quiz.png">
+<img src="docs/retake_button.png">
 
-_User Input and Retake Quiz Button_
+_Retake Quiz Button_
 
 </details>
 
-### 404 Page
+#### Return Home Button
 
-![404 Page - Mock Up](ADD LINK HERE)
+- This button is displayed below the results section and allows the user to return to the welcome section if they wish so
+- It has the same design, colour and hover effect as the Go Home Button on the 404 page, to maintain consistency throughout the quiz
+
+### 404 Page
 
 - The 404 page was set up to smoothly handle user's who have ended up on a non-existent part of the site
 - This page provides a positive emotional response to the user and a better user experience
@@ -667,18 +660,19 @@ The project will now be cloned locally for you to use.
 
 ### Code
 
-- 
-- 
+- [W3C Schools](https://www.w3schools.com/jsref/dom_obj_event.asp) helped in providing a reference to all DOM elements 
+- [StackOverflow](https://stackoverflow.com/) helped with offering solutions on how to debug css and javascript code
 
 ### Supervillain Images
 
 - [Lord Voldemort](https://www.wallpaperbetter.com/en/hd-wallpaper-weflb/download/1920x1080)
 - [Magneto](https://learn.codeinstitute.net/dashboard)
-- [The Joker](https://www.wallpaperbetter.com/en/hd-wallpaper-shryv/download/1366x768)(https://www.wallpaperbetter.com/en/hd-wallpaper-swkhk/download/1366x768)
+- [The Joker](https://www.wallpaperbetter.com/en/hd-wallpaper-shryv/download/1366x768)
 - [The Green Goblin](https://www.wallpaperbetter.com/en/hd-wallpaper-peptw/download/1366x768)
 - [Thanos](https://www.wallpaperbetter.com/en/hd-wallpaper-sormx)
 - [Vecna](https://www.nawpic.com/vecna-10/)
-- [Maleficent](https://www.wallpaperbetter.com/en/hd-wallpaper-swlee/download/1366x768)(https://www.wallpaperbetter.com/en/hd-wallpaper-cwcsi)
+- [Maleficent](https://www.wallpaperbetter.com/en/hd-wallpaper-swlee/download/1366x768)
+- [Maleficent on Welcome page](https://www.wallpaperbetter.com/en/hd-wallpaper-cwcsi)
 - [Cruella](https://www.wallpaperbetter.com/en/hd-wallpaper-wfnbu/download/1366x768)
 
 ### Acknowledgements

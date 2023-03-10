@@ -605,7 +605,7 @@ When the user retakes the quiz, all of the results were displaying at the same t
 
 _Results bug_
 
-<img src="docs/results_ipad.png">
+<img src="docs/results_section_ipad.png">
 
 _Results fixed_
 

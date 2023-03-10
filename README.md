@@ -326,11 +326,17 @@ This section contains the following features:
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/instructions_area_phone.png">
 <img src="docs/instructions_desktop.png">
+
+_Welcome section on Desktop_
+
 <img src="docs/instructions_ipad.png">
 
-_Welcome section for Desktops, iPad and Phone view_
+_Welcome section on iPad_
+
+<img src="docs/instructions_area_phone.png">
+
+_Welcome section on Phone_
 
 <img src="docs/input_quiz_button.png">
 

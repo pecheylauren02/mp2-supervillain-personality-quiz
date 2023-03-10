@@ -342,13 +342,13 @@ This section contains the following features:
 
 _Welcome section for Desktops, iPad and Phone view_
 
-<img src="">
+<img src="docs/input_quiz_button.png">
 
 _Name Input and Take Quiz button_
 
-<img src="">
+<img src="docs/alert.png">
 
-_Hover effect on Take Quiz button_
+_Alert div_
 
 </details>
 

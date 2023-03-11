@@ -1,16 +1,15 @@
 // Declaring all global variables
 let score = 0;
-let progressBar = document.getElementById("progress-bar");
-let progressText = document.getElementById("progress-text");
-let input = document.getElementById("name-submit");
-let takeQuizButton = document.getElementById("take-quiz-btn");
+const PROGRESSBAR = document.getElementById("progress-bar");
+const PROGRESSTEXT = document.getElementById("progress-text");
+const INPUT = document.getElementById("name-submit");
 let currentQuestionIndex = 0;
 
 // Displays and updates progress bar
 function updateProgress() {
     let questionIndex = currentQuestionIndex + 1;
-    progressBar.style.width = (questionIndex / QUESTIONS.length * 100) + "%";
-    progressText.innerHTML = `Question ${questionIndex} of ${QUESTIONS.length}`;
+    PROGRESSBAR.style.width = (questionIndex / QUESTIONS.length * 100) + "%";
+    PROGRESSTEXT.innerHTML = `Question ${questionIndex} of ${QUESTIONS.length}`;
 }
 
 // Displays all questions and answers

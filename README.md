@@ -486,10 +486,15 @@ As was mentioned previously, this quiz is a simple design, but would ideally be 
 
 #### HTML Validator Testing 
 
-I ran my HTML code for each page through the [W3C HTML Validator](https://validator.w3.org/). Thankfully, no errors were displayed. **Add info here**
+I ran my HTML code for each page through the [W3C HTML Validator](https://validator.w3.org/). Thankfully, no errors were displayed. There were some minor warnings, due to the use of multiple h1 elements, but once this was resolved, the results came back clean. 
+
 <details><summary>Screenshots</summary>
 
-<img src="docs/html_val.png">
+<img src="docs/html_warnings.png">
+
+_HTML Validator Warnings_
+
+<img src="docs/html_validator_result.png">
 
 _HTML Validator Result_
 
@@ -501,11 +506,13 @@ I ran my CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-vali
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/css_validator_result.png">
-
 <img src="docs/css_warning.png">
 
-_CSS Validator Result_
+_CSS Validator Warning_
+
+<img src="docs/css_validator_result.png">
+
+_CSS Validator Results_
 
 </details>
 
@@ -513,11 +520,13 @@ _CSS Validator Result_
 
 I ran my JavaScript code through [Jshint validator](https://jshint.com/). The only warnings shown initially were to use -moz instead of let for global variables. However, once I configured the settings to support "New JavaScript Features (ES6)" there were no warnings, other than a syntax suggestion, which was fixed (see screenshots):
 
+<details><summary>Screenshots</summary>
+
 <img src="docs/jshint_issues_two.png">
 
-_JS Validator Result_
+_JS Validator Issues_
 
-<img src="docs/jshint.png">
+<img src="docs/jshint_result.png">
 
 _JS Validator Result_
 

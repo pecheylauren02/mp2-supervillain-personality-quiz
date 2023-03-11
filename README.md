@@ -609,7 +609,7 @@ When the user clicked the retake quiz button, the user was taken to question 10 
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/retake_bug.png">
+<img src="docs/quiz_bug.png">
 
 _Quiz page shown after user clicked the retake quiz button_
 

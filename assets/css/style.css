@@ -12,6 +12,13 @@ html {
     scroll-behavior: smooth;
 }
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Cormorant Garamond', serif;
     background-color: #880808;
@@ -24,7 +31,7 @@ body {
 }
 
 main {
-    flex-grow: 1;
+    flex: 1;
 }
 
 .hide {
@@ -115,6 +122,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
@@ -124,6 +132,7 @@ main {
     border-radius: 12px;
     padding: 5%;
     margin: 0 auto;
+    text-align: center;
 }
 
 #name-submit:hover {
@@ -173,39 +182,27 @@ main {
     border-radius: 12px;
     border-bottom: 2px solid #FFD700;
     border-top: 2px solid #FFD700;
-    height: 575px;
+    max-height: 575px;
 }
-
-/*progress::-webkit-progress-bar {
-    background-color: #880808;
-    margin-bottom: 20px;
-    border: 2px solid #FFD700;
-    border-radius: 12px;
-}
-
-#progress-text {
-    font-size: 150%;
-    margin-bottom: 20px;
-}*/
 
 progress::-webkit-progress-bar {
     background-image: linear-gradient(to right, #088888, #286868, #484848, #682828, #880808);
     margin-bottom: 30px;
     padding: 10px;
-    }
-    
-    progress::-webkit-progress-value {
+}
+
+progress::-webkit-progress-value {
     background-color: #FFD700;
     border-radius: 12px;
     box-shadow: inset 0 0 10px #880808;
-    }
-    
-    #progress-text {
+}
+
+#progress-text {
     font-size: 150%;
     margin-bottom: 20px;
     color: #ffffff;
     text-shadow: 2px 2px 2px #1c1c1c;
-    }
+}
 
 .question-container {
     border: 2px solid #880808;
@@ -215,6 +212,7 @@ progress::-webkit-progress-bar {
     flex-direction: column;
     align-items: center;
     padding: 5px;
+    align-self: stretch;
 }
 
 #question {
@@ -294,9 +292,11 @@ progress::-webkit-progress-bar {
     0% {
         border-color: #FFD700;
     }
+
     50% {
         border-color: #880808;
     }
+
     100% {
         border-color: #FFD700;
     }
@@ -396,6 +396,7 @@ progress::-webkit-progress-bar {
 /* Footer Area */
 
 footer {
+    flex-shrink: 0;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -423,7 +424,7 @@ footer {
     line-height: 120%;
 }
 
-.footer-content p {
+.footer-content h2 {
     max-width: 500px;
     margin: 10px auto;
     line-height: 120%;
@@ -462,7 +463,7 @@ footer {
     text-align: center;
 }
 
-.footer-copyright h2 {
+.footer-copyright p {
     margin: 0 auto;
     font-size: 14px;
     word-spacing: 2px;
@@ -511,8 +512,7 @@ footer {
 /* For Medium Devices (tablets, iPads, 768px and above) */
 @media screen and (min-width: 768px) {
 
-    body,
-    .quiz-container {
+    body {
         padding: 40px;
     }
 
@@ -556,11 +556,12 @@ footer {
     }
 
     .quiz-container {
-        height: 850px;
+        max-width: 900px;
+        min-height: 900px;
     }
 
     .question-container {
-        padding: 15px;
+        padding: 20px;
     }
 
     #question {
@@ -596,7 +597,7 @@ footer {
         line-height: 150%;
     }
 
-    .footer-content p {
+    .footer-content h2 {
         font-size: 150%;
     }
 
@@ -604,7 +605,7 @@ footer {
         font-size: 180%;
     }
 
-    .footer-copyright h2 {
+    .footer-copyright p {
         font-size: 120%;
     }
 
@@ -737,7 +738,7 @@ footer {
         line-height: 150%;
     }
 
-    .footer-content p {
+    .footer-content h2 {
         font-size: 150%;
     }
 
@@ -745,7 +746,7 @@ footer {
         font-size: 180%;
     }
 
-    .footer-copyright h2 {
+    .footer-copyright p {
         font-size: 120%;
     }
 
@@ -809,17 +810,6 @@ footer {
     .quiz-btn-main {
         padding: 2%;
         width: 30%;
-    }
-
-    .quiz-container {
-        padding: 40px;
-        width: 900px;
-        height: 850px;
-        margin: 0 auto;
-    }
-
-    .question-container {
-        padding: 20px;
     }
 
     #question {

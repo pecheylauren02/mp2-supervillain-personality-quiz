@@ -5,7 +5,6 @@ let progressText = document.getElementById("progress-text");
 let input = document.getElementById("name-submit");
 let takeQuizButton = document.getElementById("take-quiz-btn");
 let currentQuestionIndex = 0;
-document.getElementById("footer-area").classList.remove("hide");
 
 // Displays and updates progress bar
 function updateProgress() {
@@ -26,17 +25,11 @@ function displayQuestion() {
 
 showNextQuestion();
 
-// Logs the users name in the console
-function getUserName() {
-    console.log(input.value);
-}
-
-takeQuizButton.addEventListener("click", getUserName);
-
 // Initializes quiz
 function initializeQuiz() {
     let startQuizButton = document.getElementById("take-quiz-btn");
     let retakeButton = document.getElementById("retake-button");
+    document.getElementById("footer-area").classList.remove("hide");
     startQuizButton.addEventListener("click", startQuiz);
     retakeButton.addEventListener("click", restartQuiz);
 }
@@ -64,7 +57,6 @@ function startQuiz() {
 }
 
 function showNextQuestion() {
-    console.log(currentQuestionIndex);
     displayQuestion();
     updateProgress();
 }
@@ -96,10 +88,8 @@ function calculateScore(event) {
     } else {
         alert('Scores not calculated');
     }
-    console.log(answerScore);
-    console.log(answerText);
+
     score += answerScore;
-    console.log(score);
     currentQuestionIndex++;
     if (currentQuestionIndex === 10) {
         displayResults();
@@ -140,8 +130,8 @@ function displayResults() {
     document.getElementById('footer-area').classList.remove('hide');
 
     for (let i = 0; i < rangeOfScores.length; i++) {
-        if(score >= rangeOfScores[i][0] && score <= rangeOfScores[i][1]) {
-            for (let j=0; j< results.length; j++) {
+        if (score >= rangeOfScores[i][0] && score <= rangeOfScores[i][1]) {
+            for (let j = 0; j < results.length; j++) {
                 if (i === j) {
                     document.getElementById(results[j]).classList.remove("hide");
                 } else {

@@ -188,7 +188,7 @@ main {
     border-radius: 12px;
     border-bottom: 2px solid #FFD700;
     border-top: 2px solid #FFD700;
-    height: calc(100vh - 50px);
+    height: auto;
 }
 
 progress::-webkit-progress-bar {

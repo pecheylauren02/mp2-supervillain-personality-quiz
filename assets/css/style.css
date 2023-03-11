@@ -818,7 +818,7 @@ footer {
     }
 
     #alert-div {
-        width: 28%;
+        width: 2%;
         margin-top: 40px;
     }
     
@@ -844,7 +844,7 @@ footer {
     #retake-button {
         width: 25%;
         padding: 2%;
-        font-size: 180%;
+        font-size: 150%;
     }
 
     #return-home-btn {

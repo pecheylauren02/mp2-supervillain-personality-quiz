@@ -339,6 +339,8 @@ _Quiz section on iPad_
 
 _Quiz section on Phone_
 
+</details>
+
 #### Progress Bar
 
 - Gives the user an indication of where they are in the quiz and how many questions are left.

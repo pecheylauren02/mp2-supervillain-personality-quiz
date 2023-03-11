@@ -208,7 +208,7 @@ _Colour Palette for Progress Bar_
 
 #### Font
 
-My choice of font was [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond?query=cor) for all paragraphs and headings. This font choice was imported from [Google Fonts](https://fonts.google.com/) and had a backup font of Serif. I chose this font for my website because the cursive style contributed to the supervillain theme, whilst also providing a professional, legible finish.
+My choice of font was [Cormorant Garamond Light and Cormorant Garamond Bold](https://fonts.google.com/specimen/Cormorant+Garamond?query=cor). The light font was used for all paragraphs and and the bold font was used for all headings and buttons. This font choice was imported from [Google Fonts](https://fonts.google.com/) and had a backup font of Serif. I chose this font for my website because the cursive style contributed to the supervillain theme, whilst also providing a professional, legible finish.
 
 ## Technologies Used 
 

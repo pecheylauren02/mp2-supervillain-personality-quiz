@@ -219,16 +219,17 @@ This site was designed using a mobile-first approach, because after conducting s
 
 <details><summary>Colour Palette</summary>
 
-<img src="">
+<img src="docs/color_palette.png">
 
 _Colour Palette for entire website_
+
 </details>
 
-<details><summary>Colours used for Buttons</summary>
+<details><summary>Colour Palette for Progress Bar</summary>
 
-<img src="">
+<img src="docs/progress_color_palette.png">
 
-_Colour Palette for buttons_
+_Colour Palette for Progress Bar_
 
 </details>
 
@@ -354,15 +355,15 @@ The quiz section is fully responsive with the answers increasing in font size an
 
 <details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/quiz_desktop.png">
 
 _Quiz section on Desktop_
 
-<img src="">
+<img src="docs/quiz_ipad.png">
 
-_Quiz section on Desktop_
+_Quiz section on iPad_
 
-<img src="">
+<img src="docs/quiz_phone.png">
 
 _Quiz section on Phone_
 

@@ -192,6 +192,7 @@ progress::-webkit-progress-bar {
     background-image: linear-gradient(to right, #088888, #286868, #484848, #682828, #880808);
     margin-bottom: 30px;
     padding: 10px;
+    border-radius: 12px;
 }
 
 progress::-webkit-progress-value {
@@ -202,6 +203,7 @@ progress::-webkit-progress-value {
 
 #progress-text {
     font-size: 150%;
+    margin-top: 20px;
     margin-bottom: 20px;
     color: #FFFFFF;
     text-shadow: 2px 2px 2px #1c1c1c;
@@ -730,8 +732,9 @@ footer {
         font-size: 320%;
     }
 
-    #quiz-area {
-        height: 800px;
+    .quiz-container {
+        max-width: 700px;
+        min-height: 900px;
     }
 
     .quiz-answer-btn {

@@ -148,51 +148,19 @@ It is worth noting that while this is presented as a personality test, this quiz
 
 I used [Balsamiq](https://balsamiq.com/) in the initial design phase, before the coding process. This enabled me to develop the website's structure, skeleton, layout and overall look and style. I created designs for desktop, tablet and mobile to make sure that responsiveness was at the forefront of the application from the beginning.
 
-<details><summary>Home Page</summary>
+<details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/wf_desktop.png">
 
-_Desktop Wireframe for Home Page_
+_Desktop Wireframes_
 
-<img src="">
+<img src="docs/wf_ipad.png">
 
-_iPad Wireframe for Home Page_
+_iPad Wireframes_
 
-<img src="">
+<img src="docs/wf_phone.png">
 
-_Phone Wireframe for Home Page_
-
-</details>
-
-<details><summary>Quiz Page</summary>
-
-<img src="">
-
-_Desktop Wireframe for Quiz Page_
-
-<img src="">
-
-_iPad Wireframe for Quiz Page_
-
-<img src="">
-
-_Phone Wireframe for Quiz Page_
-
-</details>
-
-<details><summary>Quiz Results Page</summary>
-
-<img src="">
-
-_Desktop Wireframe for Quiz Results Page_
-
-<img src="">
-
-_iPad Wireframe for Quiz Results Page_
-
-<img src="">
-
-_Phone Wireframe for Quiz Results Page_
+_Phone Wireframes_
 
 </details>
 

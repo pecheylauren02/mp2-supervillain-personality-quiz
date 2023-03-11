@@ -11,7 +11,7 @@ This is the documentation for a fun web application: The Ultimate Supervillain P
 
 ## Table of Contents
 
-1. [Project Development and Planning](#project-development--planning)
+1. [Project Development and Planning](#project-development-and-planning)
     - [Project Goals](#project-goals)
         - [Project Purpose](#project-purpose)
         - [Client Goals](#client-goals)
@@ -35,7 +35,7 @@ This is the documentation for a fun web application: The Ultimate Supervillain P
         - [Favicon](#favicon)
         - [Footer](#footer)
     - [Welcome Section](#welcome-section)
-    - [Quiz page](#quiz-section)
+    - [Quiz Section](#quiz-section)
         - [Progress Bar](#progress-bar)
         - [Questions and Options](#questions-and-options)
     - [Results Section](#results-section)
@@ -45,15 +45,15 @@ This is the documentation for a fun web application: The Ultimate Supervillain P
     - [Other Pages](#other-pages)
         - [404 page](#404-page)
     - [Future Features](#future-features)
-4. [Testing and bugs](#testing--bugs)
+4. [Testing](#testing)
     - [HTML Validator Testing](#html-validator-testing)
     - [CSS Validator Testing](#css-validator-testing)
     - [JS Validator Testing](#js-validator-testing)
     - [Accessibility](#accessibility)
     - [Performance](#performance)
-    - [Responsiveness / Device Testing](#responsiveness--device-testing)
+    - [Responsiveness / Device Testing](#responsiveness-/-device-testing)
     - [Browser Compatibility](#browser-compatibility)
-    - [Bugs & Fixes](#bugs--fixes)
+    - [Solved Bugs](#solved-bugs)
     - [Testing User Stories](#testing-user-stories)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
@@ -480,7 +480,7 @@ As was mentioned previously, this quiz is a simple design, but would ideally be 
 - Add a navbar that would help the user navigate through the different quizzes
 - Add more detailed information, backed by psychological research, about the different personality types in the quiz results sections
 
-## Testing and Bugs
+## Testing
 
 ### Automated Testing
 

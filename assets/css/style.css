@@ -15,7 +15,7 @@ html {
 
 html,
 body {
-    height: 100%;
+    height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -187,7 +187,7 @@ main {
     border-radius: 12px;
     border-bottom: 2px solid #FFD700;
     border-top: 2px solid #FFD700;
-    max-height: 575px;
+    height: calc(100vh - 50px);
 }
 
 progress::-webkit-progress-bar {
@@ -566,8 +566,11 @@ footer {
     }
 
     .quiz-container {
-        max-width: 900px;
-        min-height: 900px;
+        max-width: 800px;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 20px;
     }
 
     .question-container {
@@ -737,9 +740,9 @@ footer {
     }
 
     .quiz-container {
-        max-width: 700px;
-        min-height: 900px;
-    }
+        max-width: 800px;
+        max-height: 900px;
+      }
 
     .quiz-answer-btn {
         font-size: 160%;

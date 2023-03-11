@@ -2,6 +2,7 @@
 let score = 0;
 let progressBar = document.getElementById("progress-bar");
 let progressText = document.getElementById("progress-text");
+let progressIcon = document.getElementsByClassName("fa-fighter-jet");
 let input = document.getElementById("name-submit");
 let takeQuizButton = document.getElementById("take-quiz-btn");
 let currentQuestionIndex = 0;

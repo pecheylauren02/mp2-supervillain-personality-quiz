@@ -134,6 +134,7 @@ main {
     padding: 5%;
     margin: 0 auto;
     text-align: center;
+    width: 50%;
 }
 
 #name-submit:hover {
@@ -550,6 +551,7 @@ footer {
     #name-submit {
         font-size: 150%;
         padding: 3%;
+        width: 35%;
     }
 
     #alert-div {
@@ -780,10 +782,6 @@ footer {
     .go-home-btn {
         margin-top: 20px;
         margin-bottom: 20px;
-    }
-
-    #name-submit {
-        width: 35%;
     }
 
     .results-heading {

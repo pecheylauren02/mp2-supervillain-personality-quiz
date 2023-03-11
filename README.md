@@ -668,12 +668,14 @@ The project will now be cloned locally for you to use.
 
 - [W3C Schools](https://www.w3schools.com/jsref/dom_obj_event.asp) helped in providing a reference to all DOM elements 
 - [StackOverflow](https://stackoverflow.com/) helped with offering solutions on how to debug css and javascript code
+- [W3C Schools](https://www.w3schools.com/w3css/w3css_progressbar.asp) helped in initial structure and styling of progress bar
 
 ### Supervillain Images
 
 - [Lord Voldemort](https://www.wallpaperbetter.com/en/hd-wallpaper-weflb/download/1920x1080)
 - [Magneto](https://learn.codeinstitute.net/dashboard)
 - [The Joker](https://www.wallpaperbetter.com/en/hd-wallpaper-shryv/download/1366x768)
+- [Joker Logo](https://icons8.com/icons/set/joker)
 - [The Green Goblin](https://www.wallpaperbetter.com/en/hd-wallpaper-peptw/download/1366x768)
 - [Thanos](https://www.wallpaperbetter.com/en/hd-wallpaper-sormx)
 - [Vecna](https://www.nawpic.com/vecna-10/)

@@ -1,6 +1,6 @@
 # The Ultimate Supervillain Personality Quiz 
 
-<img src=""> *Add image of final design on four screens*
+![The Ultimate Supervillain Personality Quiz Mock-up](docs/am_i_responsive.png)
 
 #### By Lauren Pechey
 [Click here to view the live web application](https://pecheylauren02.github.io/supervillain-quiz/)
@@ -375,9 +375,9 @@ _Quiz section on Phone_
 
 <details><summary>Screenshots</summary>
 
-<img src="">
+<img src="docs/progress_bar.png">
 
-_Progress Bar updates with each question answered_
+_Progress Bar Design_
 
 </details>
 
@@ -622,7 +622,7 @@ When the user clicked the retake quiz button, the user was taken to question 10 
 
 _Quiz page shown after user clicked the retake quiz button_
 
-<img src="">
+<img src="docs/quiz_desktop.png">
 
 _Quiz page shown after bug was fixed_
 

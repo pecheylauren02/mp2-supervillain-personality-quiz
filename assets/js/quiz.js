@@ -51,7 +51,7 @@ function initializeQuiz() {
 
 function startQuiz() {
     let username = document.getElementById("name-submit");
-    let pattern = /^[a-zA-Z]+$/;
+    let pattern = /^[a-zA-Z\s]+$/;
     if (username.value === "" || !pattern.test(username.value)) {
         document.getElementById("alert-div").classList.remove('hide');
     } else {

@@ -140,6 +140,8 @@ main {
 }
 
 #alert-div {
+    display: flex;
+    align-items: center;
     border: 2px solid #FFD700;
     background: #111111;
     font-weight: 400;
@@ -150,6 +152,7 @@ main {
 
 #alert-div i {
     color: #FFD700;
+    margin-right: 5px;
 }
 
 .quiz-btn-main {
@@ -812,6 +815,16 @@ footer {
     .quiz-btn-main {
         padding: 2%;
         width: 30%;
+    }
+
+    #alert-div {
+        width: 28%;
+        margin-top: 40px;
+    }
+    
+    #alert-div i {
+        color: #FFD700;
+        margin-right: 5px;
     }
 
     #question {

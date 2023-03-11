@@ -327,11 +327,11 @@ The quiz section is fully responsive with the answers increasing in font size an
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/quiz_desktop.png">
+<img src="docs/quiz_ipad.png">
 
 _Quiz section on Desktop_
 
-<img src="docs/quiz_ipad.png">
+<img src="docs/quiz_desktop.png">
 
 _Quiz section on iPad_
 

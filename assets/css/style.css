@@ -1,7 +1,7 @@
-/* Google Fonts imported link */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;700&display=swap');
 
 /* General Element styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -520,6 +520,7 @@ footer {
 /* Media Queries */
 
 /* For Medium Devices (tablets, iPads, 768px and above) */
+
 @media screen and (min-width: 768px) {
 
     body {
@@ -685,6 +686,7 @@ footer {
 }
 
 /* For Large Devices (Desktops, 992px and above) */
+
 @media screen and (min-width: 992px) {
 
     #instructions-area {
@@ -809,6 +811,7 @@ footer {
 }
 
 /* For Extra Large Devices (Large desktops, 1200px and above */
+
 @media screen and (min-width: 1200px) {
     .instructions-text {
         margin: 0 auto;

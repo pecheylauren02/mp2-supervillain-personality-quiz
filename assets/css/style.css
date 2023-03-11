@@ -1,7 +1,6 @@
 /* Google Fonts imported link */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;700&display=swap');
 
-
 /* General Element styling */
 * {
     margin: 0;
@@ -34,6 +33,8 @@ body {
 main {
     flex: 1;
 }
+
+/* Hidden Class */
 
 .hide {
     display: none !important;
@@ -742,7 +743,7 @@ footer {
     .quiz-container {
         max-width: 800px;
         max-height: 900px;
-      }
+    }
 
     .quiz-answer-btn {
         font-size: 160%;
@@ -827,7 +828,7 @@ footer {
         width: 28%;
         margin-top: 40px;
     }
-    
+
     #alert-div i {
         color: #FFD700;
         margin-right: 5px;

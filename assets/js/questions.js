@@ -1,5 +1,4 @@
 // Questions and answers for Quiz
-
 const QUESTIONS = [{
         'question': "Which superpower appeals to you the most?",
         "optionOne": "The ability to fly",
